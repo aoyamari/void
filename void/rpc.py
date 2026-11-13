@@ -8,7 +8,7 @@ import time
 
 import requests
 
-DEFAULT_RPC = os.environ.get("NEAR_RPC_URL", "https://rpc.mainnet.fastnear.com")
+DEFAULT_RPC = os.environ.get("NEAR_RPC_URL", "https://near.drpc.org")
 
 
 class ViewError(RuntimeError):
