@@ -17,8 +17,10 @@ def cohort_improvement(a: dict, ents: list[Entity], p: dict) -> dict:
         return {"status": "insufficient", "evidence": f"fewer than 2 cohorts with {m}-month data"}
     first, last = min(scored), max(scored)
     ok = scored[last] >= scored[first]
+    n = {k: a["cohorts"][k]["n"] for k in (first, last)}
     return {"status": "holds" if ok else "killed",
-            "evidence": f"{last} cohort {scored[last]:.0%} vs {first} cohort {scored[first]:.0%} alive at {m} months",
+            "evidence": (f"{last} cohort {scored[last]:.0%} (n={n[last]:,}) vs {first} cohort "
+                         f"{scored[first]:.0%} (n={n[first]:,}) alive at {m} months"),
             "values": scored}
 
 
