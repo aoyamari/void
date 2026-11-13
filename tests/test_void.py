@@ -150,7 +150,9 @@ def test_bottom_line_insufficient_is_not_killed():
 
 def test_contracts_window_drops_preexisting(tmp_path):
     rows = [{"id": f"old{i}", "birth": "2025-01-01", "last": "2026-10-31", "activity": 50} for i in range(30)]
-    rows += [{"id": f"new{i}", "birth": "2025-03-01", "last": "2026-10-31" if i % 2 else "2025-06-30",
+    rows += [{"id": f"upg{i}", "birth": "2025-03-01", "first_deploy": "2025-06-10", "last": "2026-10-31",
+              "activity": 40} for i in range(5)]
+    rows += [{"id": f"new{i}", "birth": "2025-03-01", "first_deploy": "2025-03-02", "last": "2026-10-31" if i % 2 else "2025-06-30",
               "activity": 30} for i in range(30)]
     (tmp_path / "contracts.json").write_text(json.dumps({
         "entities": rows, "observation_end": "2026-11-12",
@@ -158,5 +160,6 @@ def test_contracts_window_drops_preexisting(tmp_path):
         "source": {}}))
     data = json.loads(build.run(tmp_path, tmp_path / "site").read_text())
     ch = data["chapters"]["contracts"]
-    assert ch["census"]["preexisting_excluded"] == 30
+    assert ch["census"]["preexisting_excluded"] == 35
     assert ch["total"] == 30 and ch["alive"] == 15
+    assert [g["total"] for g in ch["breakdown"]] == [30, 0]

@@ -122,5 +122,5 @@ def bottom_line(claims: list[dict]) -> dict:
         parts.append("Killed: " + "; ".join(f"{c['title']} ({c['evidence']})" for c in killed) + ".")
     return {"headline": headline, "meaning": meaning, "evidence": " ".join(parts),
             "holds": len(holds), "killed": len(killed), "total": len(claims),
-            "upgrade_if": [c["title"] for c in killed],
+            "upgrade_if": [c["title"] for c in claims if c["status"] != "holds"],
             "downgrade_if": [c["kill"] for c in holds]}
