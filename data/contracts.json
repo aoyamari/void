@@ -1,0 +1,4894 @@
+{
+ "entities": [
+  {
+   "id": "yupai.nfts.tg",
+   "birth": "2025-10-01",
+   "last": "2026-10-31",
+   "activity": 234,
+   "active_months": 13,
+   "total_calls": 36339,
+   "first_deploy": "2025-10-09"
+  },
+  {
+   "id": "ogvic.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 211,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "nft.boundnear.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 141,
+   "active_months": 1,
+   "total_calls": 284,
+   "first_deploy": "2026-10-02"
+  },
+  {
+   "id": "slme-2.aidols.near",
+   "birth": "2025-01-01",
+   "last": "2025-11-30",
+   "activity": 57,
+   "active_months": 7,
+   "total_calls": 291,
+   "first_deploy": "2025-01-14"
+  },
+  {
+   "id": "lady.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 79,
+   "active_months": 1,
+   "total_calls": 1455,
+   "first_deploy": "2025-02-16"
+  },
+  {
+   "id": "hoot.bathoot.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 94,
+   "active_months": 1,
+   "total_calls": 1565,
+   "first_deploy": "2026-10-24"
+  },
+  {
+   "id": "aurobots.nfts.tg",
+   "birth": "2025-10-01",
+   "last": "2026-10-31",
+   "activity": 111,
+   "active_months": 13,
+   "total_calls": 3309,
+   "first_deploy": "2025-10-09"
+  },
+  {
+   "id": "escrow.degenarena.near",
+   "birth": "2025-11-01",
+   "last": "2026-01-31",
+   "activity": 82,
+   "active_months": 3,
+   "total_calls": 9941,
+   "first_deploy": "2025-11-15"
+  },
+  {
+   "id": "launch.shoremarkets.near",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 41,
+   "active_months": 1,
+   "total_calls": 1009,
+   "first_deploy": "2026-09-28"
+  },
+  {
+   "id": "nightly-pool.pool.near",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 31,
+   "active_months": 14,
+   "total_calls": 5198,
+   "first_deploy": "2025-10-17"
+  },
+  {
+   "id": "hope.tkn.near",
+   "birth": "2025-03-01",
+   "last": "2026-11-30",
+   "activity": 309,
+   "active_months": 21,
+   "total_calls": 84302,
+   "first_deploy": "2025-03-24"
+  },
+  {
+   "id": "nene-2250.meme-cooking.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 201,
+   "active_months": 2,
+   "total_calls": 2861,
+   "first_deploy": "2026-10-12"
+  },
+  {
+   "id": "earn.kaiching",
+   "birth": "2025-01-01",
+   "last": "2026-04-30",
+   "activity": 48944669,
+   "active_months": 16,
+   "total_calls": 1792957091,
+   "first_deploy": "2026-09-29"
+  },
+  {
+   "id": "cexy-dex.portalpad.near",
+   "birth": "2026-01-01",
+   "last": "2026-01-31",
+   "activity": 29,
+   "active_months": 1,
+   "total_calls": 257,
+   "first_deploy": "2026-01-27"
+  },
+  {
+   "id": "nft-sender.near",
+   "birth": "2025-05-01",
+   "last": "2026-10-31",
+   "activity": 127,
+   "active_months": 18,
+   "total_calls": 2847,
+   "first_deploy": "2025-05-16"
+  },
+  {
+   "id": "mpip.meta-pool-dao.near",
+   "birth": "2025-02-01",
+   "last": "2026-11-30",
+   "activity": 79,
+   "active_months": 13,
+   "total_calls": 1241,
+   "first_deploy": "2025-08-27"
+  },
+  {
+   "id": "mpdao-vote.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 369,
+   "active_months": 23,
+   "total_calls": 84474,
+   "first_deploy": "2025-03-31"
+  },
+  {
+   "id": "a35923162c49cf95e6bf26623385eb431ad920d3.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 48,
+   "active_months": 22,
+   "total_calls": 1868,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "market.tradeport.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 1128,
+   "active_months": 12,
+   "total_calls": 42093,
+   "first_deploy": "2025-02-12"
+  },
+  {
+   "id": "token.publicailab.near",
+   "birth": "2025-08-01",
+   "last": "2026-11-30",
+   "activity": 42944,
+   "active_months": 16,
+   "total_calls": 565363,
+   "first_deploy": "2025-08-01"
+  },
+  {
+   "id": "zec.meteor-vaults.near",
+   "birth": "2026-05-01",
+   "last": "2026-11-30",
+   "activity": 25,
+   "active_months": 7,
+   "total_calls": 20818,
+   "first_deploy": "2026-05-25"
+  },
+  {
+   "id": "evona.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2026-10-31",
+   "activity": 1309,
+   "active_months": 21,
+   "total_calls": 8002,
+   "first_deploy": "2025-02-10"
+  },
+  {
+   "id": "memefarm-xref-blackdragon.ref-labs.near",
+   "birth": "2025-01-01",
+   "last": "2025-11-30",
+   "activity": 102,
+   "active_months": 11,
+   "total_calls": 2367,
+   "first_deploy": "2025-03-20"
+  },
+  {
+   "id": "arni.tknx.near",
+   "birth": "2025-12-01",
+   "last": "2026-11-30",
+   "activity": 301,
+   "active_months": 12,
+   "total_calls": 4109,
+   "first_deploy": "2025-11-19"
+  },
+  {
+   "id": "mnga-1861.meme-cooking.near",
+   "birth": "2025-11-01",
+   "last": "2025-11-30",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 111,
+   "first_deploy": "2025-11-18"
+  },
+  {
+   "id": "deltagachapon.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 613,
+   "active_months": 23,
+   "total_calls": 113843,
+   "first_deploy": "2025-09-02"
+  },
+  {
+   "id": "nearai.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2026-11-30",
+   "activity": 675,
+   "active_months": 20,
+   "total_calls": 144568,
+   "first_deploy": "2025-02-11"
+  },
+  {
+   "id": "xrp.mmroot.near",
+   "birth": "2025-07-01",
+   "last": "2026-03-31",
+   "activity": 245,
+   "active_months": 9,
+   "total_calls": 11433,
+   "first_deploy": "2025-07-22"
+  },
+  {
+   "id": "23876b770f1775f4d898bf8dd877feb1f7bf97cab95e5908ee9d0b8c3187eb96",
+   "birth": "2025-01-01",
+   "last": "2025-11-30",
+   "activity": 4185,
+   "active_months": 11,
+   "total_calls": 31620,
+   "first_deploy": "2025-01-17"
+  },
+  {
+   "id": "zec.omft.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 2781,
+   "active_months": 23,
+   "total_calls": 5487583,
+   "first_deploy": "2025-01-24"
+  },
+  {
+   "id": "sfuel.tkn.near",
+   "birth": "2025-06-01",
+   "last": "2026-05-31",
+   "activity": 31,
+   "active_months": 12,
+   "total_calls": 1371,
+   "first_deploy": "2025-06-13"
+  },
+  {
+   "id": "nearlegion.nfts.tg",
+   "birth": "2025-11-01",
+   "last": "2026-11-30",
+   "activity": 296,
+   "active_months": 13,
+   "total_calls": 4977,
+   "first_deploy": "2025-11-13"
+  },
+  {
+   "id": "darefe.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 28,
+   "active_months": 1,
+   "total_calls": 208,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "orhea-conv.rhealab.near",
+   "birth": "2025-12-01",
+   "last": "2026-11-30",
+   "activity": 168,
+   "active_months": 11,
+   "total_calls": 1923,
+   "first_deploy": "2025-11-24"
+  },
+  {
+   "id": "30274860a2b6eecb234e0a1f741cd10c2e7b5ffab0d048502ed57de54443951e",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 35,
+   "active_months": 1,
+   "total_calls": 411,
+   "first_deploy": "2026-09-21"
+  },
+  {
+   "id": "near-rewards.near",
+   "birth": "2025-10-01",
+   "last": "2025-10-31",
+   "activity": 66,
+   "active_months": 1,
+   "total_calls": 37045,
+   "first_deploy": "2025-10-14"
+  },
+  {
+   "id": "memefarm-xref-shitzu.ref-labs.near",
+   "birth": "2025-01-01",
+   "last": "2026-09-30",
+   "activity": 61,
+   "active_months": 12,
+   "total_calls": 6540,
+   "first_deploy": "2025-03-20"
+  },
+  {
+   "id": "nft-bazar.near",
+   "birth": "2025-01-01",
+   "last": "2025-02-28",
+   "activity": 154,
+   "active_months": 2,
+   "total_calls": 11251,
+   "first_deploy": "2025-01-13"
+  },
+  {
+   "id": "duplo.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-03-31",
+   "activity": 33,
+   "active_months": 2,
+   "total_calls": 161,
+   "first_deploy": "2025-02-10"
+  },
+  {
+   "id": "taygay.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-07-31",
+   "activity": 25,
+   "active_months": 2,
+   "total_calls": 204,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "v2.ref-finance.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 5437,
+   "active_months": 23,
+   "total_calls": 71859879,
+   "first_deploy": "2025-03-20"
+  },
+  {
+   "id": "plb-1567.meme-cooking.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 158,
+   "active_months": 14,
+   "total_calls": 2022,
+   "first_deploy": "2025-01-28"
+  },
+  {
+   "id": "near-punks.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 30,
+   "active_months": 20,
+   "total_calls": 1651,
+   "first_deploy": "2025-07-30"
+  },
+  {
+   "id": "qcat-2223.meme-cooking.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 37,
+   "active_months": 1,
+   "total_calls": 259,
+   "first_deploy": "2026-10-08"
+  },
+  {
+   "id": "ptn.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 32,
+   "active_months": 1,
+   "total_calls": 94,
+   "first_deploy": "2025-02-11"
+  },
+  {
+   "id": "avfckn.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 26,
+   "active_months": 1,
+   "total_calls": 194,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "memefarm-xref-abg.ref-labs.near",
+   "birth": "2025-01-01",
+   "last": "2025-06-30",
+   "activity": 33,
+   "active_months": 5,
+   "total_calls": 178,
+   "first_deploy": "2025-03-20"
+  },
+  {
+   "id": "pfwb.gra-fun.near",
+   "birth": "2025-03-01",
+   "last": "2025-03-31",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 205,
+   "first_deploy": "2025-03-23"
+  },
+  {
+   "id": "nearbyonear.nearbyon.near",
+   "birth": "2026-09-01",
+   "last": "2026-10-31",
+   "activity": 650,
+   "active_months": 2,
+   "total_calls": 9731,
+   "first_deploy": "2026-09-28"
+  },
+  {
+   "id": "protocol.newgoat6636.near",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 37,
+   "active_months": 1,
+   "total_calls": 154,
+   "first_deploy": "2026-09-27"
+  },
+  {
+   "id": "falcon.pool.near",
+   "birth": "2025-03-01",
+   "last": "2026-11-30",
+   "activity": 38,
+   "active_months": 21,
+   "total_calls": 13673,
+   "first_deploy": "2025-03-28"
+  },
+  {
+   "id": "nearaipump.near",
+   "birth": "2025-02-01",
+   "last": "2026-09-30",
+   "activity": 39,
+   "active_months": 9,
+   "total_calls": 425,
+   "first_deploy": "2025-02-09"
+  },
+  {
+   "id": "cosmt1.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 28,
+   "active_months": 1,
+   "total_calls": 209,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "t0.nearmemefun.near",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 84,
+   "active_months": 1,
+   "total_calls": 294,
+   "first_deploy": "2026-09-29"
+  },
+  {
+   "id": "yuvi-6c041e37.qlyphs.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 475,
+   "active_months": 2,
+   "total_calls": 5320,
+   "first_deploy": "2026-10-14"
+  },
+  {
+   "id": "rec.hos",
+   "birth": "2026-09-01",
+   "last": "2026-11-30",
+   "activity": 55,
+   "active_months": 3,
+   "total_calls": 397,
+   "first_deploy": "2026-09-18"
+  },
+  {
+   "id": "reduce-inflation.near",
+   "birth": "2025-06-01",
+   "last": "2025-07-31",
+   "activity": 69,
+   "active_months": 2,
+   "total_calls": 316,
+   "first_deploy": "2025-06-24"
+  },
+  {
+   "id": "qtlive.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 33,
+   "active_months": 1,
+   "total_calls": 411,
+   "first_deploy": "2025-02-19"
+  },
+  {
+   "id": "work-1583.meme-cooking.near",
+   "birth": "2025-02-01",
+   "last": "2026-10-31",
+   "activity": 197,
+   "active_months": 13,
+   "total_calls": 17235,
+   "first_deploy": "2025-02-06"
+  },
+  {
+   "id": "curve10.latedata9580.near",
+   "birth": "2026-09-01",
+   "last": "2026-10-31",
+   "activity": 235,
+   "active_months": 2,
+   "total_calls": 3550,
+   "first_deploy": "2026-09-27"
+  },
+  {
+   "id": "dd.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 41,
+   "active_months": 1,
+   "total_calls": 192,
+   "first_deploy": "2025-02-10"
+  },
+  {
+   "id": "fkitlx-1843.meme-cooking.near",
+   "birth": "2025-11-01",
+   "last": "2026-10-31",
+   "activity": 72,
+   "active_months": 8,
+   "total_calls": 593,
+   "first_deploy": "2025-11-13"
+  },
+  {
+   "id": "bpanda.token0.near",
+   "birth": "2025-02-01",
+   "last": "2026-10-31",
+   "activity": 26,
+   "active_months": 9,
+   "total_calls": 1058,
+   "first_deploy": "2025-02-17"
+  },
+  {
+   "id": "rheascot-1736.meme-cooking.near",
+   "birth": "2025-10-01",
+   "last": "2026-10-31",
+   "activity": 142,
+   "active_months": 6,
+   "total_calls": 1341,
+   "first_deploy": "2025-10-20"
+  },
+  {
+   "id": "8329.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-09-30",
+   "activity": 42,
+   "active_months": 2,
+   "total_calls": 162,
+   "first_deploy": "2025-02-13"
+  },
+  {
+   "id": "nul.nulnul.near",
+   "birth": "2026-09-01",
+   "last": "2026-10-31",
+   "activity": 89,
+   "active_months": 2,
+   "total_calls": 383,
+   "first_deploy": "2026-09-29"
+  },
+  {
+   "id": "ixlm-ixlmusdc-1.v1.tmplr.near",
+   "birth": "2026-07-01",
+   "last": "2026-11-30",
+   "activity": 25,
+   "active_months": 5,
+   "total_calls": 3680,
+   "first_deploy": "2026-07-14"
+  },
+  {
+   "id": "v3.noamarket.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 59,
+   "active_months": 2,
+   "total_calls": 530,
+   "first_deploy": "2026-10-03"
+  },
+  {
+   "id": "v1.campaigns.staging.potlock.near",
+   "birth": "2025-05-01",
+   "last": "2026-05-31",
+   "activity": 45,
+   "active_months": 13,
+   "total_calls": 2780,
+   "first_deploy": "2025-05-06"
+  },
+  {
+   "id": "raenai.aidols.near",
+   "birth": "2025-03-01",
+   "last": "2025-03-31",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 100,
+   "first_deploy": "2025-03-08"
+  },
+  {
+   "id": "gork-1959.meme-cooking.near",
+   "birth": "2026-02-01",
+   "last": "2026-09-30",
+   "activity": 32,
+   "active_months": 3,
+   "total_calls": 173,
+   "first_deploy": "2026-02-25"
+  },
+  {
+   "id": "nbtc.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 2145,
+   "active_months": 23,
+   "total_calls": 1526297,
+   "first_deploy": "2025-01-20"
+  },
+  {
+   "id": "miniroot-1779.meme-cooking.near",
+   "birth": "2025-10-01",
+   "last": "2026-10-31",
+   "activity": 43,
+   "active_months": 3,
+   "total_calls": 275,
+   "first_deploy": "2025-10-25"
+  },
+  {
+   "id": "6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 509,
+   "active_months": 23,
+   "total_calls": 44482,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "jeffforgov.tok.rune-shot.near",
+   "birth": "2025-06-01",
+   "last": "2025-12-31",
+   "activity": 387,
+   "active_months": 6,
+   "total_calls": 3478,
+   "first_deploy": "2025-06-11"
+  },
+  {
+   "id": "bitwise_1.poolv1.near",
+   "birth": "2025-04-01",
+   "last": "2026-11-30",
+   "activity": 204,
+   "active_months": 20,
+   "total_calls": 8008,
+   "first_deploy": "2025-04-09"
+  },
+  {
+   "id": "mineminemine.tkn.primitives.near",
+   "birth": "2025-05-01",
+   "last": "2026-09-30",
+   "activity": 105,
+   "active_months": 13,
+   "total_calls": 2388,
+   "first_deploy": "2025-05-13"
+  },
+  {
+   "id": "glitch.portalpad.near",
+   "birth": "2026-01-01",
+   "last": "2026-02-28",
+   "activity": 60,
+   "active_months": 2,
+   "total_calls": 675,
+   "first_deploy": "2026-01-13"
+  },
+  {
+   "id": "batcat.batmansister.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 163,
+   "active_months": 1,
+   "total_calls": 4616,
+   "first_deploy": "2026-10-23"
+  },
+  {
+   "id": "ms12.refnft.near",
+   "birth": "2025-04-01",
+   "last": "2025-05-31",
+   "activity": 828,
+   "active_months": 2,
+   "total_calls": 846,
+   "first_deploy": "2025-03-27"
+  },
+  {
+   "id": "d9c2d319cd7e6177336b0a9c93c21cb48d84fb54.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 22383,
+   "active_months": 23,
+   "total_calls": 507098,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "rosie.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 33,
+   "active_months": 1,
+   "total_calls": 136,
+   "first_deploy": "2025-02-14"
+  },
+  {
+   "id": "starsents.aidols.near",
+   "birth": "2025-01-01",
+   "last": "2025-03-31",
+   "activity": 26,
+   "active_months": 2,
+   "total_calls": 77,
+   "first_deploy": "2025-01-17"
+  },
+  {
+   "id": "fnut.tkn.near",
+   "birth": "2025-05-01",
+   "last": "2025-08-31",
+   "activity": 28,
+   "active_months": 4,
+   "total_calls": 608,
+   "first_deploy": "2025-05-05"
+  },
+  {
+   "id": "dom-1568.meme-cooking.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 290,
+   "active_months": 20,
+   "total_calls": 6124,
+   "first_deploy": "2025-01-28"
+  },
+  {
+   "id": "router.banana-gun.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 110,
+   "active_months": 2,
+   "total_calls": 1299,
+   "first_deploy": "2026-10-10"
+  },
+  {
+   "id": "redstone-adapter.v1.tmplr.near",
+   "birth": "2026-03-01",
+   "last": "2026-11-30",
+   "activity": 26,
+   "active_months": 9,
+   "total_calls": 6189,
+   "first_deploy": "2026-03-27"
+  },
+  {
+   "id": "event-special.near",
+   "birth": "2025-11-01",
+   "last": "2026-10-31",
+   "activity": 27,
+   "active_months": 4,
+   "total_calls": 92459,
+   "first_deploy": "2025-11-28"
+  },
+  {
+   "id": "aigamblingclub.near",
+   "birth": "2025-05-01",
+   "last": "2025-06-30",
+   "activity": 70,
+   "active_months": 2,
+   "total_calls": 5869,
+   "first_deploy": "2025-05-28"
+  },
+  {
+   "id": "c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 55,
+   "active_months": 22,
+   "total_calls": 1451,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "med.tkn.near",
+   "birth": "2025-03-01",
+   "last": "2026-10-31",
+   "activity": 171,
+   "active_months": 20,
+   "total_calls": 14656,
+   "first_deploy": "2025-02-28"
+  },
+  {
+   "id": "szk-1618.meme-cooking.near",
+   "birth": "2025-02-01",
+   "last": "2025-12-31",
+   "activity": 30,
+   "active_months": 3,
+   "total_calls": 138,
+   "first_deploy": "2025-02-27"
+  },
+  {
+   "id": "gp.tkn.near",
+   "birth": "2026-03-01",
+   "last": "2026-10-31",
+   "activity": 65,
+   "active_months": 8,
+   "total_calls": 5861,
+   "first_deploy": "2026-03-28"
+  },
+  {
+   "id": "aidor.aidols.near",
+   "birth": "2025-01-01",
+   "last": "2026-06-30",
+   "activity": 26,
+   "active_months": 6,
+   "total_calls": 89,
+   "first_deploy": "2025-01-17"
+  },
+  {
+   "id": "bees.tkn.near",
+   "birth": "2025-03-01",
+   "last": "2026-10-31",
+   "activity": 170,
+   "active_months": 20,
+   "total_calls": 8104,
+   "first_deploy": "2025-02-28"
+  },
+  {
+   "id": "nftsairdrop.near",
+   "birth": "2025-10-01",
+   "last": "2026-02-28",
+   "activity": 27,
+   "active_months": 5,
+   "total_calls": 60930,
+   "first_deploy": "2025-10-25"
+  },
+  {
+   "id": "vault.publicailab.near",
+   "birth": "2025-09-01",
+   "last": "2026-06-30",
+   "activity": 675,
+   "active_months": 10,
+   "total_calls": 3097,
+   "first_deploy": "2025-09-30"
+  },
+  {
+   "id": "drop.brrrain.near",
+   "birth": "2026-11-01",
+   "last": "2026-11-30",
+   "activity": 593,
+   "active_months": 1,
+   "total_calls": 1302,
+   "first_deploy": "2026-11-03"
+  },
+  {
+   "id": "nguard.aidols.near",
+   "birth": "2025-09-01",
+   "last": "2026-06-30",
+   "activity": 253,
+   "active_months": 5,
+   "total_calls": 1891,
+   "first_deploy": "2025-09-16"
+  },
+  {
+   "id": "dolcat.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 29,
+   "active_months": 1,
+   "total_calls": 220,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "token.nearbyon.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 479,
+   "active_months": 1,
+   "total_calls": 1221,
+   "first_deploy": "2026-10-02"
+  },
+  {
+   "id": "rsdog.tok.rune-shot.near",
+   "birth": "2025-06-01",
+   "last": "2025-07-31",
+   "activity": 36,
+   "active_months": 2,
+   "total_calls": 243,
+   "first_deploy": "2025-06-11"
+  },
+  {
+   "id": "jambo-1679.meme-cooking.near",
+   "birth": "2025-08-01",
+   "last": "2026-11-30",
+   "activity": 8859,
+   "active_months": 16,
+   "total_calls": 654205,
+   "first_deploy": "2025-08-26"
+  },
+  {
+   "id": "near.meteor-vaults.near",
+   "birth": "2026-05-01",
+   "last": "2026-11-30",
+   "activity": 127,
+   "active_months": 7,
+   "total_calls": 26755,
+   "first_deploy": "2026-05-13"
+  },
+  {
+   "id": "npro.poolv1.near",
+   "birth": "2025-09-01",
+   "last": "2026-11-30",
+   "activity": 10603,
+   "active_months": 15,
+   "total_calls": 137404,
+   "first_deploy": "2025-09-11"
+  },
+  {
+   "id": "pitpmp.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 29,
+   "active_months": 1,
+   "total_calls": 215,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "e-near.near",
+   "birth": "2025-01-01",
+   "last": "2025-04-30",
+   "activity": 43,
+   "active_months": 4,
+   "total_calls": 369,
+   "first_deploy": "2025-04-02"
+  },
+  {
+   "id": "elondk.gra-fun.near",
+   "birth": "2025-03-01",
+   "last": "2025-04-30",
+   "activity": 29,
+   "active_months": 2,
+   "total_calls": 209,
+   "first_deploy": "2025-03-22"
+  },
+  {
+   "id": "zrgx.gra-fun.near",
+   "birth": "2025-03-01",
+   "last": "2025-03-31",
+   "activity": 29,
+   "active_months": 1,
+   "total_calls": 201,
+   "first_deploy": "2025-03-20"
+  },
+  {
+   "id": "highmt.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 210,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "token.intear.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 1326,
+   "active_months": 2,
+   "total_calls": 19429,
+   "first_deploy": "2026-10-08"
+  },
+  {
+   "id": "armor.perk.nfts.tg",
+   "birth": "2025-08-01",
+   "last": "2026-10-31",
+   "activity": 154,
+   "active_months": 15,
+   "total_calls": 9312,
+   "first_deploy": "2025-08-14"
+  },
+  {
+   "id": "ntsnvr.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 203,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "shmelon.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 27,
+   "active_months": 1,
+   "total_calls": 218,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "watcth.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 29,
+   "active_months": 1,
+   "total_calls": 202,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "conversion.rhealab.near",
+   "birth": "2025-07-01",
+   "last": "2026-11-30",
+   "activity": 857,
+   "active_months": 17,
+   "total_calls": 10744,
+   "first_deploy": "2025-07-20"
+  },
+  {
+   "id": "token.youuuuu.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 68,
+   "active_months": 1,
+   "total_calls": 158,
+   "first_deploy": "2026-10-05"
+  },
+  {
+   "id": "token.rhealab.near",
+   "birth": "2025-05-01",
+   "last": "2026-11-30",
+   "activity": 6483,
+   "active_months": 18,
+   "total_calls": 1845857,
+   "first_deploy": "2025-05-06"
+  },
+  {
+   "id": "hpls.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 32,
+   "active_months": 1,
+   "total_calls": 229,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "shit.0xshitzu.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 55,
+   "active_months": 23,
+   "total_calls": 2841,
+   "first_deploy": "2026-09-11"
+  },
+  {
+   "id": "crx.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 31,
+   "active_months": 1,
+   "total_calls": 233,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "mysterious_chests.nfts.tg",
+   "birth": "2025-11-01",
+   "last": "2026-09-30",
+   "activity": 29,
+   "active_months": 7,
+   "total_calls": 1966,
+   "first_deploy": "2025-10-28"
+  },
+  {
+   "id": "mana.tkn.near",
+   "birth": "2026-03-01",
+   "last": "2026-10-31",
+   "activity": 116,
+   "active_months": 8,
+   "total_calls": 13598,
+   "first_deploy": "2026-03-30"
+  },
+  {
+   "id": "f5cfbc74057c610c8ef151a439252680ac68c6dc.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 248,
+   "active_months": 23,
+   "total_calls": 32665,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "nft.leenear.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 69,
+   "active_months": 1,
+   "total_calls": 123,
+   "first_deploy": "2026-10-01"
+  },
+  {
+   "id": "31761a152f1e96f966c041291644129144233b0b.factory.bridge.near",
+   "birth": "2025-02-01",
+   "last": "2026-06-30",
+   "activity": 119,
+   "active_months": 13,
+   "total_calls": 3749,
+   "first_deploy": "2025-01-14"
+  },
+  {
+   "id": "ms10.refnft.near",
+   "birth": "2025-02-01",
+   "last": "2025-03-31",
+   "activity": 407,
+   "active_months": 2,
+   "total_calls": 442,
+   "first_deploy": "2025-01-22"
+  },
+  {
+   "id": "lgmagic.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-09-30",
+   "activity": 25,
+   "active_months": 2,
+   "total_calls": 202,
+   "first_deploy": "2025-02-26"
+  },
+  {
+   "id": "memefarm-xref-kat.ref-labs.near",
+   "birth": "2025-01-01",
+   "last": "2025-06-30",
+   "activity": 25,
+   "active_months": 6,
+   "total_calls": 209,
+   "first_deploy": "2025-03-20"
+  },
+  {
+   "id": "ov90000.gra-fun.near",
+   "birth": "2025-03-01",
+   "last": "2025-03-31",
+   "activity": 31,
+   "active_months": 1,
+   "total_calls": 216,
+   "first_deploy": "2025-03-20"
+  },
+  {
+   "id": "hbar.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-03-31",
+   "activity": 25,
+   "active_months": 2,
+   "total_calls": 75,
+   "first_deploy": "2025-02-11"
+  },
+  {
+   "id": "mpak.tkn.near",
+   "birth": "2025-11-01",
+   "last": "2026-10-31",
+   "activity": 37,
+   "active_months": 6,
+   "total_calls": 397,
+   "first_deploy": "2025-11-07"
+  },
+  {
+   "id": "bank.usmeme-v1bank.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 171,
+   "active_months": 23,
+   "total_calls": 11523,
+   "first_deploy": "2025-01-09"
+  },
+  {
+   "id": "launch-v2.intear.near",
+   "birth": "2026-09-01",
+   "last": "2026-10-31",
+   "activity": 30,
+   "active_months": 2,
+   "total_calls": 133,
+   "first_deploy": "2026-09-24"
+  },
+  {
+   "id": "jars.sweat",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 535193,
+   "active_months": 23,
+   "total_calls": 23170260,
+   "first_deploy": "2025-04-02"
+  },
+  {
+   "id": "szn-1826.meme-cooking.near",
+   "birth": "2025-11-01",
+   "last": "2026-10-31",
+   "activity": 267,
+   "active_months": 4,
+   "total_calls": 4540,
+   "first_deploy": "2025-11-10"
+  },
+  {
+   "id": "mister-1811.meme-cooking.near",
+   "birth": "2025-11-01",
+   "last": "2025-11-30",
+   "activity": 39,
+   "active_months": 1,
+   "total_calls": 207,
+   "first_deploy": "2025-11-07"
+  },
+  {
+   "id": "aggregatedexstg.near",
+   "birth": "2025-12-01",
+   "last": "2026-10-31",
+   "activity": 61,
+   "active_months": 9,
+   "total_calls": 4541,
+   "first_deploy": "2026-10-05"
+  },
+  {
+   "id": "shade-1803.meme-cooking.near",
+   "birth": "2025-11-01",
+   "last": "2026-11-30",
+   "activity": 367,
+   "active_months": 12,
+   "total_calls": 30285,
+   "first_deploy": "2025-11-03"
+  },
+  {
+   "id": "cezar.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 31,
+   "active_months": 1,
+   "total_calls": 232,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "nftmarket.cookon.near",
+   "birth": "2026-09-01",
+   "last": "2026-11-30",
+   "activity": 488,
+   "active_months": 3,
+   "total_calls": 6211,
+   "first_deploy": "2026-09-21"
+  },
+  {
+   "id": "krolik.mintbase1.near",
+   "birth": "2025-04-01",
+   "last": "2026-10-31",
+   "activity": 88,
+   "active_months": 17,
+   "total_calls": 8739,
+   "first_deploy": "2025-04-16"
+  },
+  {
+   "id": "gchmpe.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 28,
+   "active_months": 1,
+   "total_calls": 213,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "ldbrsdg.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-09-30",
+   "activity": 27,
+   "active_months": 3,
+   "total_calls": 211,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "lisn.tkn.near",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 131,
+   "active_months": 14,
+   "total_calls": 4532,
+   "first_deploy": "2025-10-01"
+  },
+  {
+   "id": "pyth-oracle.near",
+   "birth": "2025-01-01",
+   "last": "2026-08-31",
+   "activity": 72,
+   "active_months": 20,
+   "total_calls": 24917455,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "tits.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-03-31",
+   "activity": 56,
+   "active_months": 2,
+   "total_calls": 4691,
+   "first_deploy": "2025-02-13"
+  },
+  {
+   "id": "lncernft.learnclub.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 586,
+   "active_months": 23,
+   "total_calls": 64977,
+   "first_deploy": "2025-08-09"
+  },
+  {
+   "id": "nearrr-fun.near",
+   "birth": "2026-09-01",
+   "last": "2026-11-30",
+   "activity": 265,
+   "active_months": 3,
+   "total_calls": 6890,
+   "first_deploy": "2026-09-21"
+  },
+  {
+   "id": "nearbroker.leftkingdom1004.near",
+   "birth": "2026-09-01",
+   "last": "2026-10-31",
+   "activity": 63,
+   "active_months": 2,
+   "total_calls": 733,
+   "first_deploy": "2026-09-29"
+  },
+  {
+   "id": "keys.nearlyops.near",
+   "birth": "2026-11-01",
+   "last": "2026-11-30",
+   "activity": 28,
+   "active_months": 1,
+   "total_calls": 8755,
+   "first_deploy": "2026-11-04"
+  },
+  {
+   "id": "nearport-b6d810.nearportnear.near",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 66,
+   "active_months": 1,
+   "total_calls": 456,
+   "first_deploy": "2026-09-29"
+  },
+  {
+   "id": "geezer.nfts.tg",
+   "birth": "2025-09-01",
+   "last": "2026-10-31",
+   "activity": 55,
+   "active_months": 13,
+   "total_calls": 2040,
+   "first_deploy": "2025-09-13"
+  },
+  {
+   "id": "marp.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 27,
+   "active_months": 1,
+   "total_calls": 185,
+   "first_deploy": "2025-02-20"
+  },
+  {
+   "id": "wnut.tkn.near",
+   "birth": "2025-05-01",
+   "last": "2025-07-31",
+   "activity": 25,
+   "active_months": 3,
+   "total_calls": 450,
+   "first_deploy": "2025-05-05"
+  },
+  {
+   "id": "sbr.tkn.near",
+   "birth": "2025-04-01",
+   "last": "2026-10-31",
+   "activity": 2200,
+   "active_months": 19,
+   "total_calls": 179893,
+   "first_deploy": "2025-04-12"
+  },
+  {
+   "id": "olivine.olivinepro.near",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 75,
+   "active_months": 1,
+   "total_calls": 245,
+   "first_deploy": "2026-09-28"
+  },
+  {
+   "id": "bowenw.aidols.near",
+   "birth": "2025-03-01",
+   "last": "2025-03-31",
+   "activity": 38,
+   "active_months": 1,
+   "total_calls": 8324,
+   "first_deploy": "2025-03-04"
+  },
+  {
+   "id": "sux-1860.meme-cooking.near",
+   "birth": "2025-11-01",
+   "last": "2026-11-30",
+   "activity": 174,
+   "active_months": 10,
+   "total_calls": 3903,
+   "first_deploy": "2025-11-17"
+  },
+  {
+   "id": "meta-pool-airdrop-gradual-release.near",
+   "birth": "2025-01-01",
+   "last": "2026-03-31",
+   "activity": 130,
+   "active_months": 7,
+   "total_calls": 6389,
+   "first_deploy": "2025-01-13"
+  },
+  {
+   "id": "cypher-1877.meme-cooking.near",
+   "birth": "2025-11-01",
+   "last": "2026-11-30",
+   "activity": 122,
+   "active_months": 8,
+   "total_calls": 1411,
+   "first_deploy": "2025-11-24"
+  },
+  {
+   "id": "penis.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2026-10-31",
+   "activity": 59,
+   "active_months": 5,
+   "total_calls": 43302,
+   "first_deploy": "2025-02-28"
+  },
+  {
+   "id": "ztarknear-1845.meme-cooking.near",
+   "birth": "2025-11-01",
+   "last": "2026-11-30",
+   "activity": 268,
+   "active_months": 13,
+   "total_calls": 6175,
+   "first_deploy": "2025-11-14"
+  },
+  {
+   "id": "gmbrain.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 26,
+   "active_months": 1,
+   "total_calls": 205,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "npro.nearmobile.near",
+   "birth": "2025-12-01",
+   "last": "2026-11-30",
+   "activity": 13128,
+   "active_months": 12,
+   "total_calls": 222986,
+   "first_deploy": "2025-12-03"
+  },
+  {
+   "id": "gt-1733.meme-cooking.near",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 177,
+   "active_months": 14,
+   "total_calls": 11122,
+   "first_deploy": "2025-10-19"
+  },
+  {
+   "id": "853d955acef822db058eb8505911ed77f175b99e.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 611,
+   "active_months": 23,
+   "total_calls": 704212,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "absxv.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 195,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "aitime.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 31,
+   "active_months": 1,
+   "total_calls": 208,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "inear.nearonhq.near",
+   "birth": "2026-11-01",
+   "last": "2026-11-30",
+   "activity": 30,
+   "active_months": 1,
+   "total_calls": 733,
+   "first_deploy": "2026-11-09"
+  },
+  {
+   "id": "event-drops.near",
+   "birth": "2025-10-01",
+   "last": "2026-10-31",
+   "activity": 36,
+   "active_months": 5,
+   "total_calls": 2495,
+   "first_deploy": "2025-10-23"
+  },
+  {
+   "id": "mnt.tg",
+   "birth": "2025-08-01",
+   "last": "2026-11-30",
+   "activity": 40,
+   "active_months": 16,
+   "total_calls": 27705,
+   "first_deploy": "2025-08-14"
+  },
+  {
+   "id": "v1.greedy-contract.near",
+   "birth": "2025-04-01",
+   "last": "2025-05-31",
+   "activity": 656,
+   "active_months": 2,
+   "total_calls": 6831,
+   "first_deploy": "2025-04-07"
+  },
+  {
+   "id": "br.private-mainnet.ref-dev-team.near",
+   "birth": "2025-07-01",
+   "last": "2026-11-30",
+   "activity": 47,
+   "active_months": 17,
+   "total_calls": 11591,
+   "first_deploy": "2025-07-18"
+  },
+  {
+   "id": "nft.venears.near",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 766,
+   "active_months": 1,
+   "total_calls": 1904,
+   "first_deploy": "2026-09-29"
+  },
+  {
+   "id": "ai2eat.gra-fun.near",
+   "birth": "2025-04-01",
+   "last": "2025-04-30",
+   "activity": 62,
+   "active_months": 1,
+   "total_calls": 205,
+   "first_deploy": "2025-04-16"
+  },
+  {
+   "id": "eth.bridge.near",
+   "birth": "2025-04-01",
+   "last": "2026-11-30",
+   "activity": 13161,
+   "active_months": 20,
+   "total_calls": 320575,
+   "first_deploy": "2025-04-07"
+  },
+  {
+   "id": "v2-launchpad.justhoot.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 228,
+   "active_months": 2,
+   "total_calls": 58452,
+   "first_deploy": "2026-10-19"
+  },
+  {
+   "id": "dex.intear.near",
+   "birth": "2025-12-01",
+   "last": "2026-11-30",
+   "activity": 1262,
+   "active_months": 12,
+   "total_calls": 140633,
+   "first_deploy": "2026-10-05"
+  },
+  {
+   "id": "ads-1941.meme-cooking.near",
+   "birth": "2026-01-01",
+   "last": "2026-10-31",
+   "activity": 64,
+   "active_months": 5,
+   "total_calls": 481,
+   "first_deploy": "2026-01-22"
+  },
+  {
+   "id": "meme-cooking.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 365,
+   "active_months": 23,
+   "total_calls": 16223,
+   "first_deploy": "2025-03-20"
+  },
+  {
+   "id": "zolanear-1726.meme-cooking.near",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 802,
+   "active_months": 14,
+   "total_calls": 218120,
+   "first_deploy": "2025-10-16"
+  },
+  {
+   "id": "windroseyup.mintbase1.near",
+   "birth": "2025-04-01",
+   "last": "2026-03-31",
+   "activity": 36,
+   "active_months": 8,
+   "total_calls": 552,
+   "first_deploy": "2025-03-31"
+  },
+  {
+   "id": "dew-xrp-basis-test-1.near",
+   "birth": "2025-10-01",
+   "last": "2025-10-31",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 3140,
+   "first_deploy": "2025-10-02"
+  },
+  {
+   "id": "0x4e454160.c.aurora",
+   "birth": "2025-02-01",
+   "last": "2026-04-30",
+   "activity": 130,
+   "active_months": 14,
+   "total_calls": 627,
+   "first_deploy": "2025-04-09"
+  },
+  {
+   "id": "jollycrates.dnft.cookon.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 406,
+   "active_months": 2,
+   "total_calls": 2347,
+   "first_deploy": "2026-09-21"
+  },
+  {
+   "id": "8bowen-1597.meme-cooking.near",
+   "birth": "2025-02-01",
+   "last": "2025-10-31",
+   "activity": 48,
+   "active_months": 4,
+   "total_calls": 599,
+   "first_deploy": "2025-02-17"
+  },
+  {
+   "id": "v1.vote.potlock.near",
+   "birth": "2025-01-01",
+   "last": "2025-02-28",
+   "activity": 140,
+   "active_months": 2,
+   "total_calls": 1371,
+   "first_deploy": "2025-01-11"
+  },
+  {
+   "id": "intear.pool.near",
+   "birth": "2025-02-01",
+   "last": "2026-11-30",
+   "activity": 56,
+   "active_months": 22,
+   "total_calls": 11990,
+   "first_deploy": "2025-02-11"
+  },
+  {
+   "id": "goose.nfts.tg",
+   "birth": "2025-11-01",
+   "last": "2026-10-31",
+   "activity": 106,
+   "active_months": 12,
+   "total_calls": 11411,
+   "first_deploy": "2025-10-14"
+  },
+  {
+   "id": "intellex.nfts.tg",
+   "birth": "2025-10-01",
+   "last": "2026-10-31",
+   "activity": 542,
+   "active_months": 13,
+   "total_calls": 33898,
+   "first_deploy": "2025-10-15"
+  },
+  {
+   "id": "market.kayranft.near",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 34,
+   "active_months": 1,
+   "total_calls": 122,
+   "first_deploy": "2026-09-26"
+  },
+  {
+   "id": "sol-5ce3bf3a31af18be40ba30f721101b4341690186.omft.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 46,
+   "active_months": 23,
+   "total_calls": 1371301,
+   "first_deploy": "2025-04-24"
+  },
+  {
+   "id": "4e807467ba9e3119d5356c5568ef63e9c321b471.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 102,
+   "active_months": 17,
+   "total_calls": 2454,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "coin.abound.near",
+   "birth": "2025-02-01",
+   "last": "2026-10-31",
+   "activity": 58069,
+   "active_months": 21,
+   "total_calls": 1849841,
+   "first_deploy": "2025-01-22"
+  },
+  {
+   "id": "end.aidols.near",
+   "birth": "2025-03-01",
+   "last": "2026-10-31",
+   "activity": 95,
+   "active_months": 9,
+   "total_calls": 97994,
+   "first_deploy": "2025-03-02"
+  },
+  {
+   "id": "age.token0.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 91,
+   "active_months": 11,
+   "total_calls": 607,
+   "first_deploy": "2025-01-06"
+  },
+  {
+   "id": "near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 595,
+   "active_months": 23,
+   "total_calls": 2578106,
+   "first_deploy": "2025-09-03"
+  },
+  {
+   "id": "outlayer.near",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 556,
+   "active_months": 14,
+   "total_calls": 20410,
+   "first_deploy": "2025-10-29"
+  },
+  {
+   "id": "gooner-1599.meme-cooking.near",
+   "birth": "2025-02-01",
+   "last": "2025-09-30",
+   "activity": 67,
+   "active_months": 6,
+   "total_calls": 1627,
+   "first_deploy": "2025-02-17"
+  },
+  {
+   "id": "omni.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 361,
+   "active_months": 23,
+   "total_calls": 6386974,
+   "first_deploy": "2025-01-10"
+  },
+  {
+   "id": "npump.nearpumpfun.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 68,
+   "active_months": 1,
+   "total_calls": 583,
+   "first_deploy": "2026-10-09"
+  },
+  {
+   "id": "prdla.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 28,
+   "active_months": 1,
+   "total_calls": 216,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "venear.dao",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 443,
+   "active_months": 14,
+   "total_calls": 4088,
+   "first_deploy": "2025-10-10"
+  },
+  {
+   "id": "dex.vistadev.near",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 99,
+   "first_deploy": "2026-09-28"
+  },
+  {
+   "id": "meme66.gra-fun.near",
+   "birth": "2025-03-01",
+   "last": "2025-03-31",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 200,
+   "first_deploy": "2025-03-20"
+  },
+  {
+   "id": "betear.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 35,
+   "active_months": 1,
+   "total_calls": 117,
+   "first_deploy": "2025-02-13"
+  },
+  {
+   "id": "dballs.portalpad.near",
+   "birth": "2026-01-01",
+   "last": "2026-03-31",
+   "activity": 36,
+   "active_months": 3,
+   "total_calls": 320,
+   "first_deploy": "2026-01-26"
+  },
+  {
+   "id": "watto-1563.meme-cooking.near",
+   "birth": "2025-01-01",
+   "last": "2025-03-31",
+   "activity": 39,
+   "active_months": 3,
+   "total_calls": 165,
+   "first_deploy": "2025-01-28"
+  },
+  {
+   "id": "cuzia.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 28,
+   "active_months": 1,
+   "total_calls": 97,
+   "first_deploy": "2025-02-17"
+  },
+  {
+   "id": "score-v1.hapiprotocol.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 35640,
+   "active_months": 23,
+   "total_calls": 112099,
+   "first_deploy": "2025-04-09"
+  },
+  {
+   "id": "eth-0xdac17f958d2ee523a2206206994597c13d831ec7.omft.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 27,
+   "active_months": 23,
+   "total_calls": 1664116,
+   "first_deploy": "2025-04-24"
+  },
+  {
+   "id": "sendler-market.near",
+   "birth": "2026-04-01",
+   "last": "2026-11-30",
+   "activity": 135,
+   "active_months": 8,
+   "total_calls": 40893,
+   "first_deploy": "2026-08-28"
+  },
+  {
+   "id": "intents.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 427530,
+   "active_months": 23,
+   "total_calls": 44663327,
+   "first_deploy": "2025-01-22"
+  },
+  {
+   "id": "genesis.kayranft.near",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 231,
+   "active_months": 1,
+   "total_calls": 1513,
+   "first_deploy": "2026-09-26"
+  },
+  {
+   "id": "ysx.tkn.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 61,
+   "active_months": 15,
+   "total_calls": 3209,
+   "first_deploy": "2025-01-12"
+  },
+  {
+   "id": "memefarm-xref-gear.ref-labs.near",
+   "birth": "2025-01-01",
+   "last": "2025-12-31",
+   "activity": 527,
+   "active_months": 12,
+   "total_calls": 9589,
+   "first_deploy": "2025-03-20"
+  },
+  {
+   "id": "pyth-lazer.v1.tmplr.near",
+   "birth": "2026-07-01",
+   "last": "2026-11-30",
+   "activity": 26,
+   "active_months": 5,
+   "total_calls": 6202,
+   "first_deploy": "2026-07-14"
+  },
+  {
+   "id": "wllntp.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 27,
+   "active_months": 1,
+   "total_calls": 205,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "3ea8ea4237344c9931214796d9417af1a1180770.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 26,
+   "active_months": 23,
+   "total_calls": 6179,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "gamblit.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 30,
+   "active_months": 1,
+   "total_calls": 214,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "coinsur.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 26,
+   "active_months": 1,
+   "total_calls": 195,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "dpg.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 68,
+   "active_months": 1,
+   "total_calls": 338,
+   "first_deploy": "2025-02-13"
+  },
+  {
+   "id": "wrap.hot.tg",
+   "birth": "2025-07-01",
+   "last": "2026-10-31",
+   "activity": 170,
+   "active_months": 15,
+   "total_calls": 134722,
+   "first_deploy": "2025-07-01"
+  },
+  {
+   "id": "d8ccf55619e7c894e613c4843c5b3b481256c22df978a612107735859e249890",
+   "birth": "2026-09-01",
+   "last": "2026-10-31",
+   "activity": 30,
+   "active_months": 2,
+   "total_calls": 5441,
+   "first_deploy": "2026-09-06"
+  },
+  {
+   "id": "b.morexrp.mmroot.near",
+   "birth": "2025-07-01",
+   "last": "2026-03-31",
+   "activity": 108,
+   "active_months": 9,
+   "total_calls": 4910,
+   "first_deploy": "2025-07-22"
+  },
+  {
+   "id": "mcd.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-04-30",
+   "activity": 26,
+   "active_months": 3,
+   "total_calls": 118,
+   "first_deploy": "2025-02-10"
+  },
+  {
+   "id": "nft.nearovault.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 58,
+   "active_months": 1,
+   "total_calls": 90,
+   "first_deploy": "2026-10-02"
+  },
+  {
+   "id": "ibtc-ixlmusdc.v1.tmplr.near",
+   "birth": "2026-04-01",
+   "last": "2026-11-30",
+   "activity": 313,
+   "active_months": 8,
+   "total_calls": 2456,
+   "first_deploy": "2026-04-09"
+  },
+  {
+   "id": "xpost-1634.meme-cooking.near",
+   "birth": "2025-04-01",
+   "last": "2026-11-30",
+   "activity": 114,
+   "active_months": 17,
+   "total_calls": 2563,
+   "first_deploy": "2025-04-01"
+  },
+  {
+   "id": "rf.tkn.near",
+   "birth": "2026-05-01",
+   "last": "2026-11-30",
+   "activity": 99,
+   "active_months": 7,
+   "total_calls": 14542,
+   "first_deploy": "2026-05-11"
+  },
+  {
+   "id": "cfi.consumer-fi.near",
+   "birth": "2025-11-01",
+   "last": "2026-11-30",
+   "activity": 374,
+   "active_months": 13,
+   "total_calls": 25750,
+   "first_deploy": "2025-11-12"
+  },
+  {
+   "id": "n-1813.meme-cooking.near",
+   "birth": "2025-11-01",
+   "last": "2026-11-30",
+   "activity": 391,
+   "active_months": 12,
+   "total_calls": 9670,
+   "first_deploy": "2025-11-08"
+  },
+  {
+   "id": "rugwpn.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 28,
+   "active_months": 1,
+   "total_calls": 209,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "hvrst.tkn.near",
+   "birth": "2025-03-01",
+   "last": "2025-05-31",
+   "activity": 32,
+   "active_months": 3,
+   "total_calls": 521,
+   "first_deploy": "2025-02-13"
+  },
+  {
+   "id": "v2_1.omni.hot.tg",
+   "birth": "2025-04-01",
+   "last": "2026-11-30",
+   "activity": 13351,
+   "active_months": 20,
+   "total_calls": 11421821,
+   "first_deploy": "2025-04-11"
+  },
+  {
+   "id": "nearai.token0.near",
+   "birth": "2025-01-01",
+   "last": "2025-04-30",
+   "activity": 31,
+   "active_months": 2,
+   "total_calls": 153,
+   "first_deploy": "2025-01-14"
+  },
+  {
+   "id": "token.sweat",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 980136,
+   "active_months": 23,
+   "total_calls": 202746756,
+   "first_deploy": "2026-06-29"
+  },
+  {
+   "id": "dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 2147,
+   "active_months": 23,
+   "total_calls": 1366116,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "tee-1594.meme-cooking.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 44,
+   "active_months": 1,
+   "total_calls": 236,
+   "first_deploy": "2025-02-14"
+  },
+  {
+   "id": "nightmare-1738.meme-cooking.near",
+   "birth": "2025-10-01",
+   "last": "2025-10-31",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 81,
+   "first_deploy": "2025-10-21"
+  },
+  {
+   "id": "market.sickyak1747.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 47,
+   "active_months": 2,
+   "total_calls": 510,
+   "first_deploy": "2026-10-19"
+  },
+  {
+   "id": "chbqt.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-10-31",
+   "activity": 26,
+   "active_months": 2,
+   "total_calls": 226,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "nearkats.revshare-launch.near",
+   "birth": "2026-09-01",
+   "last": "2026-10-31",
+   "activity": 65,
+   "active_months": 2,
+   "total_calls": 848,
+   "first_deploy": "2026-09-28"
+  },
+  {
+   "id": "wallet.kaiching",
+   "birth": "2025-01-01",
+   "last": "2026-04-30",
+   "activity": 70,
+   "active_months": 16,
+   "total_calls": 1024173194,
+   "first_deploy": "2026-09-29"
+  },
+  {
+   "id": "rsbgor.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 30,
+   "active_months": 1,
+   "total_calls": 206,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "outpost.questout.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 86,
+   "active_months": 1,
+   "total_calls": 360,
+   "first_deploy": "2026-10-06"
+  },
+  {
+   "id": "omgy-1992.meme-cooking.near",
+   "birth": "2026-09-01",
+   "last": "2026-11-30",
+   "activity": 259,
+   "active_months": 3,
+   "total_calls": 4649,
+   "first_deploy": "2026-09-26"
+  },
+  {
+   "id": "bunny.nfts.tg",
+   "birth": "2025-11-01",
+   "last": "2026-10-31",
+   "activity": 117,
+   "active_months": 12,
+   "total_calls": 11599,
+   "first_deploy": "2025-11-09"
+  },
+  {
+   "id": "pt-2110.meme-cooking.near",
+   "birth": "2026-09-01",
+   "last": "2026-10-31",
+   "activity": 41,
+   "active_months": 2,
+   "total_calls": 310,
+   "first_deploy": "2026-09-30"
+  },
+  {
+   "id": "noctik.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 26,
+   "active_months": 1,
+   "total_calls": 204,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "launchpad.justhoot.near",
+   "birth": "2026-09-01",
+   "last": "2026-11-30",
+   "activity": 201,
+   "active_months": 3,
+   "total_calls": 15547,
+   "first_deploy": "2026-09-29"
+  },
+  {
+   "id": "asa.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 48,
+   "active_months": 1,
+   "total_calls": 218,
+   "first_deploy": "2025-02-19"
+  },
+  {
+   "id": "score.claim.hot.tg",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 16366,
+   "active_months": 1,
+   "total_calls": 16485,
+   "first_deploy": "2025-02-18"
+  },
+  {
+   "id": "siberiashop.mintbase1.near",
+   "birth": "2025-04-01",
+   "last": "2026-10-31",
+   "activity": 487,
+   "active_months": 19,
+   "total_calls": 148784,
+   "first_deploy": "2025-04-04"
+  },
+  {
+   "id": "lrl.tkn.near",
+   "birth": "2025-04-01",
+   "last": "2025-11-30",
+   "activity": 42,
+   "active_months": 7,
+   "total_calls": 945,
+   "first_deploy": "2025-04-18"
+  },
+  {
+   "id": "smalachite.tkn.near",
+   "birth": "2025-04-01",
+   "last": "2026-05-31",
+   "activity": 31,
+   "active_months": 14,
+   "total_calls": 922,
+   "first_deploy": "2025-04-21"
+  },
+  {
+   "id": "tradepost-1763.meme-cooking.near",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 57,
+   "active_months": 5,
+   "total_calls": 371,
+   "first_deploy": "2025-10-24"
+  },
+  {
+   "id": "hp.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 32,
+   "active_months": 1,
+   "total_calls": 111,
+   "first_deploy": "2025-02-10"
+  },
+  {
+   "id": "devhub.near",
+   "birth": "2025-01-01",
+   "last": "2025-06-30",
+   "activity": 25,
+   "active_months": 6,
+   "total_calls": 624,
+   "first_deploy": "2025-02-26"
+  },
+  {
+   "id": "mark.nfts.tg",
+   "birth": "2025-09-01",
+   "last": "2026-11-30",
+   "activity": 491,
+   "active_months": 15,
+   "total_calls": 10262,
+   "first_deploy": "2025-09-03"
+  },
+  {
+   "id": "68749665ff8d2d112fa859aa293f07a622782f38.factory.bridge.near",
+   "birth": "2026-03-01",
+   "last": "2026-10-31",
+   "activity": 26,
+   "active_months": 8,
+   "total_calls": 2464,
+   "first_deploy": "2026-03-04"
+  },
+  {
+   "id": "golden_ticket.nfts.tg",
+   "birth": "2025-09-01",
+   "last": "2026-10-31",
+   "activity": 123,
+   "active_months": 14,
+   "total_calls": 6965,
+   "first_deploy": "2025-09-20"
+  },
+  {
+   "id": "sahara.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-03-31",
+   "activity": 45,
+   "active_months": 2,
+   "total_calls": 170,
+   "first_deploy": "2025-02-15"
+  },
+  {
+   "id": "moon.nearcatcoin.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 328,
+   "active_months": 1,
+   "total_calls": 3748,
+   "first_deploy": "2026-10-03"
+  },
+  {
+   "id": "millertime.tok.rune-shot.near",
+   "birth": "2025-06-01",
+   "last": "2025-08-31",
+   "activity": 33,
+   "active_months": 2,
+   "total_calls": 212,
+   "first_deploy": "2025-06-11"
+  },
+  {
+   "id": "treasury.sickyak1747.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 66,
+   "active_months": 2,
+   "total_calls": 1658,
+   "first_deploy": "2026-10-23"
+  },
+  {
+   "id": "meme-burrow.ref-labs.near",
+   "birth": "2025-01-01",
+   "last": "2026-09-30",
+   "activity": 50,
+   "active_months": 17,
+   "total_calls": 11770,
+   "first_deploy": "2025-01-07"
+  },
+  {
+   "id": "yum.tkn.near",
+   "birth": "2025-04-01",
+   "last": "2026-10-31",
+   "activity": 68,
+   "active_months": 14,
+   "total_calls": 2001,
+   "first_deploy": "2025-03-21"
+  },
+  {
+   "id": "nearpadfamily.near",
+   "birth": "2026-09-01",
+   "last": "2026-10-31",
+   "activity": 122,
+   "active_months": 2,
+   "total_calls": 16606,
+   "first_deploy": "2026-09-23"
+  },
+  {
+   "id": "nvidia.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-03-31",
+   "activity": 67,
+   "active_months": 2,
+   "total_calls": 379,
+   "first_deploy": "2025-02-12"
+  },
+  {
+   "id": "nvidai.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 44,
+   "active_months": 1,
+   "total_calls": 170,
+   "first_deploy": "2025-02-12"
+  },
+  {
+   "id": "hdsk.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2026-10-31",
+   "activity": 25,
+   "active_months": 4,
+   "total_calls": 248,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "market.neartizen.near",
+   "birth": "2026-09-01",
+   "last": "2026-10-31",
+   "activity": 168,
+   "active_months": 2,
+   "total_calls": 2743,
+   "first_deploy": "2026-09-29"
+  },
+  {
+   "id": "neargifts.near",
+   "birth": "2025-11-01",
+   "last": "2026-11-30",
+   "activity": 118,
+   "active_months": 12,
+   "total_calls": 182892,
+   "first_deploy": "2025-11-08"
+  },
+  {
+   "id": "shgg.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-04-30",
+   "activity": 26,
+   "active_months": 2,
+   "total_calls": 88,
+   "first_deploy": "2025-02-10"
+  },
+  {
+   "id": "wnear.gra-fun.near",
+   "birth": "2025-08-01",
+   "last": "2026-10-31",
+   "activity": 868,
+   "active_months": 15,
+   "total_calls": 13588,
+   "first_deploy": "2025-08-03"
+  },
+  {
+   "id": "rightestate4224.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 64,
+   "active_months": 1,
+   "total_calls": 205,
+   "first_deploy": "2026-10-07"
+  },
+  {
+   "id": "sender-bazar.near",
+   "birth": "2025-02-01",
+   "last": "2025-07-31",
+   "activity": 341,
+   "active_months": 6,
+   "total_calls": 48751,
+   "first_deploy": "2025-02-22"
+  },
+  {
+   "id": "ofp_collection.nfts.tg",
+   "birth": "2025-09-01",
+   "last": "2026-11-30",
+   "activity": 206,
+   "active_months": 15,
+   "total_calls": 12445,
+   "first_deploy": "2025-09-29"
+  },
+  {
+   "id": "power.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 26,
+   "active_months": 1,
+   "total_calls": 102,
+   "first_deploy": "2025-02-13"
+  },
+  {
+   "id": "meme-farming_011.ref-labs.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 1048,
+   "active_months": 21,
+   "total_calls": 59252,
+   "first_deploy": "2025-03-19"
+  },
+  {
+   "id": "pearpe.tkn.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 202,
+   "active_months": 2,
+   "total_calls": 1812,
+   "first_deploy": "2026-10-01"
+  },
+  {
+   "id": "llang-1865.meme-cooking.near",
+   "birth": "2025-11-01",
+   "last": "2026-10-31",
+   "activity": 29,
+   "active_months": 4,
+   "total_calls": 154,
+   "first_deploy": "2025-11-18"
+  },
+  {
+   "id": "boostfarm.ref-labs.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 4188,
+   "active_months": 23,
+   "total_calls": 139910,
+   "first_deploy": "2025-03-18"
+  },
+  {
+   "id": "retard.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 30,
+   "active_months": 1,
+   "total_calls": 3877,
+   "first_deploy": "2025-02-23"
+  },
+  {
+   "id": "score.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2026-11-30",
+   "activity": 6779,
+   "active_months": 22,
+   "total_calls": 551849,
+   "first_deploy": "2025-02-12"
+  },
+  {
+   "id": "nissp.gra-fun.near",
+   "birth": "2025-03-01",
+   "last": "2025-03-31",
+   "activity": 27,
+   "active_months": 1,
+   "total_calls": 200,
+   "first_deploy": "2025-03-20"
+  },
+  {
+   "id": "v2.shadeagent.near",
+   "birth": "2025-05-01",
+   "last": "2025-05-31",
+   "activity": 31,
+   "active_months": 1,
+   "total_calls": 727,
+   "first_deploy": "2025-05-02"
+  },
+  {
+   "id": "4691937a7508860f876c9c0a2a617e7d9e945d4b.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 74,
+   "active_months": 22,
+   "total_calls": 1601,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "vt.voteagora.near",
+   "birth": "2025-10-01",
+   "last": "2026-03-31",
+   "activity": 34,
+   "active_months": 5,
+   "total_calls": 313,
+   "first_deploy": "2025-10-10"
+  },
+  {
+   "id": "casino-event.near",
+   "birth": "2025-11-01",
+   "last": "2026-11-30",
+   "activity": 118,
+   "active_months": 13,
+   "total_calls": 90551,
+   "first_deploy": "2025-11-17"
+  },
+  {
+   "id": "burrow.private-mainnet.ref-dev-team.near",
+   "birth": "2025-01-01",
+   "last": "2025-07-31",
+   "activity": 34,
+   "active_months": 5,
+   "total_calls": 3141,
+   "first_deploy": "2025-01-06"
+  },
+  {
+   "id": "bitcat.tok.rune-shot.near",
+   "birth": "2025-06-01",
+   "last": "2025-07-31",
+   "activity": 26,
+   "active_months": 2,
+   "total_calls": 191,
+   "first_deploy": "2025-06-11"
+  },
+  {
+   "id": "snakesnap-1561.meme-cooking.near",
+   "birth": "2025-01-01",
+   "last": "2025-05-31",
+   "activity": 57,
+   "active_months": 3,
+   "total_calls": 277,
+   "first_deploy": "2025-01-28"
+  },
+  {
+   "id": "socks.aidols.near",
+   "birth": "2025-08-01",
+   "last": "2026-09-30",
+   "activity": 214,
+   "active_months": 6,
+   "total_calls": 1114,
+   "first_deploy": "2025-08-05"
+  },
+  {
+   "id": "nlwn-1793.meme-cooking.near",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 88,
+   "active_months": 11,
+   "total_calls": 1103,
+   "first_deploy": "2025-10-30"
+  },
+  {
+   "id": "tee.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-09-30",
+   "activity": 74,
+   "active_months": 3,
+   "total_calls": 516,
+   "first_deploy": "2025-02-14"
+  },
+  {
+   "id": "mark.aidols.near",
+   "birth": "2025-04-01",
+   "last": "2026-11-30",
+   "activity": 934,
+   "active_months": 16,
+   "total_calls": 37691,
+   "first_deploy": "2025-04-02"
+  },
+  {
+   "id": "rga2k.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 196,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "pepear.aidols.near",
+   "birth": "2025-03-01",
+   "last": "2026-11-30",
+   "activity": 88,
+   "active_months": 3,
+   "total_calls": 110546,
+   "first_deploy": "2025-03-03"
+  },
+  {
+   "id": "stakeyourtears.intear.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 35,
+   "active_months": 2,
+   "total_calls": 183,
+   "first_deploy": "2026-10-22"
+  },
+  {
+   "id": "nvigtc.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 35,
+   "active_months": 1,
+   "total_calls": 148,
+   "first_deploy": "2025-02-14"
+  },
+  {
+   "id": "yupland.tkn.near",
+   "birth": "2025-02-01",
+   "last": "2026-11-30",
+   "activity": 1246,
+   "active_months": 22,
+   "total_calls": 94845,
+   "first_deploy": "2025-02-03"
+  },
+  {
+   "id": "nuve.nuvelor.near",
+   "birth": "2026-07-01",
+   "last": "2026-11-30",
+   "activity": 32,
+   "active_months": 5,
+   "total_calls": 1376,
+   "first_deploy": "2026-08-18"
+  },
+  {
+   "id": "pad.kayranft.near",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 133,
+   "active_months": 1,
+   "total_calls": 431,
+   "first_deploy": "2026-09-28"
+  },
+  {
+   "id": "sun.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-03-31",
+   "activity": 51,
+   "active_months": 2,
+   "total_calls": 2912,
+   "first_deploy": "2025-02-19"
+  },
+  {
+   "id": "grillboy.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-04-30",
+   "activity": 36,
+   "active_months": 2,
+   "total_calls": 154,
+   "first_deploy": "2025-02-10"
+  },
+  {
+   "id": "seeds.tkn.near",
+   "birth": "2025-06-01",
+   "last": "2026-10-31",
+   "activity": 64,
+   "active_months": 17,
+   "total_calls": 1540,
+   "first_deploy": "2025-06-06"
+  },
+  {
+   "id": "mbpp3.token0.near",
+   "birth": "2025-02-01",
+   "last": "2026-05-31",
+   "activity": 69,
+   "active_months": 6,
+   "total_calls": 1232,
+   "first_deploy": "2025-02-16"
+  },
+  {
+   "id": "ironclaw-1956.meme-cooking.near",
+   "birth": "2026-02-01",
+   "last": "2026-11-30",
+   "activity": 196,
+   "active_months": 10,
+   "total_calls": 4480,
+   "first_deploy": "2026-02-09"
+  },
+  {
+   "id": "hoot-8ecf65.launchpad.justhoot.near",
+   "birth": "2026-09-01",
+   "last": "2026-11-30",
+   "activity": 1532,
+   "active_months": 3,
+   "total_calls": 43083,
+   "first_deploy": "2026-09-30"
+  },
+  {
+   "id": "lismk_collection.nfts.tg",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 93,
+   "active_months": 13,
+   "total_calls": 4496,
+   "first_deploy": "2025-10-18"
+  },
+  {
+   "id": "bondsquaresreal.launchpad.defishards.near",
+   "birth": "2025-11-01",
+   "last": "2026-10-31",
+   "activity": 39,
+   "active_months": 7,
+   "total_calls": 554,
+   "first_deploy": "2025-11-27"
+  },
+  {
+   "id": "bettingpool.near",
+   "birth": "2025-03-01",
+   "last": "2025-08-31",
+   "activity": 32,
+   "active_months": 6,
+   "total_calls": 442,
+   "first_deploy": "2025-03-01"
+  },
+  {
+   "id": "drago.aidols.near",
+   "birth": "2025-03-01",
+   "last": "2025-06-30",
+   "activity": 47,
+   "active_months": 2,
+   "total_calls": 15934,
+   "first_deploy": "2025-03-07"
+  },
+  {
+   "id": "sunydb.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 31,
+   "active_months": 1,
+   "total_calls": 228,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "usdc.meteor-vaults.near",
+   "birth": "2026-01-01",
+   "last": "2026-11-30",
+   "activity": 108,
+   "active_months": 11,
+   "total_calls": 36729,
+   "first_deploy": "2026-01-19"
+  },
+  {
+   "id": "omnilaunch-1720.meme-cooking.near",
+   "birth": "2025-10-01",
+   "last": "2026-10-31",
+   "activity": 58,
+   "active_months": 6,
+   "total_calls": 523,
+   "first_deploy": "2025-10-06"
+  },
+  {
+   "id": "gayllia.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 27,
+   "active_months": 1,
+   "total_calls": 93,
+   "first_deploy": "2025-02-15"
+  },
+  {
+   "id": "v2.jars.sweat",
+   "birth": "2025-06-01",
+   "last": "2026-11-30",
+   "activity": 412113,
+   "active_months": 18,
+   "total_calls": 50717058,
+   "first_deploy": "2025-06-16"
+  },
+  {
+   "id": "spellium.tkn.near",
+   "birth": "2025-07-01",
+   "last": "2025-11-30",
+   "activity": 25,
+   "active_months": 5,
+   "total_calls": 196,
+   "first_deploy": "2025-07-26"
+  },
+  {
+   "id": "xtoken.rhealab.near",
+   "birth": "2025-07-01",
+   "last": "2026-11-30",
+   "activity": 1254,
+   "active_months": 17,
+   "total_calls": 148604,
+   "first_deploy": "2025-07-28"
+  },
+  {
+   "id": "tok.rune-shot.near",
+   "birth": "2025-06-01",
+   "last": "2025-06-30",
+   "activity": 35,
+   "active_months": 1,
+   "total_calls": 99,
+   "first_deploy": "2025-06-05"
+  },
+  {
+   "id": "ixlm-ixlmusdc.v1.tmplr.near",
+   "birth": "2025-11-01",
+   "last": "2026-11-30",
+   "activity": 27,
+   "active_months": 13,
+   "total_calls": 18203,
+   "first_deploy": "2025-11-03"
+  },
+  {
+   "id": "claim.sweat",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 1106036,
+   "active_months": 23,
+   "total_calls": 82623996,
+   "first_deploy": "2026-07-02"
+  },
+  {
+   "id": "fadeup.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 27,
+   "active_months": 1,
+   "total_calls": 209,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "jambo.nfts.tg",
+   "birth": "2025-09-01",
+   "last": "2026-10-31",
+   "activity": 299,
+   "active_months": 14,
+   "total_calls": 8516,
+   "first_deploy": "2025-09-02"
+  },
+  {
+   "id": "legup.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 37,
+   "active_months": 1,
+   "total_calls": 454,
+   "first_deploy": "2025-02-19"
+  },
+  {
+   "id": "portalpad.near",
+   "birth": "2026-01-01",
+   "last": "2026-03-31",
+   "activity": 198,
+   "active_months": 3,
+   "total_calls": 4179,
+   "first_deploy": "2026-09-24"
+  },
+  {
+   "id": "aidols.near",
+   "birth": "2025-01-01",
+   "last": "2026-09-30",
+   "activity": 197,
+   "active_months": 15,
+   "total_calls": 57345,
+   "first_deploy": "2025-01-14"
+  },
+  {
+   "id": "memeseason.0xshitzu.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 74,
+   "active_months": 22,
+   "total_calls": 11946,
+   "first_deploy": "2025-06-10"
+  },
+  {
+   "id": "blackdragonforever.nfts.tg",
+   "birth": "2025-09-01",
+   "last": "2026-11-30",
+   "activity": 102,
+   "active_months": 15,
+   "total_calls": 19431,
+   "first_deploy": "2025-09-24"
+  },
+  {
+   "id": "nearprotolcol.near",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 284,
+   "active_months": 13,
+   "total_calls": 504218,
+   "first_deploy": "2025-10-27"
+  },
+  {
+   "id": "yuplandshop.mintbase1.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 1246,
+   "active_months": 23,
+   "total_calls": 700369,
+   "first_deploy": "2026-10-18"
+  },
+  {
+   "id": "faucet1.noamarket.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 36,
+   "active_months": 2,
+   "total_calls": 1601,
+   "first_deploy": "2026-10-03"
+  },
+  {
+   "id": "grid.deltatrade.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 127,
+   "active_months": 23,
+   "total_calls": 196802,
+   "first_deploy": "2026-10-25"
+  },
+  {
+   "id": "aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 6563,
+   "active_months": 23,
+   "total_calls": 885609,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "v1.signer",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 3024,
+   "active_months": 23,
+   "total_calls": 15970177,
+   "first_deploy": "2025-02-25"
+  },
+  {
+   "id": "jholudi.tkn.near",
+   "birth": "2025-02-01",
+   "last": "2026-10-31",
+   "activity": 290,
+   "active_months": 21,
+   "total_calls": 41904,
+   "first_deploy": "2025-02-03"
+  },
+  {
+   "id": "usdt.meteor-vaults.near",
+   "birth": "2026-01-01",
+   "last": "2026-11-30",
+   "activity": 66,
+   "active_months": 11,
+   "total_calls": 34893,
+   "first_deploy": "2026-01-19"
+  },
+  {
+   "id": "nerd20.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 30,
+   "active_months": 1,
+   "total_calls": 223,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "auth.peerfolio.near",
+   "birth": "2026-01-01",
+   "last": "2026-10-31",
+   "activity": 28,
+   "active_months": 10,
+   "total_calls": 434,
+   "first_deploy": "2026-09-29"
+  },
+  {
+   "id": "nft.sickyak1747.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 92,
+   "active_months": 2,
+   "total_calls": 9291,
+   "first_deploy": "2026-10-19"
+  },
+  {
+   "id": "v2.omni.hot.tg",
+   "birth": "2025-03-01",
+   "last": "2026-10-31",
+   "activity": 27,
+   "active_months": 5,
+   "total_calls": 1007,
+   "first_deploy": "2025-03-13"
+  },
+  {
+   "id": "nero-2008.meme-cooking.near",
+   "birth": "2026-09-01",
+   "last": "2026-11-30",
+   "activity": 530,
+   "active_months": 3,
+   "total_calls": 4447,
+   "first_deploy": "2026-09-28"
+  },
+  {
+   "id": "multica.near",
+   "birth": "2025-11-01",
+   "last": "2026-11-30",
+   "activity": 668,
+   "active_months": 13,
+   "total_calls": 10699,
+   "first_deploy": "2025-11-12"
+  },
+  {
+   "id": "dog-bitcoin.near",
+   "birth": "2025-06-01",
+   "last": "2026-11-30",
+   "activity": 134,
+   "active_months": 15,
+   "total_calls": 3050,
+   "first_deploy": "2025-06-10"
+  },
+  {
+   "id": "tnft.rarecatchclub.near",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 35,
+   "active_months": 1,
+   "total_calls": 122,
+   "first_deploy": "2026-09-27"
+  },
+  {
+   "id": "market.aigency.near",
+   "birth": "2025-05-01",
+   "last": "2025-06-30",
+   "activity": 45,
+   "active_months": 2,
+   "total_calls": 991,
+   "first_deploy": "2025-05-20"
+  },
+  {
+   "id": "v1.ncaptcha.near",
+   "birth": "2025-01-01",
+   "last": "2026-02-28",
+   "activity": 496,
+   "active_months": 14,
+   "total_calls": 4363,
+   "first_deploy": "2025-05-01"
+  },
+  {
+   "id": "magicdust.tkn.near",
+   "birth": "2025-09-01",
+   "last": "2026-11-30",
+   "activity": 163,
+   "active_months": 14,
+   "total_calls": 42953,
+   "first_deploy": "2025-08-24"
+  },
+  {
+   "id": "warsofcards-chat.near",
+   "birth": "2025-08-01",
+   "last": "2025-10-31",
+   "activity": 40,
+   "active_months": 3,
+   "total_calls": 689,
+   "first_deploy": "2025-08-24"
+  },
+  {
+   "id": "mpdao-token.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 1396,
+   "active_months": 23,
+   "total_calls": 56030,
+   "first_deploy": "2025-09-22"
+  },
+  {
+   "id": "e46.gra-fun.near",
+   "birth": "2025-10-01",
+   "last": "2025-11-30",
+   "activity": 37,
+   "active_months": 2,
+   "total_calls": 144,
+   "first_deploy": "2025-10-26"
+  },
+  {
+   "id": "zero.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2026-08-31",
+   "activity": 151,
+   "active_months": 11,
+   "total_calls": 978,
+   "first_deploy": "2025-02-10"
+  },
+  {
+   "id": "v2-omni.firedrop.hot.tg",
+   "birth": "2025-03-01",
+   "last": "2026-11-30",
+   "activity": 84495,
+   "active_months": 21,
+   "total_calls": 1650279,
+   "first_deploy": "2025-03-22"
+  },
+  {
+   "id": "lsd-usdt.rhealab.near",
+   "birth": "2026-01-01",
+   "last": "2026-08-31",
+   "activity": 34,
+   "active_months": 7,
+   "total_calls": 16257,
+   "first_deploy": "2026-04-09"
+  },
+  {
+   "id": "score.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-03-31",
+   "activity": 32,
+   "active_months": 2,
+   "total_calls": 93,
+   "first_deploy": "2025-02-10"
+  },
+  {
+   "id": "shitc.aidols.near",
+   "birth": "2025-01-01",
+   "last": "2025-06-30",
+   "activity": 146,
+   "active_months": 6,
+   "total_calls": 854,
+   "first_deploy": "2025-01-16"
+  },
+  {
+   "id": "boltubs.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 26,
+   "active_months": 1,
+   "total_calls": 198,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "zomland.near",
+   "birth": "2025-01-01",
+   "last": "2026-07-31",
+   "activity": 26,
+   "active_months": 15,
+   "total_calls": 844,
+   "first_deploy": "2026-09-08"
+  },
+  {
+   "id": "veax.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 92,
+   "active_months": 23,
+   "total_calls": 337245,
+   "first_deploy": "2025-07-28"
+  },
+  {
+   "id": "jumpdefi-aggregator.near",
+   "birth": "2025-01-01",
+   "last": "2025-09-30",
+   "activity": 44,
+   "active_months": 9,
+   "total_calls": 2546,
+   "first_deploy": "2025-01-16"
+  },
+  {
+   "id": "chlpmpg.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 30,
+   "active_months": 1,
+   "total_calls": 220,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "lulsrg.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 29,
+   "active_months": 1,
+   "total_calls": 207,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "memefarm-xref-neat.ref-labs.near",
+   "birth": "2025-01-01",
+   "last": "2025-03-31",
+   "activity": 40,
+   "active_months": 3,
+   "total_calls": 205,
+   "first_deploy": "2025-03-20"
+  },
+  {
+   "id": "dhea-23.aidols.near",
+   "birth": "2025-05-01",
+   "last": "2025-06-30",
+   "activity": 37,
+   "active_months": 2,
+   "total_calls": 157,
+   "first_deploy": "2025-05-26"
+  },
+  {
+   "id": "persnmt.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 30,
+   "active_months": 1,
+   "total_calls": 215,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "msupport.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 29,
+   "active_months": 1,
+   "total_calls": 199,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "near-drops.near",
+   "birth": "2025-11-01",
+   "last": "2026-10-31",
+   "activity": 60,
+   "active_months": 12,
+   "total_calls": 379945,
+   "first_deploy": "2025-11-24"
+  },
+  {
+   "id": "nfinite.near",
+   "birth": "2026-09-01",
+   "last": "2026-10-31",
+   "activity": 44,
+   "active_months": 2,
+   "total_calls": 95,
+   "first_deploy": "2026-09-29"
+  },
+  {
+   "id": "neargives.near",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 299,
+   "active_months": 14,
+   "total_calls": 278367,
+   "first_deploy": "2025-10-22"
+  },
+  {
+   "id": "nearlios.swiftarena6534.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 283,
+   "active_months": 1,
+   "total_calls": 1263,
+   "first_deploy": "2026-10-03"
+  },
+  {
+   "id": "itlx.intellex_xyz.near",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 264,
+   "active_months": 14,
+   "total_calls": 10928,
+   "first_deploy": "2025-05-22"
+  },
+  {
+   "id": "chilicy.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 32,
+   "active_months": 1,
+   "total_calls": 222,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "haidarjbeily.near",
+   "birth": "2025-05-01",
+   "last": "2025-05-31",
+   "activity": 101,
+   "active_months": 1,
+   "total_calls": 301,
+   "first_deploy": "2025-05-29"
+  },
+  {
+   "id": "emerald.tkn.near",
+   "birth": "2025-05-01",
+   "last": "2026-01-31",
+   "activity": 43,
+   "active_months": 7,
+   "total_calls": 965,
+   "first_deploy": "2025-05-05"
+  },
+  {
+   "id": "aurora.pool.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 107,
+   "active_months": 23,
+   "total_calls": 14940,
+   "first_deploy": "2026-02-09"
+  },
+  {
+   "id": "v1.j1-racing.near",
+   "birth": "2025-10-01",
+   "last": "2026-10-31",
+   "activity": 97,
+   "active_months": 11,
+   "total_calls": 6971,
+   "first_deploy": "2025-09-18"
+  },
+  {
+   "id": "fakehot.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-03-31",
+   "activity": 59,
+   "active_months": 2,
+   "total_calls": 301,
+   "first_deploy": "2025-02-24"
+  },
+  {
+   "id": "ilovetofu.near",
+   "birth": "2025-04-01",
+   "last": "2025-05-31",
+   "activity": 113,
+   "active_months": 2,
+   "total_calls": 1661,
+   "first_deploy": "2025-04-29"
+  },
+  {
+   "id": "last.gra-fun.near",
+   "birth": "2025-03-01",
+   "last": "2025-03-31",
+   "activity": 28,
+   "active_months": 1,
+   "total_calls": 220,
+   "first_deploy": "2025-03-23"
+  },
+  {
+   "id": "readers-1846.meme-cooking.near",
+   "birth": "2025-11-01",
+   "last": "2025-11-30",
+   "activity": 45,
+   "active_months": 1,
+   "total_calls": 188,
+   "first_deploy": "2025-11-14"
+  },
+  {
+   "id": "hapi-nearonaut.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 1164,
+   "active_months": 23,
+   "total_calls": 29058,
+   "first_deploy": "2025-04-22"
+  },
+  {
+   "id": "eghelp.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 30,
+   "active_months": 1,
+   "total_calls": 211,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "jason-1628.meme-cooking.near",
+   "birth": "2025-03-01",
+   "last": "2026-10-31",
+   "activity": 80,
+   "active_months": 8,
+   "total_calls": 515,
+   "first_deploy": "2025-03-19"
+  },
+  {
+   "id": "game.sickyak1747.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 51,
+   "active_months": 2,
+   "total_calls": 17973,
+   "first_deploy": "2026-10-19"
+  },
+  {
+   "id": "lst.rhealab.near",
+   "birth": "2025-08-01",
+   "last": "2026-11-30",
+   "activity": 7791,
+   "active_months": 16,
+   "total_calls": 995881,
+   "first_deploy": "2025-08-02"
+  },
+  {
+   "id": "broc.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-08-31",
+   "activity": 85,
+   "active_months": 2,
+   "total_calls": 16336,
+   "first_deploy": "2025-02-13"
+  },
+  {
+   "id": "sol-c800a4bd850783ccb82c2b2c7e84175443606352.omft.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 45,
+   "active_months": 23,
+   "total_calls": 635837,
+   "first_deploy": "2025-01-06"
+  },
+  {
+   "id": "rnbw.tkn.near",
+   "birth": "2025-07-01",
+   "last": "2026-10-31",
+   "activity": 97,
+   "active_months": 16,
+   "total_calls": 6135,
+   "first_deploy": "2025-07-24"
+  },
+  {
+   "id": "5illia-1725.meme-cooking.near",
+   "birth": "2025-10-01",
+   "last": "2026-10-31",
+   "activity": 151,
+   "active_months": 7,
+   "total_calls": 947,
+   "first_deploy": "2025-10-13"
+  },
+  {
+   "id": "2260fac5e5542a773aa44fbcfedf7c193bc2c599.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 806,
+   "active_months": 23,
+   "total_calls": 104794,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "ant.anthropicipo.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 130,
+   "active_months": 1,
+   "total_calls": 1617,
+   "first_deploy": "2026-10-26"
+  },
+  {
+   "id": "squartz.tkn.near",
+   "birth": "2025-04-01",
+   "last": "2026-05-31",
+   "activity": 38,
+   "active_months": 14,
+   "total_calls": 1403,
+   "first_deploy": "2025-04-21"
+  },
+  {
+   "id": "ai-wanted-1617.meme-cooking.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 30,
+   "active_months": 1,
+   "total_calls": 138,
+   "first_deploy": "2025-02-26"
+  },
+  {
+   "id": "jolyny.gra-fun.near",
+   "birth": "2025-03-01",
+   "last": "2025-04-30",
+   "activity": 26,
+   "active_months": 2,
+   "total_calls": 216,
+   "first_deploy": "2025-03-23"
+  },
+  {
+   "id": "nrtd.token0.near",
+   "birth": "2025-01-01",
+   "last": "2026-02-28",
+   "activity": 51,
+   "active_months": 7,
+   "total_calls": 1372,
+   "first_deploy": "2025-04-03"
+  },
+  {
+   "id": "jbj-1745.meme-cooking.near",
+   "birth": "2025-10-01",
+   "last": "2026-10-31",
+   "activity": 166,
+   "active_months": 10,
+   "total_calls": 1896,
+   "first_deploy": "2025-10-22"
+  },
+  {
+   "id": "free-reward.near",
+   "birth": "2025-10-01",
+   "last": "2026-03-31",
+   "activity": 69,
+   "active_months": 6,
+   "total_calls": 61143,
+   "first_deploy": "2025-10-28"
+  },
+  {
+   "id": "bitwise_2.poolv1.near",
+   "birth": "2026-08-01",
+   "last": "2026-11-30",
+   "activity": 70,
+   "active_months": 4,
+   "total_calls": 1506,
+   "first_deploy": "2026-08-18"
+  },
+  {
+   "id": "official-near.near",
+   "birth": "2025-10-01",
+   "last": "2026-10-31",
+   "activity": 170,
+   "active_months": 12,
+   "total_calls": 138547,
+   "first_deploy": "2025-10-26"
+  },
+  {
+   "id": "airdrop.publicailab.near",
+   "birth": "2025-08-01",
+   "last": "2025-08-31",
+   "activity": 14603,
+   "active_months": 1,
+   "total_calls": 47831,
+   "first_deploy": "2025-08-15"
+  },
+  {
+   "id": "anut.tkn.near",
+   "birth": "2025-05-01",
+   "last": "2025-08-31",
+   "activity": 39,
+   "active_months": 4,
+   "total_calls": 696,
+   "first_deploy": "2025-05-05"
+  },
+  {
+   "id": "dclv2.ref-labs.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 19034,
+   "active_months": 23,
+   "total_calls": 23219743,
+   "first_deploy": "2025-06-20"
+  },
+  {
+   "id": "game.hot.tg",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 3235891,
+   "active_months": 23,
+   "total_calls": 826205162,
+   "first_deploy": "2025-02-12"
+  },
+  {
+   "id": "dew-rneardefi-vault.near",
+   "birth": "2025-10-01",
+   "last": "2026-05-31",
+   "activity": 162,
+   "active_months": 8,
+   "total_calls": 25722,
+   "first_deploy": "2025-10-22"
+  },
+  {
+   "id": "bond.rune-shot.near",
+   "birth": "2025-06-01",
+   "last": "2025-12-31",
+   "activity": 69,
+   "active_months": 4,
+   "total_calls": 3279,
+   "first_deploy": "2025-06-04"
+  },
+  {
+   "id": "validators_deposit.near",
+   "birth": "2025-08-01",
+   "last": "2026-10-31",
+   "activity": 39,
+   "active_months": 11,
+   "total_calls": 671,
+   "first_deploy": "2025-08-11"
+  },
+  {
+   "id": "macflr.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 29,
+   "active_months": 1,
+   "total_calls": 218,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "flfytda.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 30,
+   "active_months": 1,
+   "total_calls": 217,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "ainear.nearlyops.near",
+   "birth": "2026-11-01",
+   "last": "2026-11-30",
+   "activity": 178,
+   "active_months": 1,
+   "total_calls": 3666,
+   "first_deploy": "2026-11-06"
+  },
+  {
+   "id": "spear-1565.meme-cooking.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 203,
+   "active_months": 23,
+   "total_calls": 9325,
+   "first_deploy": "2025-01-27"
+  },
+  {
+   "id": "craftsiberia.near",
+   "birth": "2025-12-01",
+   "last": "2026-07-31",
+   "activity": 34,
+   "active_months": 7,
+   "total_calls": 3848,
+   "first_deploy": "2025-07-09"
+  },
+  {
+   "id": "elnape.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-07-31",
+   "activity": 25,
+   "active_months": 2,
+   "total_calls": 174,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "ms11.refnft.near",
+   "birth": "2025-02-01",
+   "last": "2025-03-31",
+   "activity": 318,
+   "active_months": 2,
+   "total_calls": 331,
+   "first_deploy": "2025-02-20"
+  },
+  {
+   "id": "pegle24.gra-fun.near",
+   "birth": "2025-03-01",
+   "last": "2025-03-31",
+   "activity": 27,
+   "active_months": 1,
+   "total_calls": 186,
+   "first_deploy": "2025-03-23"
+  },
+  {
+   "id": "staysl.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 195,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "gprok.mintbase1.near",
+   "birth": "2025-07-01",
+   "last": "2026-08-31",
+   "activity": 69,
+   "active_months": 10,
+   "total_calls": 2230,
+   "first_deploy": "2025-07-18"
+  },
+  {
+   "id": "iethwbtc-iethusdc.v1.tmplr.near",
+   "birth": "2025-09-01",
+   "last": "2026-11-30",
+   "activity": 37,
+   "active_months": 15,
+   "total_calls": 15026,
+   "first_deploy": "2025-09-30"
+  },
+  {
+   "id": "438e48ed4ce6beecf503d43b9dbd3c30d516e7fd.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 15806,
+   "active_months": 23,
+   "total_calls": 425475,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "casper.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-03-31",
+   "activity": 57,
+   "active_months": 2,
+   "total_calls": 241,
+   "first_deploy": "2025-02-10"
+  },
+  {
+   "id": "d36bcb.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 29,
+   "active_months": 1,
+   "total_calls": 207,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "a.mitte-orderbook.near",
+   "birth": "2025-01-01",
+   "last": "2025-10-31",
+   "activity": 2032,
+   "active_months": 10,
+   "total_calls": 91802,
+   "first_deploy": "2025-03-31"
+  },
+  {
+   "id": "rip.aidols.near",
+   "birth": "2025-03-01",
+   "last": "2025-07-31",
+   "activity": 50,
+   "active_months": 2,
+   "total_calls": 11330,
+   "first_deploy": "2025-03-03"
+  },
+  {
+   "id": "noob.token0.near",
+   "birth": "2025-02-01",
+   "last": "2026-10-31",
+   "activity": 98,
+   "active_months": 6,
+   "total_calls": 1158,
+   "first_deploy": "2025-02-17"
+  },
+  {
+   "id": "gj.tkn.near",
+   "birth": "2026-03-01",
+   "last": "2026-11-30",
+   "activity": 177,
+   "active_months": 9,
+   "total_calls": 46078,
+   "first_deploy": "2026-03-28"
+  },
+  {
+   "id": "jumptoken.jumpfinance.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 195,
+   "active_months": 22,
+   "total_calls": 25991,
+   "first_deploy": "2025-01-21"
+  },
+  {
+   "id": "kava.claim.hot.tg",
+   "birth": "2025-03-01",
+   "last": "2025-06-30",
+   "activity": 18428,
+   "active_months": 4,
+   "total_calls": 19184,
+   "first_deploy": "2025-03-16"
+  },
+  {
+   "id": "mcat1-1718.meme-cooking.near",
+   "birth": "2025-09-01",
+   "last": "2026-10-31",
+   "activity": 119,
+   "active_months": 8,
+   "total_calls": 795,
+   "first_deploy": "2025-09-30"
+  },
+  {
+   "id": "otoken.rhealab.near",
+   "birth": "2025-09-01",
+   "last": "2026-11-30",
+   "activity": 250,
+   "active_months": 15,
+   "total_calls": 13617,
+   "first_deploy": "2025-09-02"
+  },
+  {
+   "id": "aidoge.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 40,
+   "active_months": 1,
+   "total_calls": 161,
+   "first_deploy": "2025-02-15"
+  },
+  {
+   "id": "fnear.aidols.near",
+   "birth": "2025-03-01",
+   "last": "2025-07-31",
+   "activity": 43,
+   "active_months": 3,
+   "total_calls": 16076,
+   "first_deploy": "2025-03-03"
+  },
+  {
+   "id": "ultameta.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 30,
+   "active_months": 1,
+   "total_calls": 112,
+   "first_deploy": "2025-02-20"
+  },
+  {
+   "id": "wif.dogwifnearhat.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 173,
+   "active_months": 1,
+   "total_calls": 3369,
+   "first_deploy": "2026-10-03"
+  },
+  {
+   "id": "contract.main.burrow.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 12910,
+   "active_months": 23,
+   "total_calls": 2306497,
+   "first_deploy": "2025-04-03"
+  },
+  {
+   "id": "aurora",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 18400,
+   "active_months": 23,
+   "total_calls": 15170862,
+   "first_deploy": "2025-04-08"
+  },
+  {
+   "id": "router2.latedata9580.near",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 401,
+   "active_months": 1,
+   "total_calls": 8104,
+   "first_deploy": "2026-09-27"
+  },
+  {
+   "id": "doge.neardogecoin.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 273,
+   "active_months": 1,
+   "total_calls": 16052,
+   "first_deploy": "2026-10-03"
+  },
+  {
+   "id": "trade.unrlzd.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 163,
+   "active_months": 2,
+   "total_calls": 528,
+   "first_deploy": "2026-09-30"
+  },
+  {
+   "id": "treasury-factory.near",
+   "birth": "2025-01-01",
+   "last": "2026-01-31",
+   "activity": 82,
+   "active_months": 12,
+   "total_calls": 597,
+   "first_deploy": "2025-01-10"
+  },
+  {
+   "id": "linear-protocol.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 18275,
+   "active_months": 23,
+   "total_calls": 1483741,
+   "first_deploy": "2025-04-17"
+  },
+  {
+   "id": "a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 2664,
+   "active_months": 23,
+   "total_calls": 372932,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "v.voteagora.near",
+   "birth": "2025-08-01",
+   "last": "2026-10-31",
+   "activity": 50,
+   "active_months": 6,
+   "total_calls": 246,
+   "first_deploy": "2025-08-06"
+  },
+  {
+   "id": "gfadai.aidols.near",
+   "birth": "2025-03-01",
+   "last": "2025-08-31",
+   "activity": 141,
+   "active_months": 5,
+   "total_calls": 948,
+   "first_deploy": "2025-03-17"
+  },
+  {
+   "id": "lst-pool.near",
+   "birth": "2026-04-01",
+   "last": "2026-11-30",
+   "activity": 29,
+   "active_months": 8,
+   "total_calls": 34304,
+   "first_deploy": "2026-04-17"
+  },
+  {
+   "id": "nillions-1805.meme-cooking.near",
+   "birth": "2025-11-01",
+   "last": "2026-10-31",
+   "activity": 91,
+   "active_months": 8,
+   "total_calls": 1235,
+   "first_deploy": "2025-11-06"
+  },
+  {
+   "id": "cosmickats.nft.cookon.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 231,
+   "active_months": 2,
+   "total_calls": 1447,
+   "first_deploy": "2026-10-13"
+  },
+  {
+   "id": "dbld-1732.meme-cooking.near",
+   "birth": "2025-10-01",
+   "last": "2026-10-31",
+   "activity": 50,
+   "active_months": 3,
+   "total_calls": 293,
+   "first_deploy": "2025-10-17"
+  },
+  {
+   "id": "jpmax.gra-fun.near",
+   "birth": "2025-03-01",
+   "last": "2025-03-31",
+   "activity": 26,
+   "active_months": 1,
+   "total_calls": 187,
+   "first_deploy": "2025-03-23"
+  },
+  {
+   "id": "802d89b6e511b335f05024a65161bce7efc3f311.factory.bridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 675,
+   "active_months": 23,
+   "total_calls": 16967,
+   "first_deploy": "2025-04-06"
+  },
+  {
+   "id": "frkdat-1662.meme-cooking.near",
+   "birth": "2025-06-01",
+   "last": "2026-10-31",
+   "activity": 39,
+   "active_months": 8,
+   "total_calls": 362,
+   "first_deploy": "2025-06-28"
+  },
+  {
+   "id": "yournft8.near",
+   "birth": "2025-12-01",
+   "last": "2026-01-31",
+   "activity": 44,
+   "active_months": 2,
+   "total_calls": 1605,
+   "first_deploy": "2025-11-22"
+  },
+  {
+   "id": "factory.shardsmarket.near",
+   "birth": "2026-09-01",
+   "last": "2026-11-30",
+   "activity": 186,
+   "active_months": 3,
+   "total_calls": 1526,
+   "first_deploy": "2026-09-22"
+  },
+  {
+   "id": "contract.portalbridge.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 356,
+   "active_months": 23,
+   "total_calls": 85965,
+   "first_deploy": "2026-06-17"
+  },
+  {
+   "id": "hoodon.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 3135,
+   "active_months": 1,
+   "total_calls": 9397,
+   "first_deploy": "2026-09-29"
+  },
+  {
+   "id": "around.newgoat6636.near",
+   "birth": "2026-09-01",
+   "last": "2026-11-30",
+   "activity": 437,
+   "active_months": 3,
+   "total_calls": 3374,
+   "first_deploy": "2026-09-27"
+  },
+  {
+   "id": "sendler-alchemy.near",
+   "birth": "2026-06-01",
+   "last": "2026-11-30",
+   "activity": 51,
+   "active_months": 6,
+   "total_calls": 13489,
+   "first_deploy": "2026-08-22"
+  },
+  {
+   "id": "iethwbtc-ixlmusdc.v1.tmplr.near",
+   "birth": "2026-07-01",
+   "last": "2026-11-30",
+   "activity": 139,
+   "active_months": 5,
+   "total_calls": 1678,
+   "first_deploy": "2026-07-14"
+  },
+  {
+   "id": "donor-1517.meme-cooking.near",
+   "birth": "2025-01-01",
+   "last": "2026-03-31",
+   "activity": 45,
+   "active_months": 10,
+   "total_calls": 1005,
+   "first_deploy": "2025-01-09"
+  },
+  {
+   "id": "near-protocols.near",
+   "birth": "2025-11-01",
+   "last": "2026-10-31",
+   "activity": 149,
+   "active_months": 12,
+   "total_calls": 253736,
+   "first_deploy": "2025-11-02"
+  },
+  {
+   "id": "ncn-2203.meme-cooking.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 42,
+   "active_months": 1,
+   "total_calls": 156,
+   "first_deploy": "2026-10-06"
+  },
+  {
+   "id": "nvna-1906.meme-cooking.near",
+   "birth": "2025-12-01",
+   "last": "2026-10-31",
+   "activity": 28,
+   "active_months": 6,
+   "total_calls": 287,
+   "first_deploy": "2025-12-09"
+  },
+  {
+   "id": "dcml-1819.meme-cooking.near",
+   "birth": "2025-11-01",
+   "last": "2025-11-30",
+   "activity": 26,
+   "active_months": 1,
+   "total_calls": 120,
+   "first_deploy": "2025-11-09"
+  },
+  {
+   "id": "npenguin.portalpad.near",
+   "birth": "2026-01-01",
+   "last": "2026-02-28",
+   "activity": 57,
+   "active_months": 2,
+   "total_calls": 551,
+   "first_deploy": "2026-01-24"
+  },
+  {
+   "id": "blackdragonforevernft.near",
+   "birth": "2025-01-01",
+   "last": "2025-11-30",
+   "activity": 461,
+   "active_months": 11,
+   "total_calls": 21720,
+   "first_deploy": "2025-01-02"
+  },
+  {
+   "id": "gtrump.aidols.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 162,
+   "active_months": 10,
+   "total_calls": 2219,
+   "first_deploy": "2025-01-18"
+  },
+  {
+   "id": "sender-market.near",
+   "birth": "2025-07-01",
+   "last": "2026-04-30",
+   "activity": 344,
+   "active_months": 10,
+   "total_calls": 126963,
+   "first_deploy": "2025-07-02"
+  },
+  {
+   "id": "zpkc.gra-fun.near",
+   "birth": "2025-03-01",
+   "last": "2025-03-31",
+   "activity": 30,
+   "active_months": 1,
+   "total_calls": 232,
+   "first_deploy": "2025-03-23"
+  },
+  {
+   "id": "img_8327-1591.meme-cooking.near",
+   "birth": "2025-02-01",
+   "last": "2026-10-31",
+   "activity": 348,
+   "active_months": 8,
+   "total_calls": 29569,
+   "first_deploy": "2025-02-13"
+  },
+  {
+   "id": "initiate.nearlegion.near",
+   "birth": "2025-08-01",
+   "last": "2026-11-30",
+   "activity": 6831,
+   "active_months": 16,
+   "total_calls": 35421,
+   "first_deploy": "2025-08-04"
+  },
+  {
+   "id": "ms13.refnft.near",
+   "birth": "2025-04-01",
+   "last": "2026-01-31",
+   "activity": 342,
+   "active_months": 10,
+   "total_calls": 2277,
+   "first_deploy": "2025-04-24"
+  },
+  {
+   "id": "rabbits.nfts.tg",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 377,
+   "active_months": 14,
+   "total_calls": 34232,
+   "first_deploy": "2025-10-15"
+  },
+  {
+   "id": "sooner-2173.meme-cooking.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 51,
+   "active_months": 1,
+   "total_calls": 183,
+   "first_deploy": "2026-10-03"
+  },
+  {
+   "id": "wow.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-07-31",
+   "activity": 32,
+   "active_months": 2,
+   "total_calls": 791,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "nearpaid.near",
+   "birth": "2026-09-01",
+   "last": "2026-11-30",
+   "activity": 145,
+   "active_months": 3,
+   "total_calls": 2126,
+   "first_deploy": "2026-09-27"
+  },
+  {
+   "id": "lavsqu.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 29,
+   "active_months": 1,
+   "total_calls": 234,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "nearprotolcols.near",
+   "birth": "2025-11-01",
+   "last": "2026-10-31",
+   "activity": 51,
+   "active_months": 10,
+   "total_calls": 255354,
+   "first_deploy": "2025-11-22"
+  },
+  {
+   "id": "sol.omft.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 41,
+   "active_months": 23,
+   "total_calls": 4935069,
+   "first_deploy": "2025-04-24"
+  },
+  {
+   "id": "bjambo-1684.meme-cooking.near",
+   "birth": "2025-08-01",
+   "last": "2026-10-31",
+   "activity": 32,
+   "active_months": 6,
+   "total_calls": 286,
+   "first_deploy": "2025-08-31"
+  },
+  {
+   "id": "staging-intents.near",
+   "birth": "2025-03-01",
+   "last": "2026-11-30",
+   "activity": 46,
+   "active_months": 19,
+   "total_calls": 310099,
+   "first_deploy": "2025-03-13"
+  },
+  {
+   "id": "fluff.tkn.near",
+   "birth": "2025-04-01",
+   "last": "2026-05-31",
+   "activity": 57,
+   "active_months": 14,
+   "total_calls": 5873,
+   "first_deploy": "2025-04-12"
+  },
+  {
+   "id": "enut.tkn.near",
+   "birth": "2025-05-01",
+   "last": "2025-08-31",
+   "activity": 32,
+   "active_months": 4,
+   "total_calls": 549,
+   "first_deploy": "2025-05-05"
+  },
+  {
+   "id": "vote.dao",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 63,
+   "active_months": 12,
+   "total_calls": 586,
+   "first_deploy": "2025-10-10"
+  },
+  {
+   "id": "x.paras.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 76,
+   "active_months": 17,
+   "total_calls": 2134106,
+   "first_deploy": "2026-10-11"
+  },
+  {
+   "id": "rmcomic.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 27,
+   "active_months": 1,
+   "total_calls": 211,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "grill.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 27,
+   "active_months": 1,
+   "total_calls": 123,
+   "first_deploy": "2025-02-10"
+  },
+  {
+   "id": "blackdragonbtc.tok.rune-shot.near",
+   "birth": "2025-06-01",
+   "last": "2026-10-31",
+   "activity": 816,
+   "active_months": 11,
+   "total_calls": 7968,
+   "first_deploy": "2025-06-11"
+  },
+  {
+   "id": "staking.publicailab.near",
+   "birth": "2025-08-01",
+   "last": "2026-11-30",
+   "activity": 622,
+   "active_months": 16,
+   "total_calls": 7059,
+   "first_deploy": "2025-08-15"
+  },
+  {
+   "id": "oscar_lion.nfts.tg",
+   "birth": "2025-09-01",
+   "last": "2026-10-31",
+   "activity": 228,
+   "active_months": 13,
+   "total_calls": 10537,
+   "first_deploy": "2025-09-23"
+  },
+  {
+   "id": "data-babies.nfts.tg",
+   "birth": "2025-07-01",
+   "last": "2026-11-30",
+   "activity": 2171,
+   "active_months": 17,
+   "total_calls": 62648,
+   "first_deploy": "2025-07-06"
+  },
+  {
+   "id": "signature-verifier.mmroot.near",
+   "birth": "2025-07-01",
+   "last": "2026-02-28",
+   "activity": 105,
+   "active_months": 8,
+   "total_calls": 1517,
+   "first_deploy": "2025-07-22"
+  },
+  {
+   "id": "shilen_collection.nfts.tg",
+   "birth": "2025-09-01",
+   "last": "2026-10-31",
+   "activity": 312,
+   "active_months": 14,
+   "total_calls": 11463,
+   "first_deploy": "2025-09-26"
+  },
+  {
+   "id": "dogriot.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 30,
+   "active_months": 1,
+   "total_calls": 203,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "nft-rewards.near",
+   "birth": "2025-09-01",
+   "last": "2025-10-31",
+   "activity": 93,
+   "active_months": 2,
+   "total_calls": 53300,
+   "first_deploy": "2025-09-28"
+  },
+  {
+   "id": "futured.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 28,
+   "active_months": 1,
+   "total_calls": 203,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "zefi-1825.meme-cooking.near",
+   "birth": "2025-11-01",
+   "last": "2026-10-31",
+   "activity": 58,
+   "active_months": 7,
+   "total_calls": 1296,
+   "first_deploy": "2025-11-10"
+  },
+  {
+   "id": "shadowcorp.pool.near",
+   "birth": "2025-12-01",
+   "last": "2026-10-31",
+   "activity": 25,
+   "active_months": 10,
+   "total_calls": 3809,
+   "first_deploy": "2025-12-03"
+  },
+  {
+   "id": "racoonx-1547.meme-cooking.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 83,
+   "active_months": 8,
+   "total_calls": 456,
+   "first_deploy": "2025-01-17"
+  },
+  {
+   "id": "hotd.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-10-31",
+   "activity": 29,
+   "active_months": 8,
+   "total_calls": 256,
+   "first_deploy": "2025-02-15"
+  },
+  {
+   "id": "vote-1737.meme-cooking.near",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 262,
+   "active_months": 14,
+   "total_calls": 12185,
+   "first_deploy": "2025-10-22"
+  },
+  {
+   "id": "trillion.aidols.near",
+   "birth": "2025-01-01",
+   "last": "2025-07-31",
+   "activity": 33,
+   "active_months": 6,
+   "total_calls": 245,
+   "first_deploy": "2025-01-31"
+  },
+  {
+   "id": "marketplace.paras.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 109,
+   "active_months": 12,
+   "total_calls": 3084,
+   "first_deploy": "2026-10-21"
+  },
+  {
+   "id": "firedrop.hot.tg",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 225211,
+   "active_months": 23,
+   "total_calls": 13465840,
+   "first_deploy": "2025-04-04"
+  },
+  {
+   "id": "babydragon-1781.meme-cooking.near",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 64,
+   "active_months": 6,
+   "total_calls": 576,
+   "first_deploy": "2025-10-25"
+  },
+  {
+   "id": "mark.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2026-10-31",
+   "activity": 411,
+   "active_months": 11,
+   "total_calls": 13794,
+   "first_deploy": "2025-02-10"
+  },
+  {
+   "id": "v.degenhostest.near",
+   "birth": "2026-04-01",
+   "last": "2026-10-31",
+   "activity": 40,
+   "active_months": 7,
+   "total_calls": 1191,
+   "first_deploy": "2026-05-25"
+  },
+  {
+   "id": "nealot_lucky.near",
+   "birth": "2026-04-01",
+   "last": "2026-05-31",
+   "activity": 61,
+   "active_months": 2,
+   "total_calls": 854,
+   "first_deploy": "2026-10-12"
+  },
+  {
+   "id": "herdaomx.pool.near",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 40,
+   "active_months": 14,
+   "total_calls": 4369,
+   "first_deploy": "2025-10-29"
+  },
+  {
+   "id": "drop.usmeme-v1bank.near",
+   "birth": "2025-01-01",
+   "last": "2026-01-31",
+   "activity": 57,
+   "active_months": 7,
+   "total_calls": 417,
+   "first_deploy": "2025-01-22"
+  },
+  {
+   "id": "bablo.portalpad.near",
+   "birth": "2026-02-01",
+   "last": "2026-04-30",
+   "activity": 27,
+   "active_months": 3,
+   "total_calls": 409,
+   "first_deploy": "2026-02-23"
+  },
+  {
+   "id": "sldhld.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 199,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "gaypad.j1-racing.near",
+   "birth": "2026-09-01",
+   "last": "2026-11-30",
+   "activity": 108,
+   "active_months": 3,
+   "total_calls": 3141,
+   "first_deploy": "2026-09-24"
+  },
+  {
+   "id": "qtc.omft.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 2775,
+   "active_months": 2,
+   "total_calls": 378867,
+   "first_deploy": "2026-09-28"
+  },
+  {
+   "id": "goon.aidols.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 87,
+   "active_months": 1,
+   "total_calls": 459,
+   "first_deploy": "2025-02-13"
+  },
+  {
+   "id": "registry.hos",
+   "birth": "2026-09-01",
+   "last": "2026-11-30",
+   "activity": 58,
+   "active_months": 3,
+   "total_calls": 12957,
+   "first_deploy": "2026-09-18"
+  },
+  {
+   "id": "whitedragon.tok.rune-shot.near",
+   "birth": "2025-06-01",
+   "last": "2025-06-30",
+   "activity": 36,
+   "active_months": 1,
+   "total_calls": 226,
+   "first_deploy": "2025-06-11"
+  },
+  {
+   "id": "ma.private-mainnet.ref-dev-team.near",
+   "birth": "2025-10-01",
+   "last": "2026-11-30",
+   "activity": 51,
+   "active_months": 11,
+   "total_calls": 1140,
+   "first_deploy": "2025-10-26"
+  },
+  {
+   "id": "umbrafun.near",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 41,
+   "active_months": 1,
+   "total_calls": 138,
+   "first_deploy": "2026-09-26"
+  },
+  {
+   "id": "poop.token0.near",
+   "birth": "2025-02-01",
+   "last": "2026-10-31",
+   "activity": 103,
+   "active_months": 8,
+   "total_calls": 1259,
+   "first_deploy": "2025-02-25"
+  },
+  {
+   "id": "nutpnbc.gra-fun.near",
+   "birth": "2025-04-01",
+   "last": "2025-04-30",
+   "activity": 25,
+   "active_months": 1,
+   "total_calls": 277,
+   "first_deploy": "2025-04-07"
+  },
+  {
+   "id": "prl.omft.near",
+   "birth": "2026-10-01",
+   "last": "2026-11-30",
+   "activity": 592,
+   "active_months": 2,
+   "total_calls": 46037,
+   "first_deploy": "2026-10-28"
+  },
+  {
+   "id": "spike-cb7512.rhea.meme-launchpad.near",
+   "birth": "2026-09-01",
+   "last": "2026-11-30",
+   "activity": 91,
+   "active_months": 3,
+   "total_calls": 852,
+   "first_deploy": "2026-10-22"
+  },
+  {
+   "id": "doghot-2035.meme-cooking.near",
+   "birth": "2026-09-01",
+   "last": "2026-10-31",
+   "activity": 59,
+   "active_months": 2,
+   "total_calls": 436,
+   "first_deploy": "2026-09-29"
+  },
+  {
+   "id": "contractmain2.mainfrac.near",
+   "birth": "2025-09-01",
+   "last": "2025-12-31",
+   "activity": 349,
+   "active_months": 4,
+   "total_calls": 117914,
+   "first_deploy": "2025-08-27"
+  },
+  {
+   "id": "hbtm.gra-fun.near",
+   "birth": "2025-03-01",
+   "last": "2025-03-31",
+   "activity": 27,
+   "active_months": 1,
+   "total_calls": 139,
+   "first_deploy": "2025-03-23"
+  },
+  {
+   "id": "zodd.zoddlaunchpad.near",
+   "birth": "2026-10-01",
+   "last": "2026-10-31",
+   "activity": 28,
+   "active_months": 1,
+   "total_calls": 149,
+   "first_deploy": "2026-10-04"
+  },
+  {
+   "id": "legion-1702.meme-cooking.near",
+   "birth": "2025-09-01",
+   "last": "2026-10-31",
+   "activity": 59,
+   "active_months": 11,
+   "total_calls": 546,
+   "first_deploy": "2025-09-11"
+  },
+  {
+   "id": "shit21.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-09-30",
+   "activity": 32,
+   "active_months": 2,
+   "total_calls": 227,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "lists.potlock.near",
+   "birth": "2025-01-01",
+   "last": "2026-04-30",
+   "activity": 39,
+   "active_months": 8,
+   "total_calls": 229,
+   "first_deploy": "2025-01-07"
+  },
+  {
+   "id": "nrvna-2009.meme-cooking.near",
+   "birth": "2026-09-01",
+   "last": "2026-09-30",
+   "activity": 38,
+   "active_months": 1,
+   "total_calls": 221,
+   "first_deploy": "2026-09-28"
+  },
+  {
+   "id": "sin-ft-staking.near",
+   "birth": "2025-01-01",
+   "last": "2025-09-30",
+   "activity": 30,
+   "active_months": 7,
+   "total_calls": 306,
+   "first_deploy": "2025-01-13"
+  },
+  {
+   "id": "ctexp.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 26,
+   "active_months": 1,
+   "total_calls": 207,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "neartizen.near",
+   "birth": "2026-09-01",
+   "last": "2026-10-31",
+   "activity": 126,
+   "active_months": 2,
+   "total_calls": 1618,
+   "first_deploy": "2026-09-28"
+  },
+  {
+   "id": "world.pumpopoly.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 164,
+   "active_months": 23,
+   "total_calls": 211199,
+   "first_deploy": "2025-03-13"
+  },
+  {
+   "id": "gtrump-1548.meme-cooking.near",
+   "birth": "2025-01-01",
+   "last": "2026-10-31",
+   "activity": 69,
+   "active_months": 5,
+   "total_calls": 350,
+   "first_deploy": "2025-01-18"
+  },
+  {
+   "id": "memefarm-xref-lonk.ref-labs.near",
+   "birth": "2025-01-01",
+   "last": "2026-01-31",
+   "activity": 30,
+   "active_months": 10,
+   "total_calls": 495,
+   "first_deploy": "2025-03-20"
+  },
+  {
+   "id": "gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2026-10-31",
+   "activity": 637,
+   "active_months": 12,
+   "total_calls": 128109,
+   "first_deploy": "2025-02-07"
+  },
+  {
+   "id": "nearlytrade.near",
+   "birth": "2026-09-01",
+   "last": "2026-11-30",
+   "activity": 1120,
+   "active_months": 3,
+   "total_calls": 784422,
+   "first_deploy": "2026-09-21"
+  },
+  {
+   "id": "jfpedro.gra-fun.near",
+   "birth": "2025-02-01",
+   "last": "2025-02-28",
+   "activity": 28,
+   "active_months": 1,
+   "total_calls": 210,
+   "first_deploy": "2025-02-21"
+  },
+  {
+   "id": "darai.mintbase1.near",
+   "birth": "2025-01-01",
+   "last": "2026-11-30",
+   "activity": 472,
+   "active_months": 23,
+   "total_calls": 139130,
+   "first_deploy": "2026-11-08"
+  }
+ ],
+ "census": {
+  "contracts_launched": 542,
+  "min_callers": 3,
+  "launch_min_callers": 25,
+  "start_date": "2025-01-01"
+ },
+ "observation_end": "2026-11-13",
+ "source": {
+  "table": "bigquery-public-data.crypto_near_mainnet_us.receipt_actions",
+  "scanned_gb": 656.9,
+  "fetched_at": "2026-11-13T19:43:37+00:00"
+ }
+}
