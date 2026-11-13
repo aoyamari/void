@@ -5,8 +5,8 @@ import json
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from .survival import Entity, analyse
-from .thesis import bottom_line, score
+from .survival import METHOD_VERSION, Entity, analyse
+from .thesis import births_deaths_note, bottom_line, combined_line, score
 
 ROOT = Path(__file__).resolve().parent.parent
 SENSITIVITY_GAPS = (60, 90, 180)
@@ -30,11 +30,16 @@ MARK = ("<!--void:summary-->", "<!--/void:summary-->")
 
 def static_summary(out: dict) -> str:
     """Plain-HTML summary so link previews and no-JS readers see the result."""
-    c = next(iter(out["chapters"].values()))
-    b = c["bottom_line"]
-    return (f"<p><b>Bottom line: {b['headline']}.</b> {b['meaning']} "
-            f"{c['total']:,} projects ever active, {c['alive']:,} still alive; "
-            f"{b['holds']} of {b['total']} pre-registered claims hold. {b['evidence']}</p>")
+    html = []
+    if out.get("combined"):
+        html.append(f"<p><b>Across both chapters: {out['combined']['headline']}.</b></p>")
+    for name, c in out["chapters"].items():
+        b = c["bottom_line"]
+        label = {"daos": "DAOs", "contracts": "Contracts"}[name]
+        html.append(f"<p><b>{label}: {b['headline']}.</b> {b['meaning']} "
+                    f"{c['total']:,} active, {c['alive']:,} still alive; "
+                    f"{b['holds']} of {b['total']} pre-registered claims hold. {b['evidence']}</p>")
+    return "".join(html)
 
 
 def inject_summary(index: Path, html: str) -> None:
@@ -101,20 +106,27 @@ def run(data_dir: Path, site_dir: Path, thesis_path: Path = ROOT / "thesis.json"
         out["chapters"]["daos"] = chapter(raw, end, thesis, "proposals")
         print(f"[build] DAOs: {len(raw['entities'])} entities")
 
-    bench = ROOT / "benchmarks" / "snapshot"
-    if "daos" in out["chapters"] and (bench / "results.json").exists():
-        snap = json.loads((bench / "results.json").read_text())["variants"]
-        near = json.loads((bench / "near_same_filters.json").read_text())
-        rows = []
-        for k in ("min_proposals_1", "min_proposals_2", "min_proposals_5"):
-            s, n = snap[k], near[k]
-            rows.append({"min_proposals": int(k.rsplit("_", 1)[1]),
-                         "near": {"n": n["daos"], "alive": n["alive"], "s12": n["s12"],
-                                  "median_months": n["median_months"]},
-                         "snapshot": {"n": s["spaces"], "alive": s["alive"], "s12": s["s12"],
-                                      "median_months": s["median_months"]}})
-        out["chapters"]["daos"]["benchmark"] = {"name": "Ethereum and EVM chains, off-chain voting",
-                                                "rows": rows}
+    bench = ROOT / "benchmarks" / "snapshot" / "results.json"
+    if "daos" in out["chapters"] and bench.exists():
+        snap = json.loads(bench.read_text())
+        if snap.get("method_version") == METHOD_VERSION:
+            raw = json.loads(daos.read_text())
+            end = date.fromisoformat(snap["observation_end"])
+            rows = []
+            for minp in (1, 2, 5):
+                ents = [e for e in load_entities(raw["entities"]) if e.activity >= minp]
+                a = analyse(ents, end, thesis.get("death_gap_days", 90))
+                sv = snap["variants"][f"min_proposals_{minp}"]
+                rows.append({"min_proposals": minp,
+                             "near": {"n": a["total"], "alive": a["alive"], "s12": a["overall"]["s12"],
+                                      "median_months": a["overall"]["median_months"]},
+                             "snapshot": {"n": sv["spaces"], "alive": sv["alive"], "s12": sv["s12"],
+                                          "median_months": sv["median_months"]}})
+            out["chapters"]["daos"]["benchmark"] = {"name": "Ethereum and EVM chains, off-chain voting",
+                                                    "rows": rows}
+        else:
+            print("[build] Snapshot benchmark skipped: computed with an older survival method; "
+                  "re-run benchmarks/snapshot/analyse.py")
 
     contracts = data_dir / "contracts.json"
     if contracts.exists():
@@ -124,6 +136,12 @@ def run(data_dir: Path, site_dir: Path, thesis_path: Path = ROOT / "thesis.json"
         out["chapters"]["contracts"]["breakdown"] = breakdown(
             drop_left_truncated(raw)["entities"], end, thesis.get("death_gap_days", 90))
         print(f"[build] contracts: {len(raw['entities'])} entities")
+
+    for ch in out["chapters"].values():
+        ch["births_deaths_note"] = births_deaths_note(ch["births_deaths"])
+    named = {{"daos": "DAOs", "contracts": "Contracts"}[k]: v for k, v in out["chapters"].items()}
+    out["combined"] = combined_line(named)
+    out["method_version"] = METHOD_VERSION
 
     if not out["chapters"]:
         raise SystemExit("no data yet: run `python -m void dao` (and/or `contracts`) first")

@@ -78,11 +78,12 @@ a{color:var(--s1)}
   <h1>VOID</h1>
   <p class="lede">Everyone counts what launches on NEAR. VOID counts what survives.</p>
   <p class="meta" id="meta">Interactive charts need JavaScript. Summary of the latest build:</p>
-  <div class="sub" id="static"><!--void:summary--><p><b>Bottom line: Improving, not yet compounding.</b> The direction is right but the base is thin: this supports a growth bet on NEAR, not yet a durability bet. 1,437 projects ever active, 337 still alive; 2 of 4 pre-registered claims hold. Holds: Newer cohorts survive longer (2025 cohort 40% vs 2021 cohort 33% alive at 12 months); Births outpace deaths (251 born vs 204 died between 2025-08-15 and 2026-08-15). Killed: Not just a graveyard (53 of 998 (5.3%) still alive; kill line 10%); Not one-hit wonders (median lifetime 5 months; kill line 6 months).</p><!--/void:summary--></div>
+  <div class="sub" id="static"><!--void:summary--><p><b>Across both chapters: A growth bet, not yet a durability bet.</b></p><p><b>DAOs: Improving, not yet compounding.</b> The direction is right but the base is thin: this supports a growth bet on NEAR, not yet a durability bet. 1,437 active, 337 still alive; 2 of 4 pre-registered claims hold. Holds: Newer cohorts survive longer (2025 cohort 38% vs 2021 cohort 33% alive at 12 months); Births outpace deaths (251 born vs 204 died between 2025-08-15 and 2026-08-15). Killed: Not just a graveyard (53 of 998 (5.3%) still alive; kill line 10%); Not one-hit wonders (median lifetime 3 months; kill line 6 months).</p><p><b>Contracts: Durable so far, direction not yet measurable.</b> What exists is sticky, but there is not enough history to tell whether newer cohorts do better. 424 active, 240 still alive; 3 of 4 pre-registered claims hold. Holds: Not just a graveyard (133 of 310 (42.9%) still alive; kill line 10%); Births outpace deaths (117 born vs 61 died between 2025-08-15 and 2026-08-15); Not one-hit wonders (median lifetime 9 months; kill line 6 months).</p><!--/void:summary--></div>
 
   <h2>The thesis</h2>
   <p class="sub" id="thesis"></p>
 
+  <div id="combined"></div>
   <div class="tabs" role="tablist" id="tabs"></div>
   <div id="chapter"></div>
 
@@ -120,6 +121,10 @@ function render(d){
   document.getElementById('static').style.display='none';
   document.getElementById('meta').textContent =
     `Built ${d.built_at.replace('T',' ').replace('+00:00',' UTC')} · thesis pre-registered ${d.thesis.written} · a project is dead after ${d.thesis.death_gap_days} days of silence`;
+  if (d.combined) document.getElementById('combined').innerHTML = `<div class="card bl" style="margin-top:24px">
+    <div class="k">Across both chapters · a thesis scorecard, not financial advice</div>
+    <h3>${esc(d.combined.headline)}</h3>
+    <ul>${d.combined.parts.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>`;
   const keys = Object.keys(d.chapters);
   const tabs = document.getElementById('tabs');
   keys.forEach((k,i)=>{
@@ -202,6 +207,7 @@ function chapter(key, c, d){
   <h2>Born vs buried</h2>
   <p class="sub">New ${meta.noun} per quarter against ${meta.noun} whose last activity fell in that quarter. Deaths in the latest ${c.death_gap_days} days can't be known yet and are shown faded.</p>
   <div class="card chart" id="bd"></div>
+  ${c.births_deaths_note?`<p class="sub" style="margin-top:8px">${esc(c.births_deaths_note)}</p>`:''}
 
   <div class="two" style="margin-top:56px">
     <div><h2 style="margin-top:0">Tombstones</h2><p class="sub">The busiest ${meta.noun} that went quiet.</p><div class="card">${table(c.tombstones, meta)}</div></div>
@@ -299,7 +305,7 @@ function bdChart(host, rows){
 
 function method(key, c){
   const s=c.source||{}, cen=c.census||{};
-  const base = `<p><b>Alive vs dead.</b> A project is <i>dead</i> once ${c.death_gap_days} days pass with no activity. Its birth is its first observed activity. Projects still alive are right-censored in the survival curves, so young cohorts are never counted as dead early.</p>`;
+  const base = `<p><b>Alive vs dead.</b> A project is <i>dead</i> once ${c.death_gap_days} days pass with no activity. Its birth is its first observed activity. A death only becomes visible ${c.death_gap_days} days after the last activity, so survival curves stop ${c.death_gap_days} days before the data ends and living projects are censored there; otherwise recent cohorts would look healthier than they are. The overall curve pools all cohorts, so it can differ from any single cohort's curve.</p>`;
   const per = key==='daos'
     ? `<p><b>Source.</b> Every DAO listed by the <code>${esc(s.factory||'sputnik-dao.near')}</code> factory, and every proposal's submission time, read with plain RPC view calls (<code>${esc(s.rpc||'')}</code>). Activity = a proposal submitted. DAOs with zero proposals are counted as <i>stillborn</i>. Proposals filed by onboarding sponsor accounts (${esc((cen.automated_proposers||[]).join(', '))}) are not counted as activity, and ${fmt(cen.automated_only)} DAOs that only ever saw those are excluded; ${fmt(cen.unreadable)} DAOs on incompatible contract versions could not be read.</p>`
     : `<p><b>Window.</b> Only activity since <b>${esc(cen.window_start||cen.start_date||'')}</b> was scanned (BigQuery free tier). ${fmt(cen.preexisting_excluded)} contracts were dropped as older than the window: either already in use in its first month, or in use before their first in-window deploy (an upgrade). Contracts born before the window that were quiet at its start and came back later can still slip in, which flatters survival. Treat this chapter as short-history evidence.</p>

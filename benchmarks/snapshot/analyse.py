@@ -17,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
-from void.survival import Entity, analyse  # noqa: E402
+from void.survival import METHOD_VERSION, Entity, analyse  # noqa: E402
 from void.thesis import score  # noqa: E402
 
 HERE = Path(__file__).resolve().parent
@@ -38,7 +38,7 @@ def d(t):
     return datetime.fromtimestamp(t, timezone.utc).date()
 
 
-out = {"observation_end": END.isoformat(), "flagged_proposals_excluded": flagged,
+out = {"method_version": METHOD_VERSION, "observation_end": END.isoformat(), "flagged_proposals_excluded": flagged,
        "total_proposals_kept": sum(len(v) for v in spaces.values()), "variants": {}}
 for minp in (1, 2, 5):
     ents = [Entity(s, d(min(ts)), d(max(ts)), len(ts)) for s, ts in spaces.items()

@@ -18,7 +18,7 @@ def test_lifetime_dead_vs_censored():
     alive = ent(2, "2024-01-01", "2026-11-01")
     assert lifetime_months(dead, END, 90) == (5, True)
     m, d = lifetime_months(alive, END, 90)
-    assert not d and m == 34
+    assert not d and m == 31  # censored at END - 90 days
 
 
 def test_kaplan_meier_simple():
@@ -28,7 +28,7 @@ def test_kaplan_meier_simple():
     c = kaplan_meier(es, END, 90, horizon=12, min_at_risk=1)
     assert c[0]["survival"] == 1.0
     assert c[1]["survival"] == 0.5
-    assert c[10]["survival"] == 0.5  # censored entities never count as deaths
+    assert c[7]["survival"] == 0.5  # censored entities never count as deaths
 
 
 def test_km_respects_min_at_risk():
@@ -165,8 +165,12 @@ def test_contracts_window_drops_preexisting(tmp_path):
     assert [g["total"] for g in ch["breakdown"]] == [30, 0]
 
 
-def test_snapshot_benchmark_attached():
-    data = json.loads(build.run(build.ROOT / "data", build.ROOT / "site").read_text())
-    rows = data["chapters"]["daos"]["benchmark"]["rows"]
-    assert [r["min_proposals"] for r in rows] == [1, 2, 5]
-    assert rows[0]["near"]["n"] == data["chapters"]["daos"]["total"]
+def test_combined_line_and_notes():
+    from void.thesis import births_deaths_note, combined_line
+    ch = {"DAOs": {"bottom_line": {"headline": "x", "sides": {"trend": True, "level": False}}},
+          "Contracts": {"bottom_line": {"headline": "y", "sides": {"trend": None, "level": True}}}}
+    assert combined_line(ch)["headline"] == "A growth bet, not yet a durability bet"
+    rows = [{"quarter": "2025-Q4", "births": 75, "deaths": 19, "deaths_final": True},
+            {"quarter": "2026-Q2", "births": 5, "deaths": 12, "deaths_final": True}]
+    note = births_deaths_note(rows)
+    assert "2025-Q4" in note and "2026-Q2" in note

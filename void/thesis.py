@@ -112,6 +112,7 @@ def bottom_line(claims: list[dict]) -> dict:
         return True
 
     trend, level = side(TREND), side(LEVEL)
+    sides = {"trend": trend, "level": level}
     headline, meaning = VERDICTS[(trend, level)]
     holds = [c for c in claims if c["status"] == "holds"]
     killed = [c for c in claims if c["status"] == "killed"]
@@ -120,7 +121,54 @@ def bottom_line(claims: list[dict]) -> dict:
         parts.append("Holds: " + "; ".join(f"{c['title']} ({c['evidence']})" for c in holds) + ".")
     if killed:
         parts.append("Killed: " + "; ".join(f"{c['title']} ({c['evidence']})" for c in killed) + ".")
-    return {"headline": headline, "meaning": meaning, "evidence": " ".join(parts),
+    return {"headline": headline, "meaning": meaning, "evidence": " ".join(parts), "sides": sides,
             "holds": len(holds), "killed": len(killed), "total": len(claims),
             "upgrade_if": [c["title"] for c in claims if c["status"] != "holds"],
             "downgrade_if": [c["kill"] for c in holds]}
+
+
+def combined_line(chapters: dict) -> dict | None:
+    """One read across chapters, derived only from each chapter's sides."""
+    if len(chapters) < 2:
+        return None
+    trends = [c["bottom_line"]["sides"]["trend"] for c in chapters.values()]
+    levels = [c["bottom_line"]["sides"]["level"] for c in chapters.values()]
+    trend = False if False in trends else (True if True in trends else None)
+    level = (True if all(x is True for x in levels) else
+             False if all(x is False for x in levels) else "mixed")
+    table = {
+        (True, True): "Compounding: NEAR keeps what it builds",
+        (True, "mixed"): "A growth bet, not yet a durability bet",
+        (True, False): "A growth bet, not yet a durability bet",
+        (None, True): "Durable so far; too early to call the direction",
+        (None, "mixed"): "Mixed retention; too early to call the direction",
+        (None, False): "Weak retention; too early to call the direction",
+        (False, True): "Durable but stalling",
+        (False, "mixed"): "Mixed retention, and the direction is worsening",
+        (False, False): "Thesis killed: NEAR is renting builders",
+    }
+    word = {True: "improving", None: "not yet measurable", False: "worsening"}
+    lvl = {True: "durable", None: "not yet measurable", False: "fragile"}
+    parts = [f"{name}: {lvl[c['bottom_line']['sides']['level']]}, direction "
+             f"{word[c['bottom_line']['sides']['trend']]} ({c['bottom_line']['headline']})"
+             for name, c in chapters.items()]
+    return {"headline": table[(trend, level)], "parts": parts}
+
+
+def births_deaths_note(rows: list[dict]) -> str:
+    final = [r for r in rows if r["deaths_final"]]
+    if not final:
+        return ""
+    net = sum(r["births"] - r["deaths"] for r in final)
+    best = max(final, key=lambda r: r["births"] - r["deaths"])
+    worse = [r["quarter"] for r in final if r["deaths"] > r["births"]]
+    out = []
+    if net > 0 and best["births"] - best["deaths"] > net / 2:
+        out.append(f"Over half of the net surplus comes from one quarter, {best['quarter']} "
+                   f"({best['births']} born vs {best['deaths']} died).")
+    if len(worse) > 3:
+        out.append(f"More died than were born in {len(worse)} of {len(final)} quarters "
+                   f"with final data, most recently {worse[-1]}.")
+    elif worse:
+        out.append("More died than were born in " + ", ".join(worse) + ".")
+    return " ".join(out)

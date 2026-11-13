@@ -28,9 +28,15 @@ def is_dead(e: Entity, end: date, gap_days: int) -> bool:
 
 
 def lifetime_months(e: Entity, end: date, gap_days: int) -> tuple[int, bool]:
-    """Return (whole months observed, died?)."""
+    """Return (whole months observed, died?).
+
+    A death only becomes visible `gap_days` after the last activity, so a
+    project that went quiet last month cannot be called dead yet. Living
+    projects are therefore censored at end - gap_days, the last date on which
+    every death is already observable; otherwise recent cohorts would look
+    healthier than they are."""
     dead = is_dead(e, end, gap_days)
-    stop = e.last if dead else end
+    stop = e.last if dead else end - timedelta(days=gap_days)
     months = int(max(0, (stop - e.birth).days) // DAYS_PER_MONTH)
     return months, dead
 
@@ -42,7 +48,8 @@ def kaplan_meier(entities: Iterable[Entity], end: date, gap_days: int,
     Points are dropped once fewer than `min_at_risk` entities are still under
     observation, so the tail of a young cohort is never reported from noise.
     """
-    obs = [lifetime_months(e, end, gap_days) for e in entities]
+    horizon_start = end - timedelta(days=gap_days)
+    obs = [lifetime_months(e, end, gap_days) for e in entities if e.birth < horizon_start]
     if not obs:
         return []
     deaths: dict[int, int] = {}
@@ -145,3 +152,6 @@ def analyse(entities: list[Entity], end: date, gap_days: int = 90,
 def _row(e: Entity) -> dict:
     return {"id": e.id, "born": e.birth.isoformat(), "last": e.last.isoformat(),
             "activity": e.activity}
+
+
+METHOD_VERSION = 2  # 2 = living projects censored at end - gap (death-reporting lag)

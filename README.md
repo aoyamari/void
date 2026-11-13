@@ -40,15 +40,7 @@ Each claim resolves to **holds**, **killed**, or **not enough data**, with the n
 
 ## NEAR vs Snapshot
 
-`benchmarks/snapshot/` runs the exact same survival and thesis code on every Snapshot space (424k proposals from the public hub, flagged proposals removed, same 90-day rule, same observation date).
-
-| DAOs with at least | NEAR: survive year one | NEAR: median life | Snapshot: survive year one | Snapshot: median life |
-|---|---|---|---|---|
-| 1 proposal | 28% | 5 mo | 5% | 1 mo |
-| 2 proposals | 31% | 6 mo | 12% | 1 mo |
-| 5 proposals | 38% | 9 mo | 27% | 10 mo |
-
-Snapshot is free and off-chain, so it carries far more spam; the 5-proposal row is the fairest. There, NEAR DAOs are more likely to survive their first year, while Snapshot DAOs that do survive live slightly longer.
+`benchmarks/snapshot/` runs the exact same survival and thesis code on every Snapshot space (424k proposals from the public hub, flagged proposals removed, same 90-day rule, same observation date). The table is on the dashboard's DAOs tab. Snapshot is free and off-chain, so it carries far more spam; the 5-proposal row is the fairest comparison. Reproduce with `python benchmarks/snapshot/fetch_snapshot.py` then `python benchmarks/snapshot/analyse.py`.
 
 ## What it measures
 
@@ -70,7 +62,7 @@ From Google's public NEAR dataset (`bigquery-public-data.crypto_near_mainnet_us.
 
 ### Survival math
 - A project is **dead** after **90 days** of silence (configurable in `thesis.json`)
-- Survival curves use **Kaplan–Meier** with right-censoring: a project that is still alive counts as "survived at least this long", never as dead. That keeps young cohorts from looking worse than they are.
+- Survival curves use **Kaplan–Meier** with right-censoring: a project that is still alive counts as "survived at least this long", never as dead. Because a death only becomes visible 90 days after the last activity, living projects are censored 90 days before the data ends; otherwise recent cohorts would look healthier than they are. (Fixed on 2026-11-14; it lowered the overall medians but changed no verdict.)
 - Cohort = year of first activity. Curves stop once fewer than 10 projects remain under observation.
 - **Born vs buried**: births and deaths per quarter. Deaths inside the last 90 days are shown as not yet final.
 
