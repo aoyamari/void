@@ -34,7 +34,9 @@ Each claim resolves to **holds**, **killed**, or **not enough data**, with the n
 | killed | holds | Durable but stalling |
 | killed | killed | Thesis killed: NEAR is renting builders |
 
-**Why these lines.** 10% alive is the common rule of thumb for how many startups last. 6 months is two death windows. 90 days is one quarter of silence. The rationale for each line is in `thesis.json` (added after the first run; the thresholds themselves were not changed). The dashboard also re-scores every claim with a 60-day and a 180-day death window, so you can see whether the verdict depends on that choice.
+**Why these lines.** 10% alive is a deliberately lenient bar: about a third of US business establishments are still operating after ten years (BLS). 6 months is two death windows. 90 days is one quarter of silence. The rationale for each line is in `thesis.json` (added after the first run; the thresholds themselves were not changed). The dashboard also re-scores every claim with a 60-day and a 180-day death window, so you can see whether the verdict depends on that choice.
+
+**Benchmark.** For context, roughly four in five new US business establishments survive their first year and about half survive five years ([BLS Business Employment Dynamics](https://www.bls.gov/opub/ted/2024/34-7-percent-of-business-establishments-born-in-2013-were-still-operating-in-2023.htm)). This is not like-for-like: a DAO costs a few NEAR to create and a business costs far more, so DAOs should die faster. It shows the size of the gap, not a target.
 
 ## What it measures
 

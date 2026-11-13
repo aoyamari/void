@@ -100,9 +100,9 @@ def bottom_line(claims: list[dict]) -> dict:
     killed = [c for c in claims if c["status"] == "killed"]
     parts = []
     if holds:
-        parts.append("Holds: " + "; ".join(c["evidence"] for c in holds) + ".")
+        parts.append("Holds: " + "; ".join(f"{c['title']} ({c['evidence']})" for c in holds) + ".")
     if killed:
-        parts.append("Killed: " + "; ".join(c["evidence"] for c in killed) + ".")
+        parts.append("Killed: " + "; ".join(f"{c['title']} ({c['evidence']})" for c in killed) + ".")
     return {"headline": headline, "meaning": meaning, "evidence": " ".join(parts),
             "holds": len(holds), "killed": len(killed), "total": len(claims),
             "upgrade_if": [c["title"] for c in killed],

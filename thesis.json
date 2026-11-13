@@ -24,7 +24,7 @@
         "min_age_months": 12,
         "threshold": 0.1
       },
-      "why": "One in ten is the common rule of thumb for how many startups last. Below that, almost nothing built more than a year ago is still in use."
+      "why": "A deliberately lenient bar. For reference, about a third of US business establishments are still operating ten years after opening (BLS)."
     },
     {
       "id": "births-outpace-deaths",
