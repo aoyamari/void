@@ -1,1 +1,0 @@
-{"dao": "fungible-strategy.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "dgetsylver.near", "kind": "ChangeConfig", "status": "Approved", "t": 1659089164854469975}, {"id": 1, "proposer": "dgetsylver.near", "kind": "Transfer", "status": "InProgress", "t": 1709589305083358618}], "last_proposal_id": 2}

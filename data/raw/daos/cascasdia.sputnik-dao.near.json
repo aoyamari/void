@@ -1,1 +1,0 @@
-{"dao": "cascasdia.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "prisma.near", "kind": "ChangeConfig", "status": "Rejected", "t": 1643847894372113785}, {"id": 1, "proposer": "prisma.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1646859474164946667}], "last_proposal_id": 2}

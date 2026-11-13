@@ -1,1 +1,0 @@
-{"dao": "skyward.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "spensa.near", "kind": "FunctionCall", "status": "Approved", "t": 1667671015681212086}, {"id": 1, "proposer": "spensa.near", "kind": "Transfer", "status": "Approved", "t": 1667671121012358063}], "last_proposal_id": 2}

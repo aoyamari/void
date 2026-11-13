@@ -1,1 +1,0 @@
-{"dao": "near-my-city.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "designguild.near", "kind": "Transfer", "status": "Rejected", "t": 1641407818493822429}, {"id": 2, "proposer": "designguild.near", "kind": "ChangeConfig", "status": "Approved", "t": 1641409863360722176}], "last_proposal_id": 3}

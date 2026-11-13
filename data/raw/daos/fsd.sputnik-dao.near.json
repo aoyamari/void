@@ -1,1 +1,0 @@
-{"dao": "fsd.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "rin.akaia.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1677334533062581187}, {"id": 1, "proposer": "rin.akaia.near", "kind": "RemoveMemberFromRole", "status": "Approved", "t": 1677334612260573403}], "last_proposal_id": 2}

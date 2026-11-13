@@ -1,1 +1,0 @@
-{"dao": "tester-123.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "iamtobi.near", "kind": "FunctionCall", "status": "Approved", "t": 1786005028533205166}, {"id": 1, "proposer": "iamtobi.near", "kind": "FunctionCall", "status": "Approved", "t": 1790872583975048603}], "last_proposal_id": 2}

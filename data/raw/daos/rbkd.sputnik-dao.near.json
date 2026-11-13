@@ -1,1 +1,0 @@
-{"dao": "rbkd.sputnik-dao.near", "proposals": [{"id": 1, "proposer": "nikos.near", "kind": "Transfer", "status": "InProgress", "t": 1703229421706429829}, {"id": 2, "proposer": "nikos.near", "kind": "Transfer", "status": "Approved", "t": 1703230055988499332}], "last_proposal_id": 3}

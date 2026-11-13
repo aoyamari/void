@@ -1,1 +1,0 @@
-{"dao": "vuk.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "xorg.near", "kind": "ChangePolicy", "status": "Expired", "t": 1649955549188624451}, {"id": 1, "proposer": "xorg.near", "kind": "Transfer", "status": "Expired", "t": 1652085941215517740}], "last_proposal_id": 2}

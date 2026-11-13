@@ -1,1 +1,0 @@
-{"dao": "meme.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "memedao.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1637562752058449330}, {"id": 1, "proposer": "memedao.near", "kind": "RemoveMemberFromRole", "status": "InProgress", "t": 1637566220565897174}], "last_proposal_id": 2}

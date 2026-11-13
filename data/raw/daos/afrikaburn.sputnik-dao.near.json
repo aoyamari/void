@@ -1,1 +1,0 @@
-{"dao": "afrikaburn.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "afrikaburn.near", "kind": "Transfer", "status": "Approved", "t": 1635874382229506579}, {"id": 1, "proposer": "afrikaburn.near", "kind": "AddMemberToRole", "status": "InProgress", "t": 1645537339118398668}], "last_proposal_id": 2}

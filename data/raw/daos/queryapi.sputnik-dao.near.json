@@ -1,1 +1,0 @@
-{"dao": "queryapi.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "roshaan.near", "kind": "FunctionCall", "status": "InProgress", "t": 1700108873503438444}, {"id": 1, "proposer": "roshaan.near", "kind": "Transfer", "status": "InProgress", "t": 1701900180735605396}], "last_proposal_id": 2}

@@ -1,1 +1,0 @@
-{"dao": "qa-bug1024-sim5.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "sponsor-staging.trezu.near", "kind": "FunctionCall", "status": "Approved", "t": 1783081635342788930}, {"id": 1, "proposer": "sponsor-staging.trezu.near", "kind": "FunctionCall", "status": "InProgress", "t": 1783081643068823892}], "last_proposal_id": 2}

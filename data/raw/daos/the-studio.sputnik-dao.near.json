@@ -1,1 +1,0 @@
-{"dao": "the-studio.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "rebecca.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1636562306923872082}, {"id": 1, "proposer": "rebecca.near", "kind": "RemoveMemberFromRole", "status": "Approved", "t": 1636562554343702542}], "last_proposal_id": 2}

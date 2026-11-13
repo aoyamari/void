@@ -1,1 +1,0 @@
-{"dao": "yancce.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "yancce.near", "kind": "Vote", "status": "InProgress", "t": 1709814498882607208}, {"id": 1, "proposer": "yancce.near", "kind": "ChangePolicyUpdateParameters", "status": "InProgress", "t": 1710186531941705690}], "last_proposal_id": 2}

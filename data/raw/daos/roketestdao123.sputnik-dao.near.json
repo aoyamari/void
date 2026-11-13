@@ -1,1 +1,0 @@
-{"dao": "roketestdao123.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "nf-payments1.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1666258482776479658}, {"id": 1, "proposer": "nf-payments1.near", "kind": "FunctionCall", "status": "Approved", "t": 1666259165830285572}], "last_proposal_id": 2}
