@@ -32,6 +32,7 @@ Every Sputnik DAO is created by the `sputnik-dao.near` factory. VOID lists them 
 
 - **Birth** = first proposal · **last seen** = latest proposal · **activity** = proposal count
 - **Stillborn** = DAOs created that never received a single proposal
+- **Sponsor bots are not activity.** Proposals filed by onboarding sponsor accounts (`sponsor.trezu.near`, `sponsor-staging.trezu.near`) are ignored. In 2026 these accounts filed the first proposal of 378 new DAOs; 223 DAOs never saw a single human proposal and are excluded.
 - Raw proposals are cached in `data/raw/`, so daily re-runs only fetch what's new
 
 ### Chapter 2: the contract graveyard (BigQuery, optional)
@@ -56,6 +57,7 @@ pip install -r requirements.txt
 
 python -m void dao --limit 50   # smoke test on 50 DAOs
 python -m void dao              # all DAOs (first run takes a while, then it is incremental)
+python -m void rescore          # re-apply filters to the cache, no RPC
 python -m void build            # survival + thesis verdicts -> site/data.json
 python -m http.server -d site   # open http://localhost:8000
 ```

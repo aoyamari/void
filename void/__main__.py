@@ -37,6 +37,7 @@ def main() -> None:
     c.add_argument("--check-schema", action="store_true")
 
     sub.add_parser("build", help="build site/data.json")
+    sub.add_parser("rescore", help="recompute data/daos.json from data/raw cache (no RPC)")
     a = sub.add_parser("all", help="dao + build")
     a.add_argument("--rpc", default=None)
 
@@ -51,6 +52,8 @@ def main() -> None:
             return
         contracts.run(args.data, args.start_date, args.min_callers, args.launch_min_callers,
                       args.max_gb, args.dry_run)
+    elif args.cmd == "rescore":
+        dao.rescore(args.data)
     elif args.cmd == "build":
         build.run(args.data, args.site)
     elif args.cmd == "all":

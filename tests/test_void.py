@@ -92,7 +92,8 @@ def test_dao_pipeline(tmp_path):
     recs = [dao.fetch_dao(rpc, n, tmp_path) for n in names]
     out = dao.to_entity_rows(recs)
     assert out["census"] == {"daos_created": 3, "stillborn": 1, "unreadable": 1,
-                             "below_threshold": 0, "min_proposals": 1}
+                             "below_threshold": 0, "automated_only": 0,
+                             "automated_proposers": sorted(dao.AUTOMATED_PROPOSERS), "min_proposals": 1}
     row = out["entities"][0]
     assert row["birth"] == "2022-01-01" and row["activity"] == 2
     # cache makes the second run incremental
@@ -111,3 +112,16 @@ def test_build_end_to_end(tmp_path):
     ch = data["chapters"]["daos"]
     assert ch["total"] == 40 and ch["alive"] == 20
     assert len(ch["claims"]) == 4
+
+
+def test_automated_proposers_are_not_activity():
+    recs = [{"dao": "x", "proposals": [{"id": 0, "proposer": "sponsor.trezu.near", "kind": "FunctionCall",
+                                        "status": "Approved", "t": 1_700_000_000_000_000_000}]},
+            {"dao": "y", "proposals": [{"id": 0, "proposer": "sponsor.trezu.near", "kind": "FunctionCall",
+                                        "status": "Approved", "t": 1_700_000_000_000_000_000},
+                                       {"id": 1, "proposer": "alice.near", "kind": "Transfer",
+                                        "status": "Approved", "t": 1_710_000_000_000_000_000}]}]
+    out = dao.to_entity_rows(recs)
+    assert out["census"]["automated_only"] == 1
+    assert len(out["entities"]) == 1 and out["entities"][0]["activity"] == 1
+    assert out["entities"][0]["birth"] == "2024-03-09"

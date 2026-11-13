@@ -74,16 +74,26 @@ def ns_to_date(ns: int):
     return datetime.fromtimestamp(ns / 1e9, tz=timezone.utc).date()
 
 
-def to_entity_rows(records: list[dict], min_proposals: int = 1) -> dict:
+# Accounts that file proposals on a DAO's behalf (onboarding / sponsor bots).
+# Their proposals are not organic governance, so they don't count as activity.
+AUTOMATED_PROPOSERS = {"sponsor.trezu.near", "sponsor-staging.trezu.near"}
+
+
+def to_entity_rows(records: list[dict], min_proposals: int = 1,
+                   automated: set[str] = AUTOMATED_PROPOSERS) -> dict:
     """Turn cached DAO records into entity rows + census counts."""
-    rows, stillborn, unreadable, below = [], 0, 0, 0
+    rows, stillborn, unreadable, below, bot_only = [], 0, 0, 0, 0
     for rec in records:
         if rec.get("error"):
             unreadable += 1
             continue
-        props = rec.get("proposals", [])
-        if not props:
+        allp = rec.get("proposals", [])
+        if not allp:
             stillborn += 1
+            continue
+        props = [p for p in allp if p.get("proposer") not in automated]
+        if not props:
+            bot_only += 1
             continue
         if len(props) < min_proposals:
             below += 1
@@ -100,6 +110,7 @@ def to_entity_rows(records: list[dict], min_proposals: int = 1) -> dict:
     return {"entities": rows, "census": {
         "daos_created": len(records), "stillborn": stillborn,
         "unreadable": unreadable, "below_threshold": below,
+        "automated_only": bot_only, "automated_proposers": sorted(automated),
         "min_proposals": min_proposals}}
 
 
@@ -123,6 +134,7 @@ def run(data_dir: Path, rpc_url: str | None = None, factory: str = FACTORY,
             if i % 200 == 0:
                 print(f"[dao] {i}/{len(daos)}")
     out = to_entity_rows(records, min_proposals)
+    out["census"]["daos_created"] = len(daos)
     out["source"] = {"factory": factory, "rpc": rpc.url,
                      "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
     path = data_dir / "daos.json"
@@ -130,4 +142,23 @@ def run(data_dir: Path, rpc_url: str | None = None, factory: str = FACTORY,
     c = out["census"]
     print(f"[dao] {len(out['entities'])} dated, {c['stillborn']} stillborn, "
           f"{c['unreadable']} unreadable -> {path}")
+    return path
+
+
+def rescore(data_dir: Path) -> Path:
+    """Rebuild data/daos.json from the raw cache without any RPC calls."""
+    path = data_dir / "daos.json"
+    prev = json.loads(path.read_text()) if path.exists() else {}
+    cache = data_dir / "raw" / "daos"
+    records = [json.loads(f.read_text()) for f in sorted(cache.glob("*.json"))]
+    out = to_entity_rows(records)
+    created = prev.get("census", {}).get("daos_created", len(records))
+    # DAOs whose fetch failed were never cached; keep them counted as unreadable
+    out["census"]["unreadable"] += max(0, created - len(records))
+    out["census"]["daos_created"] = created
+    out["source"] = prev.get("source", {})
+    path.write_text(json.dumps(out, indent=1))
+    c = out["census"]
+    print(f"[rescore] {len(out['entities'])} dated, {c['stillborn']} stillborn, "
+          f"{c['automated_only']} automated-only, {c['unreadable']} unreadable")
     return path

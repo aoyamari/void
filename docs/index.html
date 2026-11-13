@@ -119,6 +119,8 @@ function chapter(key, c, d){
   const census = c.census||{};
   const stillborn = key==='daos' && census.daos_created
     ? `<div class="card stat"><div class="v">${pct(census.stillborn/census.daos_created)}</div><div class="l">stillborn: created, never used (${fmt(census.stillborn)} of ${fmt(census.daos_created)})</div></div>` : '';
+  const botOnly = key==='daos' && census.automated_only
+    ? `<div class="card stat"><div class="v">${fmt(census.automated_only)}</div><div class="l">only ever touched by sponsor bots, excluded</div></div>` : '';
   root.innerHTML = `
   <div class="stats">
     <div class="card stat"><div class="v">${fmt(c.total)}</div><div class="l">${meta.what} ever active</div></div>
@@ -126,6 +128,7 @@ function chapter(key, c, d){
     <div class="card stat"><div class="v">${pct(c.overall.s12)}</div><div class="l">survive their first year</div></div>
     <div class="card stat"><div class="v">${c.overall.median_months==null?'>'+(c.overall.curve.at(-1)?.month??0):c.overall.median_months} mo</div><div class="l">median lifetime</div></div>
     ${stillborn}
+    ${botOnly}
   </div>
 
   <h2>Verdict</h2>
@@ -245,7 +248,7 @@ function method(key, c){
   const s=c.source||{}, cen=c.census||{};
   const base = `<p><b>Alive vs dead.</b> A project is <i>dead</i> once ${c.death_gap_days} days pass with no activity. Its birth is its first observed activity. Projects still alive are right-censored in the survival curves, so young cohorts are never counted as dead early.</p>`;
   const per = key==='daos'
-    ? `<p><b>Source.</b> Every DAO listed by the <code>${esc(s.factory||'sputnik-dao.near')}</code> factory, and every proposal's submission time, read with plain RPC view calls (<code>${esc(s.rpc||'')}</code>). Activity = a proposal submitted. DAOs with zero proposals are counted as <i>stillborn</i>; ${fmt(cen.unreadable)} DAOs on incompatible contract versions could not be read.</p>`
+    ? `<p><b>Source.</b> Every DAO listed by the <code>${esc(s.factory||'sputnik-dao.near')}</code> factory, and every proposal's submission time, read with plain RPC view calls (<code>${esc(s.rpc||'')}</code>). Activity = a proposal submitted. DAOs with zero proposals are counted as <i>stillborn</i>. Proposals filed by onboarding sponsor accounts (${esc((cen.automated_proposers||[]).join(', '))}) are not counted as activity, and ${fmt(cen.automated_only)} DAOs that only ever saw those are excluded; ${fmt(cen.unreadable)} DAOs on incompatible contract versions could not be read.</p>`
     : `<p><b>Source.</b> <code>${esc(s.table||'')}</code> on BigQuery. A contract is any account that received a <code>DEPLOY_CONTRACT</code>. It is active in a month when at least ${fmt(cen.min_callers)} distinct accounts call it, and counts as launched once a month reaches ${fmt(cen.launch_min_callers)} callers. This filters test deploys and single-bot pings.</p>`;
   document.getElementById('method').innerHTML = base + per +
     `<p><b>Limits.</b> Silence is not always death: a finished DAO or a stable contract with few callers can be healthy and quiet. VOID measures sustained use, not value. The thresholds live in <code>thesis.json</code>; change them and re-run.</p>`;
