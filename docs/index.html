@@ -182,7 +182,7 @@ function chapter(key, c, d){
   <p class="sub" style="margin-top:8px">Reproduce: <code>python benchmarks/snapshot/fetch_snapshot.py</code> then <code>python benchmarks/snapshot/analyse.py</code>. Caveat: Snapshot votes are off-chain signals and creating a space is free, while Sputnik DAOs are on-chain and cost NEAR to create.</p>` : ''}
 
   ${c.breakdown ? `<h2>Apps vs launchpad tokens</h2>
-  <p class="sub">Almost half of the new contracts are memecoin tokens minted by launchpad factories (${esc('gra-fun, meme-cooking, aidols, tkn')}). They are scored together in the verdict below, but they behave very differently.</p>
+  <p class="sub">Almost half of the new contracts are memecoin tokens minted by launchpad factories (${esc('gra-fun, meme-cooking, aidols, tkn, token0')}). They are scored together in the verdict below, but they behave very differently.</p>
   <div class="card tablewrap"><table><thead><tr><th>Group</th><th>Contracts</th><th>Alive</th><th>Survive year one</th><th>Median lifetime</th></tr></thead><tbody>
   ${c.breakdown.map(g=>`<tr><td>${esc(g.group)}</td><td>${fmt(g.total)}</td><td>${fmt(g.alive)}</td><td>${pct(g.s12)}</td><td>${g.median_months==null?('over '+fmt(g.observed_months)+' mo'):g.median_months+' mo'}</td></tr>`).join('')}
   </tbody></table></div>` : ''}

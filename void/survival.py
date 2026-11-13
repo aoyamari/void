@@ -145,7 +145,7 @@ def analyse(entities: list[Entity], end: date, gap_days: int = 90,
         "cohorts": curves,
         "births_deaths": births_deaths(entities, end, gap_days),
         "tombstones": [_row(e) for e in sorted(dead, key=lambda e: -e.activity)[:top_n]],
-        "elders": [_row(e) for e in sorted(alive, key=lambda e: e.birth)[:top_n]],
+        "elders": [_row(e) for e in sorted(alive, key=lambda e: (e.birth, -e.activity))[:top_n]],
     }
 
 

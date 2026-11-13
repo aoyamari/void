@@ -20,7 +20,7 @@ VOID is a re-runnable investment thesis for NEAR, built at NEAR HACKATHON (Inves
 | Claims holding | 2 of 4 | 3 of 4 (1 not yet measurable) |
 | Ever active | 1,437 (of 2,190 created; 485 never used, 223 bot-only) | 424 |
 | Alive today | 337 | 240 |
-| Survive year one | 24% | 46% (apps 66%, launchpad tokens 32%) |
+| Survive year one | 24% | 46% (apps 65%, launchpad tokens 34%) |
 | Median lifetime | 3 months | 9 months |
 
 Two things to read with care. The DAO "improving" call rests on a small 2025 cohort (n=71 vs n=212 in 2021) and flips under a 180-day death rule; the sensitivity table on the dashboard shows this. The contracts chapter only covers contracts born since 2025, so it is short-history evidence.
@@ -81,7 +81,7 @@ From Google's public NEAR dataset (`bigquery-public-data.crypto_near_mainnet_us.
 - It counts as **launched** once any month reaches ≥ 25 callers
 - The query is dry-run first and refuses to scan more than `--max-gb`
 - **Scan window.** To stay inside BigQuery's free tier, the published run scans activity since 2025-01-01 (657 GB). Contracts already in use in January 2025, or in use before their first deploy in the window (upgrades), are dropped as older than the window: 118 of 542.
-- **Launchpad tokens are split out.** About half of the new contracts are memecoin tokens minted by launchpad factories (`gra-fun`, `meme-cooking`, `aidols`, `tkn`). They are reported apart from apps and infrastructure. The list comes from the most common factory suffixes, so smaller launchpads may still sit in the apps group.
+- **Launchpad tokens are split out.** About half of the new contracts are memecoin tokens minted by launchpad factories (`gra-fun`, `meme-cooking`, `aidols`, `tkn`, `token0`). They are reported apart from apps and infrastructure. The list comes from the most common factory suffixes, so smaller launchpads may still sit in the apps group.
 
 ### Survival math
 - A project is **dead** after **90 days** of silence (configurable in `thesis.json`)

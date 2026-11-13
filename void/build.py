@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SENSITIVITY_GAPS = (60, 90, 180)
 # Token factories of memecoin launchpads. Their tokens are contracts, but not
 # products, so the contracts chapter also reports them separately.
-LAUNCHPAD_SUFFIXES = (".gra-fun.near", ".meme-cooking.near", ".aidols.near", ".tkn.near")
+LAUNCHPAD_SUFFIXES = (".gra-fun.near", ".meme-cooking.near", ".aidols.near", ".tkn.near", ".token0.near")
 
 
 def breakdown(rows: list[dict], end: date, gap: int) -> list[dict]:
