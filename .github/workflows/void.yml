@@ -1,0 +1,58 @@
+name: rebuild VOID
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: void
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      # raw proposal cache makes daily runs incremental
+      - uses: actions/cache@v4
+        with:
+          path: data/raw
+          key: void-raw-${{ github.run_id }}
+          restore-keys: void-raw-
+
+      - name: Chapter 1 - DAOs (NEAR RPC, no key)
+        run: python -m void dao
+        env:
+          NEAR_RPC_URL: ${{ vars.NEAR_RPC_URL || 'https://rpc.mainnet.fastnear.com' }}
+
+      - name: Build verdicts + dashboard data
+        run: python -m void build
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "void-bot"
+          git config user.email "void-bot@users.noreply.github.com"
+          git add data/daos.json site/data.json
+          git diff --cached --quiet || git commit -m "data: daily rebuild $(date -u +%F)"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4

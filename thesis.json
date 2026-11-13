@@ -1,0 +1,39 @@
+{
+  "thesis": "NEAR's long-term case rests on an ecosystem that keeps what it builds. If projects launched on NEAR survive longer each year, and more are born than buried, the chain is compounding real builders, not renting them with incentives.",
+  "written": "2026-11-13",
+  "death_gap_days": 90,
+  "claims": [
+    {
+      "id": "newer-cohorts-survive-longer",
+      "title": "Newer cohorts survive longer",
+      "claim": "The most recent cohort with a full year of data keeps more of its members alive at 12 months than the oldest cohort did.",
+      "kill": "Latest cohort's 12-month survival is below the oldest cohort's.",
+      "metric": "cohort_improvement",
+      "params": {"month": 12}
+    },
+    {
+      "id": "not-just-a-graveyard",
+      "title": "Not just a graveyard",
+      "claim": "Of everything born more than a year ago, a meaningful share is still alive today.",
+      "kill": "Fewer than 10% of entities older than 12 months are alive.",
+      "metric": "survivor_share",
+      "params": {"min_age_months": 12, "threshold": 0.10}
+    },
+    {
+      "id": "births-outpace-deaths",
+      "title": "Births outpace deaths",
+      "claim": "Over the latest year whose deaths are final, more projects were born than died.",
+      "kill": "Deaths exceed births over that year.",
+      "metric": "net_formation",
+      "params": {}
+    },
+    {
+      "id": "not-one-hit-wonders",
+      "title": "Not one-hit wonders",
+      "claim": "A typical project lives at least six months before going quiet.",
+      "kill": "Median lifetime across all cohorts is under 6 months.",
+      "metric": "median_lifetime",
+      "params": {"threshold_months": 6}
+    }
+  ]
+}
