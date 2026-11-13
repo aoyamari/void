@@ -38,6 +38,18 @@ Each claim resolves to **holds**, **killed**, or **not enough data**, with the n
 
 **Benchmark.** For context, roughly four in five new US business establishments survive their first year and about half survive five years ([BLS Business Employment Dynamics](https://www.bls.gov/opub/ted/2024/34-7-percent-of-business-establishments-born-in-2013-were-still-operating-in-2023.htm)). This is not like-for-like: a DAO costs a few NEAR to create and a business costs far more, so DAOs should die faster. It shows the size of the gap, not a target.
 
+## NEAR vs Snapshot
+
+`benchmarks/snapshot/` runs the exact same survival and thesis code on every Snapshot space (424k proposals from the public hub, flagged proposals removed, same 90-day rule, same observation date).
+
+| DAOs with at least | NEAR: survive year one | NEAR: median life | Snapshot: survive year one | Snapshot: median life |
+|---|---|---|---|---|
+| 1 proposal | 28% | 5 mo | 5% | 1 mo |
+| 2 proposals | 31% | 6 mo | 12% | 1 mo |
+| 5 proposals | 38% | 9 mo | 27% | 10 mo |
+
+Snapshot is free and off-chain, so it carries far more spam; the 5-proposal row is the fairest. There, NEAR DAOs are more likely to survive their first year, while Snapshot DAOs that do survive live slightly longer.
+
 ## What it measures
 
 ### Chapter 1: the DAO graveyard (no API key)

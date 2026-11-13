@@ -4,3 +4,4 @@ __pycache__/
 .venv/
 data/raw/
 site/screenshot.png
+benchmarks/snapshot/snapshot_proposals.jsonl

@@ -101,6 +101,21 @@ def run(data_dir: Path, site_dir: Path, thesis_path: Path = ROOT / "thesis.json"
         out["chapters"]["daos"] = chapter(raw, end, thesis, "proposals")
         print(f"[build] DAOs: {len(raw['entities'])} entities")
 
+    bench = ROOT / "benchmarks" / "snapshot"
+    if "daos" in out["chapters"] and (bench / "results.json").exists():
+        snap = json.loads((bench / "results.json").read_text())["variants"]
+        near = json.loads((bench / "near_same_filters.json").read_text())
+        rows = []
+        for k in ("min_proposals_1", "min_proposals_2", "min_proposals_5"):
+            s, n = snap[k], near[k]
+            rows.append({"min_proposals": int(k.rsplit("_", 1)[1]),
+                         "near": {"n": n["daos"], "alive": n["alive"], "s12": n["s12"],
+                                  "median_months": n["median_months"]},
+                         "snapshot": {"n": s["spaces"], "alive": s["alive"], "s12": s["s12"],
+                                      "median_months": s["median_months"]}})
+        out["chapters"]["daos"]["benchmark"] = {"name": "Ethereum and EVM chains, off-chain voting",
+                                                "rows": rows}
+
     contracts = data_dir / "contracts.json"
     if contracts.exists():
         raw = json.loads(contracts.read_text())

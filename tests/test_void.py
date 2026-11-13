@@ -163,3 +163,10 @@ def test_contracts_window_drops_preexisting(tmp_path):
     assert ch["census"]["preexisting_excluded"] == 35
     assert ch["total"] == 30 and ch["alive"] == 15
     assert [g["total"] for g in ch["breakdown"]] == [30, 0]
+
+
+def test_snapshot_benchmark_attached():
+    data = json.loads(build.run(build.ROOT / "data", build.ROOT / "site").read_text())
+    rows = data["chapters"]["daos"]["benchmark"]["rows"]
+    assert [r["min_proposals"] for r in rows] == [1, 2, 5]
+    assert rows[0]["near"]["n"] == data["chapters"]["daos"]["total"]

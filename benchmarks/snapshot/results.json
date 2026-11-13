@@ -1,0 +1,136 @@
+{
+ "observation_end": "2026-11-13",
+ "flagged_proposals_excluded": 2108,
+ "total_proposals_kept": 421859,
+ "variants": {
+  "min_proposals_1": {
+   "spaces": 81086,
+   "alive": 213,
+   "s12": 0.053,
+   "s24": 0.0103,
+   "median_months": 1,
+   "cohort_s12": {
+    "2020": 0.4008,
+    "2021": 0.2367,
+    "2022": 0.1474,
+    "2023": 0.0657,
+    "2024": 0.0165,
+    "2025": 0.0421,
+    "2026": null
+   },
+   "cohort_n": {
+    "2020": 237,
+    "2021": 3358,
+    "2022": 5602,
+    "2023": 27465,
+    "2024": 43215,
+    "2025": 1019,
+    "2026": 190
+   },
+   "claims": {
+    "newer-cohorts-survive-longer": {
+     "status": "killed",
+     "evidence": "2025 cohort 4% vs 2020 cohort 40% alive at 12 months"
+    },
+    "not-just-a-graveyard": {
+     "status": "killed",
+     "evidence": "152 of 80,852 (0.2%) still alive; kill line 10%"
+    },
+    "births-outpace-deaths": {
+     "status": "killed",
+     "evidence": "299 born vs 623 died between 2025-08-15 and 2026-08-15"
+    },
+    "not-one-hit-wonders": {
+     "status": "killed",
+     "evidence": "median lifetime 1 months; kill line 6 months"
+    }
+   }
+  },
+  "min_proposals_2": {
+   "spaces": 34724,
+   "alive": 189,
+   "s12": 0.1236,
+   "s24": 0.024,
+   "median_months": 1,
+   "cohort_s12": {
+    "2020": 0.4545,
+    "2021": 0.337,
+    "2022": 0.2327,
+    "2023": 0.1539,
+    "2024": 0.0438,
+    "2025": 0.098,
+    "2026": null
+   },
+   "cohort_n": {
+    "2020": 209,
+    "2021": 2359,
+    "2022": 3549,
+    "2023": 11732,
+    "2024": 16333,
+    "2025": 438,
+    "2026": 104
+   },
+   "claims": {
+    "newer-cohorts-survive-longer": {
+     "status": "killed",
+     "evidence": "2025 cohort 10% vs 2020 cohort 45% alive at 12 months"
+    },
+    "not-just-a-graveyard": {
+     "status": "killed",
+     "evidence": "152 of 34,598 (0.4%) still alive; kill line 10%"
+    },
+    "births-outpace-deaths": {
+     "status": "killed",
+     "evidence": "170 born vs 494 died between 2025-08-15 and 2026-08-15"
+    },
+    "not-one-hit-wonders": {
+     "status": "killed",
+     "evidence": "median lifetime 1 months; kill line 6 months"
+    }
+   }
+  },
+  "min_proposals_5": {
+   "spaces": 14532,
+   "alive": 167,
+   "s12": 0.2703,
+   "s24": 0.0549,
+   "median_months": 10,
+   "cohort_s12": {
+    "2020": 0.5987,
+    "2021": 0.4985,
+    "2022": 0.386,
+    "2023": 0.301,
+    "2024": 0.1321,
+    "2025": 0.1805,
+    "2026": null
+   },
+   "cohort_n": {
+    "2020": 152,
+    "2021": 1312,
+    "2022": 1829,
+    "2023": 5804,
+    "2024": 5193,
+    "2025": 199,
+    "2026": 43
+   },
+   "claims": {
+    "newer-cohorts-survive-longer": {
+     "status": "killed",
+     "evidence": "2025 cohort 18% vs 2020 cohort 60% alive at 12 months"
+    },
+    "not-just-a-graveyard": {
+     "status": "killed",
+     "evidence": "148 of 14,479 (1.0%) still alive; kill line 10%"
+    },
+    "births-outpace-deaths": {
+     "status": "killed",
+     "evidence": "73 born vs 359 died between 2025-08-15 and 2026-08-15"
+    },
+    "not-one-hit-wonders": {
+     "status": "holds",
+     "evidence": "median lifetime 10 months; kill line 6 months"
+    }
+   }
+  }
+ }
+}
