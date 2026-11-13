@@ -1,0 +1,1 @@
+{"dao": "hos-root-staging.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "fastnear-hos.near", "kind": "ChangePolicy", "status": "Approved", "t": 1761859461214660793}, {"id": 1, "proposer": "fastnear-hos.near", "kind": "FunctionCall", "status": "Approved", "t": 1761860783394964541}], "last_proposal_id": 2}

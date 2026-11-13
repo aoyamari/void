@@ -1,0 +1,1 @@
+{"dao": "near-ecuador.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "elpintor.near", "kind": "ChangeConfig", "status": "Approved", "t": 1773336384268720841}, {"id": 1, "proposer": "elpintor.near", "kind": "Transfer", "status": "Approved", "t": 1773336643330029174}], "last_proposal_id": 2}

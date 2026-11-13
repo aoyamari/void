@@ -1,0 +1,1 @@
+{"dao": "hemp-dao.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "hempally.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1656706282999188844}, {"id": 1, "proposer": "hempally.near", "kind": "AddBounty", "status": "InProgress", "t": 1656706793498001014}], "last_proposal_id": 2}

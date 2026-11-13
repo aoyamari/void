@@ -1,0 +1,1 @@
+{"dao": "tele.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "beexnft.near", "kind": "ChangeConfig", "status": "Approved", "t": 1651066423155332447}, {"id": 4, "proposer": "beexnft.near", "kind": "Transfer", "status": "Approved", "t": 1657678145138017418}], "last_proposal_id": 5}

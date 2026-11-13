@@ -1,0 +1,1 @@
+{"dao": "bluesky.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "0s6789c6ab690ea62b496ad584a13166fd5eaa5fb3", "kind": "ChangePolicy", "status": "Approved", "t": 1793168683457921364}, {"id": 1, "proposer": "0s6789c6ab690ea62b496ad584a13166fd5eaa5fb3", "kind": "Transfer", "status": "Approved", "t": 1794414291990126121}], "last_proposal_id": 2}

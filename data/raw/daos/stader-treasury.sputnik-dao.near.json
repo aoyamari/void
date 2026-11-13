@@ -1,0 +1,1 @@
+{"dao": "stader-treasury.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "stader-operator.near", "kind": "Vote", "status": "InProgress", "t": 1693479570366921601}, {"id": 1, "proposer": "stader-operator.near", "kind": "Vote", "status": "InProgress", "t": 1693484278225679682}], "last_proposal_id": 2}

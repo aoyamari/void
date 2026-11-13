@@ -1,0 +1,1 @@
+{"dao": "simplydefi.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "simonemelanie.near", "kind": "Transfer", "status": "InProgress", "t": 1651767194589777127}, {"id": 1, "proposer": "simonemelanie.near", "kind": "Transfer", "status": "Approved", "t": 1651767382712122873}], "last_proposal_id": 2}

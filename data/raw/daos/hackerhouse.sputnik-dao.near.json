@@ -1,0 +1,1 @@
+{"dao": "hackerhouse.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "hackerhouse.near", "kind": "Transfer", "status": "Approved", "t": 1659300377759038224}, {"id": 1, "proposer": "hackerhouse.near", "kind": "ChangePolicy", "status": "Approved", "t": 1659300466691481416}], "last_proposal_id": 2}

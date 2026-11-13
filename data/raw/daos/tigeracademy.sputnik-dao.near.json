@@ -1,0 +1,1 @@
+{"dao": "tigeracademy.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "neartiger.near", "kind": "Transfer", "status": "Approved", "t": 1640118029485096965}, {"id": 1, "proposer": "neartiger.near", "kind": "ChangeConfig", "status": "Approved", "t": 1640118278600526672}], "last_proposal_id": 2}

@@ -1,0 +1,1 @@
+{"dao": "fake-marketing.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "dogstoevsky.near", "kind": "Vote", "status": "Approved", "t": 1647996439063300968}, {"id": 1, "proposer": "dogstoevsky.near", "kind": "ChangeConfig", "status": "InProgress", "t": 1648056071507776633}], "last_proposal_id": 2}

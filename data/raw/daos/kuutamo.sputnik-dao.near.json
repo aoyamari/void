@@ -1,0 +1,1 @@
+{"dao": "kuutamo.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "kuutamo.near", "kind": "FunctionCall", "status": "Approved", "t": 1653464778428665281}, {"id": 1, "proposer": "kuutamo.near", "kind": "UpgradeSelf", "status": "InProgress", "t": 1653464824222166968}], "last_proposal_id": 2}

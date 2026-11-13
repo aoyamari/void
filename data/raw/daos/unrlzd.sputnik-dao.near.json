@@ -1,0 +1,1 @@
+{"dao": "unrlzd.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "cafcb2dc8ba0a6ed3a251f9239bc3d445f1c033f15dd5ac70d66c136ecff8a05", "kind": "FunctionCall", "status": "Approved", "t": 1790842208180305302}, {"id": 1, "proposer": "cudam321.near", "kind": "FactoryInfoUpdate", "status": "Approved", "t": 1791223799577171632}], "last_proposal_id": 2}

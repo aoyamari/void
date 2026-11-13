@@ -1,0 +1,1 @@
+{"dao": "new-conf.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "taruin.near", "kind": "FunctionCall", "status": "Approved", "t": 1779626695667527340}, {"id": 1, "proposer": "taruin.near", "kind": "FunctionCall", "status": "Approved", "t": 1779626707890448551}], "last_proposal_id": 2}

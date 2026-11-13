@@ -1,0 +1,1 @@
+{"dao": "test-version-update.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "another-magic.near", "kind": "Transfer", "status": "InProgress", "t": 1654698343493910159}], "last_proposal_id": 1}

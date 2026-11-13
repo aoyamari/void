@@ -1,0 +1,1 @@
+{"dao": "roketobiz.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "anamomotova.near", "kind": "Transfer", "status": "Approved", "t": 1668081189667786186}, {"id": 1, "proposer": "anamomotova.near", "kind": "FunctionCall", "status": "InProgress", "t": 1668081273518303989}], "last_proposal_id": 2}

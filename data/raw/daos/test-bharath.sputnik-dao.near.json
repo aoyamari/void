@@ -1,0 +1,1 @@
+{"dao": "test-bharath.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "bchain99.near", "kind": "FunctionCall", "status": "InProgress", "t": 1656500527506783033}, {"id": 1, "proposer": "elder_joy.near", "kind": "AddMemberToRole", "status": "InProgress", "t": 1657115634423033708}], "last_proposal_id": 2}

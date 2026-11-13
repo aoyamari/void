@@ -1,0 +1,1 @@
+{"dao": "cafethic.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "cofethic.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1659119858027232394}, {"id": 1, "proposer": "cafethic.near", "kind": "AddMemberToRole", "status": "InProgress", "t": 1659463851668826831}], "last_proposal_id": 2}

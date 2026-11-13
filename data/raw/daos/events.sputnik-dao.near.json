@@ -1,0 +1,1 @@
+{"dao": "events.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "devs.near", "kind": "ChangePolicy", "status": "Approved", "t": 1641580092504921997}, {"id": 1, "proposer": "davidmo.near", "kind": "AddMemberToRole", "status": "InProgress", "t": 1642522733221220655}], "last_proposal_id": 2}

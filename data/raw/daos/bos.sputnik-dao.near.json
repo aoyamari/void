@@ -1,0 +1,1 @@
+{"dao": "bos.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "efiz.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1685119345046518449}, {"id": 1, "proposer": "create.near", "kind": "ChangePolicy", "status": "InProgress", "t": 1685589051223634532}], "last_proposal_id": 2}

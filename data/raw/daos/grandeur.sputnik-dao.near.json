@@ -1,0 +1,1 @@
+{"dao": "grandeur.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "plut0.near", "kind": "ChangePolicy", "status": "Approved", "t": 1649011632363486335}, {"id": 1, "proposer": "plut0.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1649012211518426327}], "last_proposal_id": 2}

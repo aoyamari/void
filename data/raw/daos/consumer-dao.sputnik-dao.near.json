@@ -1,0 +1,1 @@
+{"dao": "consumer-dao.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "yourdad.near", "kind": "RemoveMemberFromRole", "status": "Approved", "t": 1703267438940034620}, {"id": 1, "proposer": "yourdad.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1703267708755421755}], "last_proposal_id": 2}

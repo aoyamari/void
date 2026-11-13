@@ -1,0 +1,1 @@
+{"dao": "real-estate.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "svpervnder.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1641457961292132808}, {"id": 1, "proposer": "poguz.near", "kind": "ChangeConfig", "status": "InProgress", "t": 1641482843792078996}], "last_proposal_id": 2}

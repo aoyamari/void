@@ -1,0 +1,1 @@
+{"dao": "roma2.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "sponsor-staging.trezu.near", "kind": "FunctionCall", "status": "Approved", "t": 1781011049853709053}, {"id": 1, "proposer": "sponsor-staging.trezu.near", "kind": "FunctionCall", "status": "InProgress", "t": 1781011057583255170}], "last_proposal_id": 2}

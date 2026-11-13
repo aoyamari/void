@@ -1,0 +1,1 @@
+{"dao": "everything.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "efiz.near", "kind": "ChangeConfig", "status": "Approved", "t": 1754670471061169483}, {"id": 1, "proposer": "efiz.near", "kind": "FunctionCall", "status": "Approved", "t": 1754711372491037053}], "last_proposal_id": 2}

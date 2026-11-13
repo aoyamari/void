@@ -1,0 +1,1 @@
+{"dao": "nearjar-demo.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "0s6bb7e30d75c64913146c9ae0b23c58d100fbb9ec", "kind": "ChangePolicy", "status": "Approved", "t": 1794135691358144306}, {"id": 1, "proposer": "0s6bb7e30d75c64913146c9ae0b23c58d100fbb9ec", "kind": "FunctionCall", "status": "Approved", "t": 1794138407914313089}], "last_proposal_id": 2}

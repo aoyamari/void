@@ -1,0 +1,1 @@
+{"dao": "troubleshooting-dao.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "a13x.near", "kind": "FunctionCall", "status": "Approved", "t": 1699460115509074595}, {"id": 1, "proposer": "a13x.near", "kind": "FunctionCall", "status": "Failed", "t": 1699460405034731271}], "last_proposal_id": 2}

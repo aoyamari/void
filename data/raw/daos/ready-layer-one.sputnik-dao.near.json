@@ -1,0 +1,1 @@
+{"dao": "ready-layer-one.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "readylayerone.near", "kind": "FunctionCall", "status": "InProgress", "t": 1657119723331759593}, {"id": 1, "proposer": "readylayerone.near", "kind": "ChangeConfig", "status": "Approved", "t": 1657120509601904249}], "last_proposal_id": 2}

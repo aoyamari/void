@@ -1,0 +1,1 @@
+{"dao": "rucommunity.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "rucommunity.near", "kind": "Transfer", "status": "Approved", "t": 1632313514307749095}, {"id": 1, "proposer": "rucommunity.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1632316810118898096}], "last_proposal_id": 2}

@@ -1,0 +1,1 @@
+{"dao": "i23248p2.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "probe123near.near", "kind": "Transfer", "status": "InProgress", "t": 1794582939463551005}, {"id": 1, "proposer": "probe123near.near", "kind": "Transfer", "status": "Approved", "t": 1794586936641090047}], "last_proposal_id": 2}

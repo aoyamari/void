@@ -1,0 +1,1 @@
+{"dao": "abuela-dao.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "neareducation.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1645149292822749570}, {"id": 1, "proposer": "neareducation.near", "kind": "AddMemberToRole", "status": "InProgress", "t": 1645149489345245031}], "last_proposal_id": 2}

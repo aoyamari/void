@@ -1,0 +1,1 @@
+{"dao": "kikimora.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "int64.near", "kind": "Transfer", "status": "Approved", "t": 1667664888382562830}, {"id": 1, "proposer": "int64.near", "kind": "Transfer", "status": "Approved", "t": 1667665210448783335}], "last_proposal_id": 2}

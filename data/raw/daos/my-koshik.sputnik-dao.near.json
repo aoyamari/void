@@ -1,0 +1,1 @@
+{"dao": "my-koshik.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "0sd6b033023c100a53a260b65e66d9247583f72e3f", "kind": "FunctionCall", "status": "InProgress", "t": 1785559872619428974}, {"id": 1, "proposer": "0sd6b033023c100a53a260b65e66d9247583f72e3f", "kind": "FunctionCall", "status": "Approved", "t": 1785559933441551637}], "last_proposal_id": 2}

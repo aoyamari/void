@@ -1,0 +1,1 @@
+{"dao": "fml.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "gugu96.near", "kind": "Transfer", "status": "Approved", "t": 1681986368007715218}, {"id": 1, "proposer": "gugu96.near", "kind": "AddMemberToRole", "status": "InProgress", "t": 1681986750066097772}], "last_proposal_id": 2}

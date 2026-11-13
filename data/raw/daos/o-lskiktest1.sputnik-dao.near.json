@@ -1,0 +1,1 @@
+{"dao": "o-lskiktest1.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "0s5d9dc33bd90b29d06a33273b596a6875a06b153e", "kind": "ChangePolicy", "status": "Approved", "t": 1781812230724955878}, {"id": 1, "proposer": "0s5d9dc33bd90b29d06a33273b596a6875a06b153e", "kind": "Transfer", "status": "InProgress", "t": 1783856295733539484}], "last_proposal_id": 2}

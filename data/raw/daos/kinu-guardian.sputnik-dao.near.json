@@ -1,0 +1,1 @@
+{"dao": "kinu-guardian.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "kinuonnear.near", "kind": "FunctionCall", "status": "Approved", "t": 1794412803970975798}, {"id": 1, "proposer": "jhonveska.near", "kind": "FunctionCall", "status": "InProgress", "t": 1794412919339334485}], "last_proposal_id": 2}

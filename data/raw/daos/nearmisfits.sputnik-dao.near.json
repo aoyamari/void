@@ -1,0 +1,1 @@
+{"dao": "nearmisfits.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "ollie.near", "kind": "ChangePolicy", "status": "Approved", "t": 1635300315513947551}, {"id": 1, "proposer": "ollie.near", "kind": "Transfer", "status": "Rejected", "t": 1635300530055065513}], "last_proposal_id": 2}

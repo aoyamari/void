@@ -1,0 +1,1 @@
+{"dao": "collabs.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "abridged.near", "kind": "Transfer", "status": "Approved", "t": 1685568367201952280}, {"id": 1, "proposer": "abridged.near", "kind": "Transfer", "status": "InProgress", "t": 1685568374186518254}], "last_proposal_id": 2}

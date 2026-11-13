@@ -1,0 +1,1 @@
+{"dao": "katest.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "kamburger.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1646516504295191101}, {"id": 1, "proposer": "kamburger.near", "kind": "ChangePolicy", "status": "InProgress", "t": 1646516799155765878}], "last_proposal_id": 2}

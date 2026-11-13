@@ -1,0 +1,1 @@
+{"dao": "near-peru.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "cryptochix.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1645660055425927544}, {"id": 1, "proposer": "cryptochix.near", "kind": "AddMemberToRole", "status": "InProgress", "t": 1645660700348587396}], "last_proposal_id": 2}

@@ -1,0 +1,1 @@
+{"dao": "orderly-ops-on-chain.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "bmhc.near", "kind": "FunctionCall", "status": "Approved", "t": 1677740000145184811}, {"id": 1, "proposer": "orderly_youting.near", "kind": "FunctionCall", "status": "Rejected", "t": 1677741808949945462}], "last_proposal_id": 2}

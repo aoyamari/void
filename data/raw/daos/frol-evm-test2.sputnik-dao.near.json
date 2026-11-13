@@ -1,0 +1,1 @@
+{"dao": "frol-evm-test2.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "sponsor-staging.trezu.near", "kind": "FunctionCall", "status": "Approved", "t": 1781795772086855631}, {"id": 1, "proposer": "sponsor-staging.trezu.near", "kind": "FunctionCall", "status": "Approved", "t": 1781795780155738941}], "last_proposal_id": 2}

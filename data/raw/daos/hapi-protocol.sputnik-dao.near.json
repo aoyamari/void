@@ -1,0 +1,1 @@
+{"dao": "hapi-protocol.sputnik-dao.near", "proposals": [{"id": 0, "proposer": "jumboexe.near", "kind": "AddMemberToRole", "status": "Approved", "t": 1638452543107854760}, {"id": 1, "proposer": "iamhapi.near", "kind": "Transfer", "status": "Approved", "t": 1638452686976315532}], "last_proposal_id": 2}
