@@ -87,14 +87,31 @@ VERDICTS = {
                     "What exists is sticky, but the pipeline of new survivors is weakening."),
     (False, False): ("Thesis killed: NEAR is renting builders",
                      "Neither the direction nor the level of builder retention supports the long-term case."),
+    (None, True): ("Durable so far, direction not yet measurable",
+                   "What exists is sticky, but there is not enough history to tell whether newer cohorts do better."),
+    (None, False): ("Weak so far, direction not yet measurable",
+                    "Retention is low, and there is not enough history to tell whether it is improving."),
+    (True, None): ("Improving, level not yet measurable",
+                   "The direction is right, but there is not enough history to judge how much survives."),
+    (False, None): ("Weakening, level not yet measurable",
+                    "The direction is wrong, and there is not enough history to judge how much survives."),
+    (None, None): ("Not enough data yet", "Too little history to score this chapter."),
 }
 
 
 def bottom_line(claims: list[dict]) -> dict:
     """One overall verdict, derived only from the claim statuses."""
     s = {c["id"]: c["status"] for c in claims}
-    trend = all(s.get(i) == "holds" for i in TREND)
-    level = all(s.get(i) == "holds" for i in LEVEL)
+
+    def side(ids):
+        st = [s.get(i) for i in ids]
+        if any(x == "killed" for x in st):
+            return False
+        if any(x != "holds" for x in st):
+            return None  # not enough data to call it either way
+        return True
+
+    trend, level = side(TREND), side(LEVEL)
     headline, meaning = VERDICTS[(trend, level)]
     holds = [c for c in claims if c["status"] == "holds"]
     killed = [c for c in claims if c["status"] == "killed"]

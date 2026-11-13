@@ -37,7 +37,22 @@ def load_entities(rows: list[dict]) -> list[Entity]:
                    float(r.get("activity", 0))) for r in rows]
 
 
+def drop_left_truncated(raw: dict) -> dict:
+    """With a start_date window, anything already active in the window's first
+    month was most likely born earlier, so its age is unknown. Keep only
+    entities first seen after that month."""
+    start = raw.get("census", {}).get("start_date")
+    if not start:
+        return raw
+    first_month = start[:7]
+    keep = [r for r in raw["entities"] if r["birth"][:7] > first_month]
+    census = dict(raw["census"], preexisting_excluded=len(raw["entities"]) - len(keep),
+                  window_start=start)
+    return dict(raw, entities=keep, census=census)
+
+
 def chapter(raw: dict, end: date, thesis: dict, unit: str) -> dict:
+    raw = drop_left_truncated(raw)
     ents = load_entities(raw["entities"])
     a = analyse(ents, end, thesis.get("death_gap_days", 90))
     a["claims"] = score(thesis, a, ents)

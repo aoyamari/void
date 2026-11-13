@@ -138,3 +138,25 @@ def test_bottom_line_from_statuses():
     b = bottom_line([mk(i, "killed") for i in ("newer-cohorts-survive-longer", "births-outpace-deaths",
                                                "not-just-a-graveyard", "not-one-hit-wonders")])
     assert b["headline"].startswith("Thesis killed")
+
+
+def test_bottom_line_insufficient_is_not_killed():
+    from void.thesis import bottom_line
+    mk = lambda i, st: {"id": i, "title": i, "kill": "k", "evidence": "e", "status": st}
+    b = bottom_line([mk("newer-cohorts-survive-longer", "insufficient"), mk("births-outpace-deaths", "holds"),
+                     mk("not-just-a-graveyard", "holds"), mk("not-one-hit-wonders", "holds")])
+    assert b["headline"].startswith("Durable so far")
+
+
+def test_contracts_window_drops_preexisting(tmp_path):
+    rows = [{"id": f"old{i}", "birth": "2025-01-01", "last": "2026-10-31", "activity": 50} for i in range(30)]
+    rows += [{"id": f"new{i}", "birth": "2025-03-01", "last": "2026-10-31" if i % 2 else "2025-06-30",
+              "activity": 30} for i in range(30)]
+    (tmp_path / "contracts.json").write_text(json.dumps({
+        "entities": rows, "observation_end": "2026-11-12",
+        "census": {"start_date": "2025-01-01", "min_callers": 3, "launch_min_callers": 25},
+        "source": {}}))
+    data = json.loads(build.run(tmp_path, tmp_path / "site").read_text())
+    ch = data["chapters"]["contracts"]
+    assert ch["census"]["preexisting_excluded"] == 30
+    assert ch["total"] == 30 and ch["alive"] == 15
