@@ -5,7 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>VOID: NEAR's ecosystem graveyard</title>
 <link rel="icon" href="data:,">
-<meta name="description" content="Everyone counts what launches on NEAR. VOID counts what survives.">
+<meta name="description" content="Everyone counts what launches on NEAR. VOID counts what survives. Survival curves for every Sputnik DAO, with a pre-registered thesis re-scored daily.">
+<meta property="og:title" content="VOID: NEAR's ecosystem graveyard">
+<meta property="og:description" content="Everyone counts what launches on NEAR. VOID counts what survives.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aoyamari.github.io/void/">
+<meta property="og:image" content="https://aoyamari.github.io/void/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://aoyamari.github.io/void/og.png">
 <style>
 :root{
   color-scheme:dark;
@@ -55,6 +62,14 @@ details{margin-top:12px}summary{cursor:pointer;color:var(--muted);font-size:13px
 code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px}
 pre{background:var(--surface);border:1px solid var(--ring);border-radius:8px;padding:14px;overflow:auto}
 .empty{color:var(--muted);padding:40px 0}
+.bl{margin-top:20px;border-color:rgba(255,255,255,.22)}
+.bl .k{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.bl h3{font-size:clamp(22px,4vw,32px);letter-spacing:-.02em;margin:6px 0 8px;line-height:1.15}
+.bl p{margin:6px 0;color:var(--ink-2);max-width:820px}
+.bl .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:12px}
+.bl ul{margin:4px 0 0;padding-left:18px;color:var(--ink-2);font-size:14px}
+.pill{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:1px 8px;border-radius:999px}
+.pill.holds{background:var(--good);color:#fff}.pill.killed{background:var(--critical);color:#fff}.pill.insufficient{background:var(--warning);color:#0b0b0b}
 a{color:var(--s1)}
 </style>
 </head>
@@ -62,13 +77,14 @@ a{color:var(--s1)}
 <main>
   <h1>VOID</h1>
   <p class="lede">Everyone counts what launches on NEAR. VOID counts what survives.</p>
-  <p class="meta" id="meta">Loading data…</p>
+  <p class="meta" id="meta">Interactive charts need JavaScript. Summary of the latest build:</p>
+  <div class="sub" id="static"><!--void:summary--><p><b>Bottom line: Improving, not yet compounding.</b> The direction is right but the base is thin: this supports a growth bet on NEAR, not yet a durability bet. 1,437 projects ever active, 337 still alive; 2 of 4 pre-registered claims hold. Holds: 2025 cohort 40% vs 2021 cohort 33% alive at 12 months; 251 born vs 204 died between 2025-08-15 and 2026-08-15. Killed: 53 of 998 (5.3%) still alive; kill line 10%; median lifetime 5 months; kill line 6 months.</p><!--/void:summary--></div>
 
   <h2>The thesis</h2>
   <p class="sub" id="thesis"></p>
 
   <div class="tabs" role="tablist" id="tabs"></div>
-  <div id="chapter"><p class="empty">No data yet. Run <code>python -m void all</code>.</p></div>
+  <div id="chapter"></div>
 
   <h2>Method</h2>
   <div class="card" id="method"></div>
@@ -96,11 +112,12 @@ const CHAPTERS = {
 };
 
 fetch('data.json').then(r=>r.json()).then(render).catch(()=>{
-  document.getElementById('meta').textContent='No data.json yet. Run the pipeline, then reload.';
+  document.getElementById('meta').textContent='Could not load data.json.';
 });
 
 function render(d){
   document.getElementById('thesis').textContent = d.thesis.thesis;
+  document.getElementById('static').style.display='none';
   document.getElementById('meta').textContent =
     `Built ${d.built_at.replace('T',' ').replace('+00:00',' UTC')} · thesis pre-registered ${d.thesis.written} · a project is dead after ${d.thesis.death_gap_days} days of silence`;
   const keys = Object.keys(d.chapters);
@@ -121,7 +138,26 @@ function chapter(key, c, d){
     ? `<div class="card stat"><div class="v">${pct(census.stillborn/census.daos_created)}</div><div class="l">stillborn: created, never used (${fmt(census.stillborn)} of ${fmt(census.daos_created)})</div></div>` : '';
   const botOnly = key==='daos' && census.automated_only
     ? `<div class="card stat"><div class="v">${fmt(census.automated_only)}</div><div class="l">only ever touched by sponsor bots, excluded</div></div>` : '';
+  const b = c.bottom_line;
+  const LABEL = {holds:'✓ holds',killed:'✕ killed',insufficient:'? no data'};
+  const bl = b ? `<div class="card bl">
+    <div class="k">Bottom line · ${b.holds} of ${b.total} claims hold</div>
+    <h3>${esc(b.headline)}</h3>
+    <p>${esc(b.meaning)}</p>
+    <p>${esc(b.evidence)}</p>
+    <div class="cols">
+      <div><div class="k">Would upgrade this view</div><ul>${b.upgrade_if.length?b.upgrade_if.map(x=>`<li>"${esc(x)}" flips to holds</li>`).join(''):'<li>Nothing left to upgrade</li>'}</ul></div>
+      <div><div class="k">Would downgrade it</div><ul>${b.downgrade_if.length?b.downgrade_if.map(x=>`<li>${esc(x)}</li>`).join(''):'<li>Nothing left to kill</li>'}</ul></div>
+    </div></div>` : '';
+  const sens = c.sensitivity ? `
+  <h2>Does the verdict depend on the 90-day rule?</h2>
+  <p class="sub">Every claim re-scored with a stricter (60-day) and a looser (180-day) definition of death. A verdict that flips here is fragile.</p>
+  <div class="card tablewrap"><table><thead><tr><th>Claim</th>${c.sensitivity.map(x=>`<th>${x.gap_days} days${x.gap_days===c.death_gap_days?' (used)':''}</th>`).join('')}</tr></thead><tbody>
+  ${c.claims.map(cl=>`<tr><td>${esc(cl.title)}</td>${c.sensitivity.map(x=>`<td><span class="pill ${x.statuses[cl.id]}">${LABEL[x.statuses[cl.id]]}</span></td>`).join('')}</tr>`).join('')}
+  <tr><td>Alive today</td>${c.sensitivity.map(x=>`<td>${fmt(x.alive)}</td>`).join('')}</tr>
+  </tbody></table></div>` : '';
   root.innerHTML = `
+  ${bl}
   <div class="stats">
     <div class="card stat"><div class="v">${fmt(c.total)}</div><div class="l">${meta.what} ever active</div></div>
     <div class="card stat"><div class="v">${pct(c.alive/c.total)}</div><div class="l">still alive today (${fmt(c.alive)})</div></div>
@@ -140,10 +176,12 @@ function chapter(key, c, d){
       <p>${esc(cl.claim)}</p>
       <p class="ev">${esc(cl.evidence)}</p>
       <p class="kill">Kill condition: ${esc(cl.kill)}</p>
+      ${cl.why?`<p class="kill">Why this line: ${esc(cl.why)}</p>`:''}
     </div>`).join('')}</div>
+  ${sens}
 
   <h2>Survival by birth year</h2>
-  <p class="sub">Share of each cohort still alive N months after its first activity (Kaplan–Meier; projects still alive are censored, not counted as dead). Lines stop where fewer than 10 ${meta.noun} remain under observation.</p>
+  <p class="sub">Share of each cohort still alive N months after its first activity (Kaplan–Meier; projects still alive are censored, not counted as dead). Lines stop where fewer than 10 ${meta.noun} remain under observation. The newest cohort is short because most of its members are still alive and too young to judge.</p>
   <div class="card chart" id="km"></div>
 
   <h2>Born vs buried</h2>
@@ -175,7 +213,7 @@ function kmChart(host, cohorts){
   const keys = Object.keys(cohorts).slice(-8);
   if(!keys.length){host.innerHTML='<p class="empty">Not enough data.</p>';return}
   const leg = document.createElement('div'); leg.className='legend';
-  leg.innerHTML = keys.map((k,i)=>`<span><i style="background:${SERIES[i]}"></i>${k} (n=${fmt(cohorts[k].n)})</span>`).join('');
+  leg.innerHTML = keys.map((k,i)=>`<span><i style="background:${SERIES[i]}"></i>${k} (n=${fmt(cohorts[k].n)}${cohorts[k].s12==null?', under 12 mo of data':''})</span>`).join('');
   host.appendChild(leg);
   const W=900,H=380,m={l:44,r:56,t:12,b:34};
   const {svg,tip,iw,ih} = frame(host,W,H,m);

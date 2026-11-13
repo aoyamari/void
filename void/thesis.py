@@ -70,5 +70,40 @@ def score(thesis: dict, analysis: dict, ents: list[Entity]) -> list[dict]:
     out = []
     for c in thesis["claims"]:
         r = METRICS[c["metric"]](analysis, ents, c.get("params", {}))
-        out.append({k: c[k] for k in ("id", "title", "claim", "kill")} | r)
+        out.append({k: c[k] for k in ("id", "title", "claim", "kill")} | {"why": c.get("why", "")} | r)
     return out
+
+
+TREND = ("newer-cohorts-survive-longer", "births-outpace-deaths")
+LEVEL = ("not-just-a-graveyard", "not-one-hit-wonders")
+
+VERDICTS = {
+    (True, True): ("Compounding: NEAR keeps what it builds",
+                   "Both the direction and the level of builder retention support the long-term case."),
+    (True, False): ("Improving, not yet compounding",
+                    "The direction is right but the base is thin: this supports a growth bet on NEAR, "
+                    "not yet a durability bet."),
+    (False, True): ("Durable but stalling",
+                    "What exists is sticky, but the pipeline of new survivors is weakening."),
+    (False, False): ("Thesis killed: NEAR is renting builders",
+                     "Neither the direction nor the level of builder retention supports the long-term case."),
+}
+
+
+def bottom_line(claims: list[dict]) -> dict:
+    """One overall verdict, derived only from the claim statuses."""
+    s = {c["id"]: c["status"] for c in claims}
+    trend = all(s.get(i) == "holds" for i in TREND)
+    level = all(s.get(i) == "holds" for i in LEVEL)
+    headline, meaning = VERDICTS[(trend, level)]
+    holds = [c for c in claims if c["status"] == "holds"]
+    killed = [c for c in claims if c["status"] == "killed"]
+    parts = []
+    if holds:
+        parts.append("Holds: " + "; ".join(c["evidence"] for c in holds) + ".")
+    if killed:
+        parts.append("Killed: " + "; ".join(c["evidence"] for c in killed) + ".")
+    return {"headline": headline, "meaning": meaning, "evidence": " ".join(parts),
+            "holds": len(holds), "killed": len(killed), "total": len(claims),
+            "upgrade_if": [c["title"] for c in killed],
+            "downgrade_if": [c["kill"] for c in holds]}

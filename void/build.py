@@ -6,9 +6,30 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from .survival import Entity, analyse
-from .thesis import score
+from .thesis import bottom_line, score
 
 ROOT = Path(__file__).resolve().parent.parent
+SENSITIVITY_GAPS = (60, 90, 180)
+MARK = ("<!--void:summary-->", "<!--/void:summary-->")
+
+
+def static_summary(out: dict) -> str:
+    """Plain-HTML summary so link previews and no-JS readers see the result."""
+    c = next(iter(out["chapters"].values()))
+    b = c["bottom_line"]
+    return (f"<p><b>Bottom line: {b['headline']}.</b> {b['meaning']} "
+            f"{c['total']:,} projects ever active, {c['alive']:,} still alive; "
+            f"{b['holds']} of {b['total']} pre-registered claims hold. {b['evidence']}</p>")
+
+
+def inject_summary(index: Path, html: str) -> None:
+    if not index.exists():
+        return
+    s = index.read_text()
+    a, z = s.find(MARK[0]), s.find(MARK[1])
+    if a < 0 or z < 0:
+        return
+    index.write_text(s[:a + len(MARK[0])] + html + s[z:])
 
 
 def load_entities(rows: list[dict]) -> list[Entity]:
@@ -20,6 +41,14 @@ def chapter(raw: dict, end: date, thesis: dict, unit: str) -> dict:
     ents = load_entities(raw["entities"])
     a = analyse(ents, end, thesis.get("death_gap_days", 90))
     a["claims"] = score(thesis, a, ents)
+    a["bottom_line"] = bottom_line(a["claims"])
+    # does the verdict depend on the 90-day death definition?
+    sens = []
+    for gap in SENSITIVITY_GAPS:
+        alt = analyse(ents, end, gap)
+        sens.append({"gap_days": gap, "alive": alt["alive"],
+                     "statuses": {c["id"]: c["status"] for c in score(thesis, alt, ents)}})
+    a["sensitivity"] = sens
     a["census"] = raw.get("census", {})
     a["source"] = raw.get("source", {})
     a["unit"] = unit
@@ -29,7 +58,7 @@ def chapter(raw: dict, end: date, thesis: dict, unit: str) -> dict:
 def run(data_dir: Path, site_dir: Path, thesis_path: Path = ROOT / "thesis.json") -> Path:
     thesis = json.loads(thesis_path.read_text())
     out = {"built_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-           "thesis": {k: thesis[k] for k in ("thesis", "written", "death_gap_days")},
+           "thesis": {k: thesis.get(k) for k in ("thesis", "written", "death_gap_days", "death_gap_why")},
            "chapters": {}}
 
     daos = data_dir / "daos.json"
@@ -51,5 +80,6 @@ def run(data_dir: Path, site_dir: Path, thesis_path: Path = ROOT / "thesis.json"
     site_dir.mkdir(parents=True, exist_ok=True)
     path = site_dir / "data.json"
     path.write_text(json.dumps(out, separators=(",", ":")))
+    inject_summary(site_dir / "index.html", static_summary(out))
     print(f"[build] -> {path}")
     return path

@@ -112,6 +112,8 @@ def test_build_end_to_end(tmp_path):
     ch = data["chapters"]["daos"]
     assert ch["total"] == 40 and ch["alive"] == 20
     assert len(ch["claims"]) == 4
+    assert ch["bottom_line"]["total"] == 4
+    assert [x["gap_days"] for x in ch["sensitivity"]] == [60, 90, 180]
 
 
 def test_automated_proposers_are_not_activity():
@@ -125,3 +127,14 @@ def test_automated_proposers_are_not_activity():
     assert out["census"]["automated_only"] == 1
     assert len(out["entities"]) == 1 and out["entities"][0]["activity"] == 1
     assert out["entities"][0]["birth"] == "2024-03-09"
+
+
+def test_bottom_line_from_statuses():
+    from void.thesis import bottom_line
+    mk = lambda i, st: {"id": i, "title": i, "kill": "k", "evidence": "e", "status": st}
+    b = bottom_line([mk("newer-cohorts-survive-longer", "holds"), mk("births-outpace-deaths", "holds"),
+                     mk("not-just-a-graveyard", "killed"), mk("not-one-hit-wonders", "killed")])
+    assert b["headline"].startswith("Improving") and b["holds"] == 2 and b["killed"] == 2
+    b = bottom_line([mk(i, "killed") for i in ("newer-cohorts-survive-longer", "births-outpace-deaths",
+                                               "not-just-a-graveyard", "not-one-hit-wonders")])
+    assert b["headline"].startswith("Thesis killed")

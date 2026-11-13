@@ -135,6 +135,9 @@ def run(data_dir: Path, rpc_url: str | None = None, factory: str = FACTORY,
                 print(f"[dao] {i}/{len(daos)}")
     out = to_entity_rows(records, min_proposals)
     out["census"]["daos_created"] = len(daos)
+    if out["census"]["unreadable"] > 0.2 * max(1, len(daos)):
+        raise SystemExit(f"[dao] {out['census']['unreadable']} of {len(daos)} DAOs unreadable: "
+                         "RPC is probably rate-limiting. Keeping the previous data/daos.json.")
     out["source"] = {"factory": factory, "rpc": rpc.url,
                      "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
     path = data_dir / "daos.json"

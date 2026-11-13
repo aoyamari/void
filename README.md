@@ -6,7 +6,7 @@ VOID is a re-runnable investment thesis for NEAR, built at NEAR HACKATHON (Inves
 
 > Most NEAR theses argue from flows: Intents volume, fees, burn, issuance, active accounts. VOID argues from **retention of builders**. A chain whose newer projects outlive its older ones is compounding. A chain that only refills its graveyard is renting activity.
 
-Live dashboard: `https://aoyamari.github.io/void` · Demo: *(link to X post)*
+**Live dashboard: https://aoyamari.github.io/void/**
 
 ---
 
@@ -24,6 +24,17 @@ Four claims, each with a kill condition. They live in [`thesis.json`](thesis.jso
 | **Not one-hit wonders** | Median lifetime is under 6 months |
 
 Each claim resolves to **holds**, **killed**, or **not enough data**, with the numbers behind it on the dashboard.
+
+**Bottom line.** The four verdicts roll up into one call. Two claims are about *direction* (newer cohorts, births vs deaths) and two about *level* (share of old projects alive, median lifetime):
+
+| Direction | Level | Verdict |
+|---|---|---|
+| holds | holds | Compounding: NEAR keeps what it builds |
+| holds | killed | Improving, not yet compounding |
+| killed | holds | Durable but stalling |
+| killed | killed | Thesis killed: NEAR is renting builders |
+
+**Why these lines.** 10% alive is the common rule of thumb for how many startups last. 6 months is two death windows. 90 days is one quarter of silence. The rationale for each line is in `thesis.json` (added after the first run; the thresholds themselves were not changed). The dashboard also re-scores every claim with a 60-day and a 180-day death window, so you can see whether the verdict depends on that choice.
 
 ## What it measures
 
